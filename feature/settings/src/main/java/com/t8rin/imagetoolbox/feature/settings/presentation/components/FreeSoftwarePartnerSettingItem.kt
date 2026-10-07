@@ -21,9 +21,11 @@ import androidx.compose.foundation.layout.padding
 import com.t8rin.imagetoolbox.core.resources.Icons
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.compositeOver
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -33,14 +35,18 @@ import com.t8rin.imagetoolbox.core.resources.R
 import com.t8rin.imagetoolbox.core.resources.icons.HandshakeAlt
 import com.t8rin.imagetoolbox.core.ui.widget.modifier.ShapeDefaults
 import com.t8rin.imagetoolbox.core.ui.widget.preferences.PreferenceRow
-import java.util.Locale
 
 @Composable
 fun FreeSoftwarePartnerSettingItem(
     shape: Shape = ShapeDefaults.center,
     modifier: Modifier = Modifier.padding(horizontal = 8.dp)
 ) {
-    if (Flavor.isFoss() || Locale.getDefault().language != "ru") return
+    val configuration = LocalConfiguration.current
+    val language = remember(configuration) {
+        val locales = configuration.locales
+        if (locales.size() > 0) locales[0].language else null
+    }
+    if (Flavor.isFoss() || language != "ru") return
 
     val linkHandler = LocalUriHandler.current
     PreferenceRow(

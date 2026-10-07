@@ -20,7 +20,6 @@ package com.t8rin.imagetoolbox.core.filters.presentation.utils
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.remember
 import com.t8rin.imagetoolbox.core.filters.domain.model.Filter
 import com.t8rin.imagetoolbox.core.filters.domain.model.TemplateFilter
 import com.t8rin.imagetoolbox.core.filters.presentation.model.UiFilter
@@ -30,24 +29,18 @@ import kotlinx.coroutines.flow.map
 
 @JvmName("collectAsUiState1")
 @Composable
-fun Flow<List<Filter<*>>>.collectAsUiState(): State<List<UiFilter<*>>> {
-    val mapped = remember(this) {
-        this.map { list ->
-            list.map {
-                it.toUiFilter()
-            }
+fun Flow<List<Filter<*>>>.collectAsUiState(): State<List<UiFilter<*>>> = this
+    .map { list ->
+        list.map {
+            it.toUiFilter()
         }
     }
-    return mapped.collectAsState(emptyList())
-}
+    .collectAsState(emptyList())
 
 
 @Composable
-fun Flow<List<TemplateFilter>>.collectAsUiState(): State<List<TemplateFilter>> {
-    val mapped = remember(this) {
-        this.map { list ->
-            list.sortedBy { it.name }
-        }
+fun Flow<List<TemplateFilter>>.collectAsUiState(): State<List<TemplateFilter>> = this
+    .map { list ->
+        list.sortedBy { it.name }
     }
-    return mapped.collectAsState(emptyList())
-}
+    .collectAsState(emptyList())
