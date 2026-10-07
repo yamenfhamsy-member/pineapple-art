@@ -23,7 +23,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.plus
-import androidx.compose.foundation.lazy.item
 import com.t8rin.imagetoolbox.core.resources.Icons
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -114,44 +113,43 @@ fun LibrariesInfoContent(
                 }
         }
 
-        LibrariesContainer(
-            libraries = libraries,
-            modifier = Modifier.fillMaxSize(),
-            contentPadding = contentPadding + PaddingValues(12.dp),
-            dimensions = LibraryDefaults.libraryDimensions(
-                itemSpacing = 4.dp
-            ),
-            colors = LibraryDefaults.libraryColors(
-                versionChipColors = LibraryDefaults.chipColors(
-                    containerColor = MaterialTheme.colorScheme.secondaryContainer.copy(0.5f),
-                    contentColor = MaterialTheme.colorScheme.onSecondaryContainer
-                )
-            ),
-            header = {
-                item {
-                    Surface(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(bottom = 8.dp),
-                        shape = MaterialTheme.shapes.medium,
-                        color = MaterialTheme.colorScheme.secondaryContainer.copy(0.5f)
-                    ) {
-                        Column(modifier = Modifier.padding(12.dp)) {
-                            Text(
-                                text = stringResource(id = R.string.pineapple_art_about),
-                                style = MaterialTheme.typography.bodyMedium
-                            )
-                            Text(
-                                text = stringResource(id = R.string.pineapple_art_fork_note),
-                                style = MaterialTheme.typography.bodySmall,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                                modifier = Modifier.padding(top = 4.dp)
-                            )
-                        }
-                    }
+        Column(modifier = Modifier.fillMaxSize()) {
+            Surface(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(contentPadding + PaddingValues(horizontal = 12.dp)),
+                shape = MaterialTheme.shapes.medium,
+                color = MaterialTheme.colorScheme.secondaryContainer.copy(0.5f)
+            ) {
+                Column(modifier = Modifier.padding(12.dp)) {
+                    Text(
+                        text = stringResource(id = R.string.pineapple_art_about),
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                    Text(
+                        text = stringResource(id = R.string.pineapple_art_fork_note),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        modifier = Modifier.padding(top = 4.dp)
+                    )
                 }
-            },
-            onLibraryClick = { library ->
+            }
+            LibrariesContainer(
+                libraries = libraries,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .weight(1f),
+                contentPadding = PaddingValues(12.dp),
+                dimensions = LibraryDefaults.libraryDimensions(
+                    itemSpacing = 4.dp
+                ),
+                colors = LibraryDefaults.libraryColors(
+                    versionChipColors = LibraryDefaults.chipColors(
+                        containerColor = MaterialTheme.colorScheme.secondaryContainer.copy(0.5f),
+                        contentColor = MaterialTheme.colorScheme.onSecondaryContainer
+                    )
+                ),
+                onLibraryClick = { library ->
                 val license = library.licenses.firstOrNull()
                 val url = library.link()
 
@@ -162,5 +160,6 @@ fun LibrariesInfoContent(
                 }
             }
         )
+        }
     }
 }
