@@ -310,7 +310,7 @@
     <string name="copy">Sao chép</string>
     <string name="warning_bytes">Việc lưu ở chế độ %1$s có thể không ổn định vì đây là định dạng không mất dữ liệu</string>
     <string name="presets_sub" formatted="false">Nếu bạn đã chọn thiết đặt trước 125, ảnh sẽ được lưu ở kích thước 125% của ảnh gốc với chất lượng 100%. Nếu bạn chọn thiết đặt trước 50 thì ảnh sẽ được lưu với kích thước 50% và chất lượng 50%.</string>
-    <string name="presets_sub_bytes">Thiết đặt trước ở đây xác định % của file đầu ra, tức là nếu bạn chọn thiết đặt trước 50 trên ảnh 5mb thì sau khi lưu bạn sẽ nhận được ảnh 2,5mb</string>
+    <string name="presets_sub_bytes" formatted="false">Thiết đặt trước ở đây xác định % của file đầu ra, tức là nếu bạn chọn thiết đặt trước 50 trên ảnh 5mb thì sau khi lưu bạn sẽ nhận được ảnh 2,5mb</string>
     <string name="randomize_filename">Chọn ngẫu nhiên tên tệp</string>
     <string name="randomize_filename_sub">Nếu được bật, tên tệp đầu ra sẽ hoàn toàn ngẫu nhiên</string>
     <string name="saved_to">Đã lưu vào thư mục %1$s có tên %2$s</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Khu vực</string>
     <string name="area_sub">Lấy mẫu lại bằng cách sử dụng quan hệ vùng pixel. Đây có thể là một phương pháp ưa thích để giảm số thập phân hình ảnh vì nó mang lại kết quả không có hiện tượng moire. Nhưng khi phóng to hình ảnh, nó tương tự như phương pháp \"Gần nhất\".</string>
     <string name="enable_tonemapping">Bật bản đồ giai điệu</string>
-    <string name="enter_percent">Đi vào %</string>
+    <string name="enter_percent" formatted="false">Đi vào %</string>
     <string name="unknown_host">Không thể truy cập trang web, hãy thử sử dụng VPN hoặc kiểm tra xem url có chính xác không</string>
     <string name="markup_layers">Lớp đánh dấu</string>
     <string name="markup_layers_sub">Chế độ lớp với khả năng tự do đặt hình ảnh, văn bản và hơn thế nữa</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Giảm tiếng ồn đồng đều nhẹ nhàng cho kết cấu tinh tế và vẻ ngoài mịn màng.</string>
     <string name="model_repainter">Sửa chữa các khu vực bị hư hỏng hoặc không bằng phẳng bằng cách sơn lại các đồ tạo tác và cải thiện tính nhất quán của hình ảnh.</string>
     <string name="model_debandurh_fs_ultra_lite">Mô hình tháo gỡ nhẹ giúp loại bỏ dải màu với chi phí hiệu suất tối thiểu.</string>
-    <string name="model_jpeg_0_20">Tối ưu hóa hình ảnh có độ nén rất cao (chất lượng 0-20%) để cải thiện độ rõ nét.</string>
-    <string name="model_jpeg_20_40">Nâng cao hình ảnh với các tạo tác nén cao (chất lượng 20-40%), khôi phục chi tiết và giảm nhiễu.</string>
-    <string name="model_jpeg_40_60">Cải thiện hình ảnh với độ nén vừa phải (chất lượng 40-60%), cân bằng độ sắc nét và mượt mà.</string>
-    <string name="model_jpeg_60_80">Tinh chỉnh hình ảnh bằng cách nén nhẹ (chất lượng 60-80%) để nâng cao các chi tiết và kết cấu tinh tế.</string>
-    <string name="model_jpeg_80_100">Tăng cường một chút hình ảnh gần như không bị mất chất lượng (chất lượng 80-100%) trong khi vẫn giữ được vẻ tự nhiên và chi tiết.</string>
+    <string name="model_jpeg_0_20" formatted="false">Tối ưu hóa hình ảnh có độ nén rất cao (chất lượng 0-20%) để cải thiện độ rõ nét.</string>
+    <string name="model_jpeg_20_40" formatted="false">Nâng cao hình ảnh với các tạo tác nén cao (chất lượng 20-40%), khôi phục chi tiết và giảm nhiễu.</string>
+    <string name="model_jpeg_40_60" formatted="false">Cải thiện hình ảnh với độ nén vừa phải (chất lượng 40-60%), cân bằng độ sắc nét và mượt mà.</string>
+    <string name="model_jpeg_60_80" formatted="false">Tinh chỉnh hình ảnh bằng cách nén nhẹ (chất lượng 60-80%) để nâng cao các chi tiết và kết cấu tinh tế.</string>
+    <string name="model_jpeg_80_100" formatted="false">Tăng cường một chút hình ảnh gần như không bị mất chất lượng (chất lượng 80-100%) trong khi vẫn giữ được vẻ tự nhiên và chi tiết.</string>
     <string name="model_spongecolor_lite">Tô màu đơn giản và nhanh chóng, phim hoạt hình, không lý tưởng</string>
     <string name="model_deblr">Giảm nhẹ độ mờ của hình ảnh, cải thiện độ sắc nét mà không gây hiện tượng giả tạo.</string>
     <string name="processing_channel">Hoạt động chạy dài</string>
     <string name="processing_image">Đang xử lý hình ảnh</string>
     <string name="processing">Xử lý</string>
-    <string name="model_artifacts_jpg_0_20">Loại bỏ các thành phần nén JPEG nặng ở hình ảnh có chất lượng rất thấp (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Giảm hiện vật JPEG mạnh ở hình ảnh có độ nén cao (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Dọn dẹp các hiện vật JPEG vừa phải trong khi vẫn giữ được chi tiết hình ảnh (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Tinh chỉnh các tạo tác JPEG nhẹ ở hình ảnh chất lượng khá cao (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Giảm một cách tinh tế các hiện vật JPEG nhỏ trong hình ảnh gần như không mất dữ liệu (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Loại bỏ các thành phần nén JPEG nặng ở hình ảnh có chất lượng rất thấp (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Giảm hiện vật JPEG mạnh ở hình ảnh có độ nén cao (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Dọn dẹp các hiện vật JPEG vừa phải trong khi vẫn giữ được chi tiết hình ảnh (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Tinh chỉnh các tạo tác JPEG nhẹ ở hình ảnh chất lượng khá cao (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Giảm một cách tinh tế các hiện vật JPEG nhỏ trong hình ảnh gần như không mất dữ liệu (80-100%).</string>
     <string name="model_redetail_v2">Tăng cường các chi tiết và kết cấu đẹp mắt, cải thiện độ sắc nét cảm nhận được mà không tạo ra hiện tượng giả tạo nặng nề.</string>
     <string name="processing_finished">Xử lý xong</string>
     <string name="processing_failed">Xử lý không thành công</string>

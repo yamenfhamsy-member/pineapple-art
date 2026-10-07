@@ -309,7 +309,7 @@
     <string name="skip">Passer</string>
     <string name="warning_bytes">L’enregistrement en mode %1$s peut être instable, car c\'est un format sans perte</string>
     <string name="presets_sub" formatted="false">Si vous avez sélectionné le préréglage 125, l\'image sera enregistrée avec une taille de 125% de l\'image originale. Si vous sélectionnez le préréglage 50, l\'image sera enregistrée avec une taille de 50%</string>
-    <string name="presets_sub_bytes">Le préréglage ici détermine le % du fichier de sortie, c\'est-à-dire que si vous sélectionnez le préréglage 50 sur une image de 5 Mo, vous obtiendrez une image de 2,5 Mo après l\'enregistrement</string>
+    <string name="presets_sub_bytes" formatted="false">Le préréglage ici détermine le % du fichier de sortie, c\'est-à-dire que si vous sélectionnez le préréglage 50 sur une image de 5 Mo, vous obtiendrez une image de 2,5 Mo après l\'enregistrement</string>
     <string name="saved_to">Enregistré dans le dossier %1$s avec le nom %2$s</string>
     <string name="randomize_filename">Nom de fichier aléatoire</string>
     <string name="randomize_filename_sub">Si activé, le nom du fichier de sortie sera entièrement aléatoire</string>
@@ -1496,7 +1496,7 @@
     <string name="area">Zone</string>
     <string name="area_sub">Rééchantillonnage en utilisant la relation entre les zones de pixels. Il s\'agit peut-être d\'une méthode privilégiée pour la décimation d\'images, car elle donne des résultats sans moiré. Mais lorsque l\'image est agrandie, cela ressemble à la méthode \"Nearest\".</string>
     <string name="enable_tonemapping">Activer le mappage de tons</string>
-    <string name="enter_percent">Entrer %</string>
+    <string name="enter_percent" formatted="false">Entrer %</string>
     <string name="unknown_host">Impossible d\'accéder au site, essayez d\'utiliser un VPN ou vérifiez si l\'URL est correcte</string>
     <string name="markup_layers">Calques</string>
     <string name="markup_layers_sub">Mode Calques avec possibilité de placer librement des images, du texte et plus encore</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Tonification sonore douce et uniforme pour une texture subtile et un aspect lisse.</string>
     <string name="model_repainter">Répare les zones endommagées ou inégales en repeignant les artefacts et en améliorant la cohérence de l\'image.</string>
     <string name="model_debandurh_fs_ultra_lite">Modèle de débandage léger qui supprime les bandes de couleur avec un coût de performance minimal.</string>
-    <string name="model_jpeg_0_20">Optimise les images avec des artefacts de compression très élevés (qualité 0-20 %) pour une clarté améliorée.</string>
-    <string name="model_jpeg_20_40">Améliore les images avec des artefacts de compression élevés (qualité de 20 à 40 %), en restaurant les détails et en réduisant le bruit.</string>
-    <string name="model_jpeg_40_60">Améliore les images avec une compression modérée (qualité de 40 à 60 %), en équilibrant la netteté et la douceur.</string>
-    <string name="model_jpeg_60_80">Affine les images avec une légère compression (qualité de 60 à 80 %) pour améliorer les détails et les textures subtiles.</string>
-    <string name="model_jpeg_80_100">Améliore légèrement les images presque sans perte (qualité de 80 à 100 %) tout en préservant l\'aspect et les détails naturels.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimise les images avec des artefacts de compression très élevés (qualité 0-20 %) pour une clarté améliorée.</string>
+    <string name="model_jpeg_20_40" formatted="false">Améliore les images avec des artefacts de compression élevés (qualité de 20 à 40 %), en restaurant les détails et en réduisant le bruit.</string>
+    <string name="model_jpeg_40_60" formatted="false">Améliore les images avec une compression modérée (qualité de 40 à 60 %), en équilibrant la netteté et la douceur.</string>
+    <string name="model_jpeg_60_80" formatted="false">Affine les images avec une légère compression (qualité de 60 à 80 %) pour améliorer les détails et les textures subtiles.</string>
+    <string name="model_jpeg_80_100" formatted="false">Améliore légèrement les images presque sans perte (qualité de 80 à 100 %) tout en préservant l\'aspect et les détails naturels.</string>
     <string name="model_spongecolor_lite">Colorisation simple et rapide, dessins animés, pas idéal</string>
     <string name="model_deblr">Réduit légèrement le flou de l\'image, améliorant ainsi la netteté sans introduire d\'artefacts.</string>
     <string name="processing_channel">Opérations de longue durée</string>
     <string name="processing_image">Traitement de l\'image</string>
     <string name="processing">Traitement</string>
-    <string name="model_artifacts_jpg_0_20">Supprime les artefacts de compression JPEG importants dans les images de très faible qualité (0-20 %).</string>
-    <string name="model_artifacts_jpg_20_40">Réduit les forts artefacts JPEG dans les images hautement compressées (20 à 40 %).</string>
-    <string name="model_artifacts_jpg_40_60">Nettoie les artefacts JPEG modérés tout en préservant les détails de l\'image (40 à 60 %).</string>
-    <string name="model_artifacts_jpg_60_80">Affine les artefacts JPEG légers dans des images d\'assez haute qualité (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Réduit subtilement les artefacts JPEG mineurs dans les images presque sans perte (80 à 100 %).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Supprime les artefacts de compression JPEG importants dans les images de très faible qualité (0-20 %).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Réduit les forts artefacts JPEG dans les images hautement compressées (20 à 40 %).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Nettoie les artefacts JPEG modérés tout en préservant les détails de l\'image (40 à 60 %).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Affine les artefacts JPEG légers dans des images d\'assez haute qualité (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Réduit subtilement les artefacts JPEG mineurs dans les images presque sans perte (80 à 100 %).</string>
     <string name="model_redetail_v2">Améliore les détails et les textures fins, améliorant ainsi la netteté perçue sans artefacts lourds.</string>
     <string name="processing_finished">Traitement terminé</string>
     <string name="processing_failed">Échec du traitement</string>

@@ -410,7 +410,7 @@
     <string name="randomize_filename">Losuj nazwę pliku</string>
     <string name="randomize_filename_sub">Jeśli włączone, nazwa pliku wyjściowego będzie w pełni losowa</string>
     <string name="saved_to">Zapisano w folderze %1$s z nazwą %2$s</string>
-    <string name="presets_sub_bytes">Preset określa % rozmiaru pliku wyjściowego, tj. jeśli wybierzesz ustawienie wstępne 50 na obrazie o rozmiarze 5 MB, po zapisaniu otrzymasz obraz o rozmiarze 2,5 MB</string>
+    <string name="presets_sub_bytes" formatted="false">Preset określa % rozmiaru pliku wyjściowego, tj. jeśli wybierzesz ustawienie wstępne 50 na obrazie o rozmiarze 5 MB, po zapisaniu otrzymasz obraz o rozmiarze 2,5 MB</string>
     <string name="presets_sub" formatted="false">Jeśli wybrano ustawienie 125, obraz zostanie zapisany w rozmiarze 125% oryginalnego obrazu. W przypadku wybrania ustawienia 50 obraz zostanie zapisany w rozmiarze 50%.</string>
     <string name="text">Tekst</string>
     <string name="font_scale">Skala czcionki</string>
@@ -1460,7 +1460,7 @@
     <string name="slider_type">Typ suwaka</string>
     <string name="fancy">Zmyślny</string>
     <string name="material_you_slider_sub">Suwak oparty na Material You</string>
-    <string name="enter_percent">Wprowadź %</string>
+    <string name="enter_percent" formatted="false">Wprowadź %</string>
     <string name="edit_layer">Edytuj warstwę</string>
     <string name="layers_on_image">Warstwy na obrazie</string>
     <string name="layers_on_background_sub">To samo, co pierwsza opcja, ale z kolorem zamiast obrazu</string>
@@ -1962,21 +1962,21 @@
     <string name="model_noise_toner_uniform_soft">Delikatne, jednolite tonowanie szumów zapewnia subtelną teksturę i gładki wygląd.</string>
     <string name="model_repainter">Naprawia uszkodzone lub nierówne obszary, odmalowując artefakty i poprawiając spójność obrazu.</string>
     <string name="model_debandurh_fs_ultra_lite">Lekki model usuwający paski, który usuwa kolorowe pasy przy minimalnych kosztach wydajności.</string>
-    <string name="model_jpeg_0_20">Optymalizuje obrazy z artefaktami o bardzo wysokim stopniu kompresji (jakość 0–20%) w celu poprawy przejrzystości.</string>
-    <string name="model_jpeg_20_40">Poprawia obrazy o artefakty o wysokiej kompresji (jakość 20–40%), przywracając szczegóły i redukując szumy.</string>
-    <string name="model_jpeg_40_60">Poprawia obrazy przy umiarkowanej kompresji (jakość 40–60%), równoważąc ostrość i gładkość.</string>
-    <string name="model_jpeg_60_80">Poprawia obrazy za pomocą lekkiej kompresji (jakość 60–80%), aby uwydatnić subtelne szczegóły i tekstury.</string>
-    <string name="model_jpeg_80_100">Nieznacznie poprawia niemal bezstratne obrazy (jakość 80–100%), zachowując jednocześnie naturalny wygląd i szczegóły.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optymalizuje obrazy z artefaktami o bardzo wysokim stopniu kompresji (jakość 0–20%) w celu poprawy przejrzystości.</string>
+    <string name="model_jpeg_20_40" formatted="false">Poprawia obrazy o artefakty o wysokiej kompresji (jakość 20–40%), przywracając szczegóły i redukując szumy.</string>
+    <string name="model_jpeg_40_60" formatted="false">Poprawia obrazy przy umiarkowanej kompresji (jakość 40–60%), równoważąc ostrość i gładkość.</string>
+    <string name="model_jpeg_60_80" formatted="false">Poprawia obrazy za pomocą lekkiej kompresji (jakość 60–80%), aby uwydatnić subtelne szczegóły i tekstury.</string>
+    <string name="model_jpeg_80_100" formatted="false">Nieznacznie poprawia niemal bezstratne obrazy (jakość 80–100%), zachowując jednocześnie naturalny wygląd i szczegóły.</string>
     <string name="model_spongecolor_lite">Prosta i szybka koloryzacja, kreskówki, nie idealna</string>
     <string name="model_deblr">Nieznacznie zmniejsza rozmycie obrazu, poprawiając ostrość bez wprowadzania artefaktów.</string>
     <string name="processing_channel">Długotrwałe operacje</string>
     <string name="processing_image">Przetwarzanie obrazu</string>
     <string name="processing">Przetwarzanie</string>
-    <string name="model_artifacts_jpg_0_20">Usuwa duże artefakty kompresji JPEG z obrazów o bardzo niskiej jakości (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Redukuje silne artefakty JPEG w obrazach o dużej kompresji (20–40%).</string>
-    <string name="model_artifacts_jpg_40_60">Usuwa umiarkowane artefakty JPEG, zachowując szczegóły obrazu (40–60%).</string>
-    <string name="model_artifacts_jpg_60_80">Poprawia jasne artefakty JPEG w obrazach o dość wysokiej jakości (60–80%).</string>
-    <string name="model_artifacts_jpg_80_100">Subtelnie redukuje drobne artefakty JPEG w niemal bezstratnych obrazach (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Usuwa duże artefakty kompresji JPEG z obrazów o bardzo niskiej jakości (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Redukuje silne artefakty JPEG w obrazach o dużej kompresji (20–40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Usuwa umiarkowane artefakty JPEG, zachowując szczegóły obrazu (40–60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Poprawia jasne artefakty JPEG w obrazach o dość wysokiej jakości (60–80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Subtelnie redukuje drobne artefakty JPEG w niemal bezstratnych obrazach (80-100%).</string>
     <string name="model_redetail_v2">Uwydatnia drobne szczegóły i tekstury, poprawiając postrzeganą ostrość bez ciężkich artefaktów.</string>
     <string name="processing_finished">Przetwarzanie zakończone</string>
     <string name="processing_failed">Przetwarzanie nie powiodło się</string>

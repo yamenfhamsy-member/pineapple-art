@@ -352,7 +352,7 @@
     <string name="free">бесплатно</string>
     <string name="create_issue">Цреате Иссуе</string>
     <string name="presets_sub" formatted="false">Ако сте изабрали унапред подешено 125, слика ће бити сачувана као 125% величине оригиналне слике са 100% квалитетом. Ако изаберете унапред подешено 50, слика ће бити сачувана са 50% величине и 50% квалитета.</string>
-    <string name="presets_sub_bytes">Пресет овде одређује % излазне датотеке, тј. ако изаберете унапред подешено 50 на слици од 5мб онда ћете након чувања добити слику од 2,5мб</string>
+    <string name="presets_sub_bytes" formatted="false">Пресет овде одређује % излазне датотеке, тј. ако изаберете унапред подешено 50 на слици од 5мб онда ћете након чувања добити слику од 2,5мб</string>
     <string name="randomize_filename_sub">Ако је омогућено излазно име датотеке ће бити потпуно насумично</string>
     <string name="saved_to">Сачувано у фолдеру %1$s са именом %2$s</string>
     <string name="saved_to_without_filename">Сачувано у фолдеру %1$s</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Подручје</string>
     <string name="area_sub">Поновно узорковање коришћењем односа површине пиксела. То може бити пожељан метод за децимацију слике, јер даје резултате без муара. Али када је слика зумирана, она је слична методи „Најближи“.</string>
     <string name="enable_tonemapping">Омогући мапирање тонова</string>
-    <string name="enter_percent">Унесите %</string>
+    <string name="enter_percent" formatted="false">Унесите %</string>
     <string name="unknown_host">Не можете да приступите сајту, покушајте да користите ВПН или проверите да ли је урл тачан</string>
     <string name="markup_layers">Маркуп Лаиерс</string>
     <string name="markup_layers_sub">Режим слојева са могућношћу слободног постављања слика, текста и још много тога</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Нежно равномерно тонирање буке за суптилну текстуру и гладак изглед.</string>
     <string name="model_repainter">Поправља оштећена или неравна подручја префарбавањем артефаката и побољшањем конзистентности слике.</string>
     <string name="model_debandurh_fs_ultra_lite">Лагани модел за уклањање трака који уклања траке у боји уз минималне трошкове перформанси.</string>
-    <string name="model_jpeg_0_20">Оптимизује слике са веома високим артефактима компресије (0-20% квалитета) за побољшану јасноћу.</string>
-    <string name="model_jpeg_20_40">Побољшава слике са високим артефактима компресије (20-40% квалитета), враћајући детаље и смањујући шум.</string>
-    <string name="model_jpeg_40_60">Побољшава слике умереном компресијом (40-60% квалитета), балансирајући оштрину и глаткоћу.</string>
-    <string name="model_jpeg_60_80">Рафинира слике лаганом компресијом (60-80% квалитета) како би побољшао суптилне детаље и текстуре.</string>
-    <string name="model_jpeg_80_100">Мало побољшава слике скоро без губитака (80-100% квалитета) уз очување природног изгледа и детаља.</string>
+    <string name="model_jpeg_0_20" formatted="false">Оптимизује слике са веома високим артефактима компресије (0-20% квалитета) за побољшану јасноћу.</string>
+    <string name="model_jpeg_20_40" formatted="false">Побољшава слике са високим артефактима компресије (20-40% квалитета), враћајући детаље и смањујући шум.</string>
+    <string name="model_jpeg_40_60" formatted="false">Побољшава слике умереном компресијом (40-60% квалитета), балансирајући оштрину и глаткоћу.</string>
+    <string name="model_jpeg_60_80" formatted="false">Рафинира слике лаганом компресијом (60-80% квалитета) како би побољшао суптилне детаље и текстуре.</string>
+    <string name="model_jpeg_80_100" formatted="false">Мало побољшава слике скоро без губитака (80-100% квалитета) уз очување природног изгледа и детаља.</string>
     <string name="model_spongecolor_lite">Једноставна и брза колоризација, цртани, није идеално</string>
     <string name="model_deblr">Благо смањује замућење слике, побољшавајући оштрину без уношења артефаката.</string>
     <string name="processing_channel">Дуготрајне операције</string>
     <string name="processing_image">Обрада слике</string>
     <string name="processing">Обрада</string>
-    <string name="model_artifacts_jpg_0_20">Уклања тешке артефакте ЈПЕГ компресије на сликама веома лошег квалитета (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Смањује јаке ЈПЕГ артефакте у високо компресованим сликама (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Чисти умерене ЈПЕГ артефакте уз очување детаља слике (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Рафинира лаке ЈПЕГ артефакте у сликама прилично високог квалитета (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Суптилно смањује мање ЈПЕГ артефакте у сликама скоро без губитака (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Уклања тешке артефакте ЈПЕГ компресије на сликама веома лошег квалитета (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Смањује јаке ЈПЕГ артефакте у високо компресованим сликама (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Чисти умерене ЈПЕГ артефакте уз очување детаља слике (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Рафинира лаке ЈПЕГ артефакте у сликама прилично високог квалитета (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Суптилно смањује мање ЈПЕГ артефакте у сликама скоро без губитака (80-100%).</string>
     <string name="model_redetail_v2">Побољшава фине детаље и текстуре, побољшавајући перципирану оштрину без тешких артефаката.</string>
     <string name="processing_finished">Обрада је завршена</string>
     <string name="processing_failed">Обрада није успела</string>

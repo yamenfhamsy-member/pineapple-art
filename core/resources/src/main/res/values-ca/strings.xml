@@ -1494,7 +1494,7 @@
     <string name="area">Àrea</string>
     <string name="area_sub">Re-mostreig utilitzant la relació d\'àrea de píxels. Pot ser un mètode preferit per a la destrucció d\'imatges, ja que dóna resultats lliures de moiré. Però quan s\'amplia la imatge, és similar al mètode \"Més propera\".</string>
     <string name="enable_tonemapping">Activa el mapa de tons</string>
-    <string name="enter_percent">Introduïu %</string>
+    <string name="enter_percent" formatted="false">Introduïu %</string>
     <string name="unknown_host">No es pot accedir al lloc, proveu d\'utilitzar VPN o comproveu si l\'URL és correcte</string>
     <string name="markup_layers">Capes de marcatge</string>
     <string name="markup_layers_sub">Mode de capes amb la possibilitat de col·locar lliurement imatges, text i molt més</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Tonificació de soroll uniforme suau per a una textura subtil i un aspecte suau.</string>
     <string name="model_repainter">Repara les zones danyades o irregulars tornant a pintar els artefactes i millorar la consistència de la imatge.</string>
     <string name="model_debandurh_fs_ultra_lite">Model de desbandada lleuger que elimina les bandes de color amb un cost de rendiment mínim.</string>
-    <string name="model_jpeg_0_20">Optimitza les imatges amb artefactes de compressió molt alts (0-20% de qualitat) per millorar la claredat.</string>
-    <string name="model_jpeg_20_40">Millora les imatges amb artefactes de compressió alta (20-40% de qualitat), restaurant els detalls i reduint el soroll.</string>
-    <string name="model_jpeg_40_60">Millora les imatges amb una compressió moderada (40-60% de qualitat), equilibrant la nitidesa i la suavitat.</string>
-    <string name="model_jpeg_60_80">Perfecciona les imatges amb una compressió lleugera (60-80% de qualitat) per millorar els detalls i les textures subtils.</string>
-    <string name="model_jpeg_80_100">Millora lleugerament les imatges gairebé sense pèrdues (qualitat del 80-100%) alhora que conserva l\'aspecte i els detalls naturals.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimitza les imatges amb artefactes de compressió molt alts (0-20% de qualitat) per millorar la claredat.</string>
+    <string name="model_jpeg_20_40" formatted="false">Millora les imatges amb artefactes de compressió alta (20-40% de qualitat), restaurant els detalls i reduint el soroll.</string>
+    <string name="model_jpeg_40_60" formatted="false">Millora les imatges amb una compressió moderada (40-60% de qualitat), equilibrant la nitidesa i la suavitat.</string>
+    <string name="model_jpeg_60_80" formatted="false">Perfecciona les imatges amb una compressió lleugera (60-80% de qualitat) per millorar els detalls i les textures subtils.</string>
+    <string name="model_jpeg_80_100" formatted="false">Millora lleugerament les imatges gairebé sense pèrdues (qualitat del 80-100%) alhora que conserva l\'aspecte i els detalls naturals.</string>
     <string name="model_spongecolor_lite">Colorització senzilla i ràpida, dibuixos animats, no ideals</string>
     <string name="model_deblr">Redueix lleugerament el desenfocament de la imatge, millorant la nitidesa sense introduir artefactes.</string>
     <string name="processing_channel">Operacions de llarga durada</string>
     <string name="processing_image">Tractament de la imatge</string>
     <string name="processing">Tramitació</string>
-    <string name="model_artifacts_jpg_0_20">Elimina els grans artefactes de compressió JPEG en imatges de molt baixa qualitat (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Redueix els forts artefactes JPEG en imatges altament comprimides (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Neteja els artefactes JPEG moderats alhora que conserva els detalls de la imatge (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Refina els artefactes JPEG lleugers en imatges d\'alta qualitat (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Redueix subtilment els artefactes JPEG menors en imatges gairebé sense pèrdues (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Elimina els grans artefactes de compressió JPEG en imatges de molt baixa qualitat (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Redueix els forts artefactes JPEG en imatges altament comprimides (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Neteja els artefactes JPEG moderats alhora que conserva els detalls de la imatge (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Refina els artefactes JPEG lleugers en imatges d\'alta qualitat (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Redueix subtilment els artefactes JPEG menors en imatges gairebé sense pèrdues (80-100%).</string>
     <string name="model_redetail_v2">Millora els detalls i les textures fins, millorant la nitidesa percebuda sense artefactes pesats.</string>
     <string name="processing_finished">Processament acabat</string>
     <string name="processing_failed">Ha fallat el processament</string>

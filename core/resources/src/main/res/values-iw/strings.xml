@@ -374,7 +374,7 @@
     <string name="cannot_change_image_format">לא ניתן לשנות את פורמט התמונה כאשר אפשרות החלפת קבצים מופעלת</string>
     <string name="emoji_as_color_scheme">אמוג\'י בתור ערכת צבעים</string>
     <string name="presets_sub" formatted="false">אם בחרת בהגדרה 125, התמונה תישמר בגודל של 125% מהתמונה המקורית. אם תבחר בהגדרה 50, התמונה תישמר בגודל של 50%.</string>
-    <string name="presets_sub_bytes">הגדרה מראש כאן קובעת את % מקובץ הפלט, כלומר אם תבחר הגדרה מראש 50 בתמונה של 5MB אז תקבל תמונה של 2.5MB לאחר השמירה</string>
+    <string name="presets_sub_bytes" formatted="false">הגדרה מראש כאן קובעת את % מקובץ הפלט, כלומר אם תבחר הגדרה מראש 50 בתמונה של 5MB אז תקבל תמונה של 2.5MB לאחר השמירה</string>
     <string name="image_crop_mask_sub">השתמש בסוג המסכה הזה כדי ליצור מסכה מהתמונה הנתונה, שימו לב שהיא אמורה להיות בעלת ערוץ אלפא</string>
     <string name="backup_sub">גבה את הגדרות האפליקציה שלך לקובץ</string>
     <string name="reset_settings_sub">זה יחזיר את ההגדרות שלך לערכי ברירת המחדל. שימו לב שלא ניתן לבטל זאת ללא קובץ גיבוי שהוזכר לעיל.</string>
@@ -1494,7 +1494,7 @@
     <string name="area">אֵזוֹר</string>
     <string name="area_sub">דגימה מחדש באמצעות יחס שטח פיקסלים. זו עשויה להיות שיטה מועדפת להפחתת תמונה, מכיוון שהיא נותנת תוצאות נטולות מואר. אבל כשהתמונה מוגדלת, היא דומה לשיטת ה\"קרוב\".</string>
     <string name="enable_tonemapping">הפעל מיפוי גוונים</string>
-    <string name="enter_percent">הזן %</string>
+    <string name="enter_percent" formatted="false">הזן %</string>
     <string name="unknown_host">לא מצליח לגשת לאתר, נסה להשתמש ב-VPN או בדוק אם כתובת האתר נכונה</string>
     <string name="markup_layers">סימון שכבות</string>
     <string name="markup_layers_sub">מצב שכבות עם יכולת למקם בחופשיות תמונות, טקסט ועוד</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">גוון רעש עדין אחיד למרקם עדין ומראה חלק.</string>
     <string name="model_repainter">מתקן אזורים פגומים או לא אחידים על ידי צביעה מחדש של חפצים ושיפור עקביות התמונה.</string>
     <string name="model_debandurh_fs_ultra_lite">דגם קל משקל המסיר פסי צבע בעלות ביצועים מינימלית.</string>
-    <string name="model_jpeg_0_20">מייעל תמונות עם חפצי דחיסה גבוהים מאוד (איכות 0-20%) לשיפור הבהירות.</string>
-    <string name="model_jpeg_20_40">משפר תמונות עם חפצי דחיסה גבוהים (איכות 20-40%), שחזור פרטים והפחתת רעש.</string>
-    <string name="model_jpeg_40_60">משפר תמונות עם דחיסה מתונה (איכות 40-60%), מאזן חדות וחלקות.</string>
-    <string name="model_jpeg_60_80">מחדד תמונות עם דחיסה קלה (איכות 60-80%) כדי לשפר פרטים ומרקמים עדינים.</string>
-    <string name="model_jpeg_80_100">משפר מעט תמונות כמעט ללא אובדן (איכות 80-100%) תוך שמירה על מראה ופרטים טבעיים.</string>
+    <string name="model_jpeg_0_20" formatted="false">מייעל תמונות עם חפצי דחיסה גבוהים מאוד (איכות 0-20%) לשיפור הבהירות.</string>
+    <string name="model_jpeg_20_40" formatted="false">משפר תמונות עם חפצי דחיסה גבוהים (איכות 20-40%), שחזור פרטים והפחתת רעש.</string>
+    <string name="model_jpeg_40_60" formatted="false">משפר תמונות עם דחיסה מתונה (איכות 40-60%), מאזן חדות וחלקות.</string>
+    <string name="model_jpeg_60_80" formatted="false">מחדד תמונות עם דחיסה קלה (איכות 60-80%) כדי לשפר פרטים ומרקמים עדינים.</string>
+    <string name="model_jpeg_80_100" formatted="false">משפר מעט תמונות כמעט ללא אובדן (איכות 80-100%) תוך שמירה על מראה ופרטים טבעיים.</string>
     <string name="model_spongecolor_lite">צביעה פשוטה ומהירה, קריקטורות, לא אידיאלי</string>
     <string name="model_deblr">מפחית מעט את טשטוש התמונה, משפר את החדות מבלי להכניס חפצים.</string>
     <string name="processing_channel">פעולות ארוכות טווח</string>
     <string name="processing_image">מעבד תמונה</string>
     <string name="processing">עיבוד</string>
-    <string name="model_artifacts_jpg_0_20">מסיר חפצי דחיסה כבדים של JPEG בתמונות באיכות נמוכה מאוד (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">מפחית חפצי JPEG חזקים בתמונות דחוסות מאוד (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">מנקה חפצי JPEG מתונים תוך שמירה על פרטי התמונה (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">מחדד חפצי JPEG קלים בתמונות באיכות גבוהה למדי (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">מפחית בעדינות חפצי JPEG קלים בתמונות כמעט ללא אובדן (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">מסיר חפצי דחיסה כבדים של JPEG בתמונות באיכות נמוכה מאוד (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">מפחית חפצי JPEG חזקים בתמונות דחוסות מאוד (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">מנקה חפצי JPEG מתונים תוך שמירה על פרטי התמונה (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">מחדד חפצי JPEG קלים בתמונות באיכות גבוהה למדי (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">מפחית בעדינות חפצי JPEG קלים בתמונות כמעט ללא אובדן (80-100%).</string>
     <string name="model_redetail_v2">משפר פרטים ומרקמים עדינים, משפר את החדות הנתפסת ללא חפצים כבדים.</string>
     <string name="processing_finished">העיבוד הסתיים</string>
     <string name="processing_failed">העיבוד נכשל</string>

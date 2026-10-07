@@ -359,7 +359,7 @@
     <string name="randomize_filename_sub">Se abilitato il nome del file sarà casuale</string>
     <string name="keep_exif_sub">I metadati dell\'immagine originale verranno conservati</string>
     <string name="restore_sub">Ripristina le impostazioni dal backup precedente</string>
-    <string name="presets_sub_bytes">Il preset qui determina la % del file di output, ad esempio se si seleziona il preset 50 su un\'immagine da 5 MB, si otterrà un\'immagine da 2,5 mb dopo il salvataggio</string>
+    <string name="presets_sub_bytes" formatted="false">Il preset qui determina la % del file di output, ad esempio se si seleziona il preset 50 su un\'immagine da 5 MB, si otterrà un\'immagine da 2,5 mb dopo il salvataggio</string>
     <string name="erase_mode">Modalità gomma</string>
     <string name="travels_and_places">Viaggi e Luoghi</string>
     <string name="updates">Aggiornamenti</string>
@@ -1504,7 +1504,7 @@
     <string name="area">Zona</string>
     <string name="area_sub">Ricampionamento utilizzando la relazione dell\'area dei pixel. Potrebbe essere il metodo preferito per la decimazione delle immagini, poiché fornisce risultati privi di effetto moiré. Ma quando l\'immagine viene ingrandita, è simile al metodo \"Più vicino\".</string>
     <string name="enable_tonemapping">Abilita la mappatura dei toni</string>
-    <string name="enter_percent">Inserisci %</string>
+    <string name="enter_percent" formatted="false">Inserisci %</string>
     <string name="unknown_host">Impossibile accedere al sito, provare a utilizzare la VPN o verificare se l\'URL è corretto</string>
     <string name="markup_layers">Livelli di marcatura</string>
     <string name="markup_layers_sub">Modalità livelli con possibilità di posizionare liberamente immagini, testo e altro</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Tonificazione delicata e uniforme del rumore per una consistenza sottile e un aspetto liscio.</string>
     <string name="model_repainter">Ripara le aree danneggiate o irregolari ridipingendo gli artefatti e migliorando la coerenza dell\'immagine.</string>
     <string name="model_debandurh_fs_ultra_lite">Modello di debandatura leggero che rimuove le bande di colore con costi prestazionali minimi.</string>
-    <string name="model_jpeg_0_20">Ottimizza le immagini con artefatti di compressione molto elevati (qualità 0-20%) per una maggiore chiarezza.</string>
-    <string name="model_jpeg_20_40">Migliora le immagini con artefatti ad alta compressione (qualità 20-40%), ripristinando i dettagli e riducendo il rumore.</string>
-    <string name="model_jpeg_40_60">Migliora le immagini con una compressione moderata (qualità 40-60%), bilanciando nitidezza e morbidezza.</string>
-    <string name="model_jpeg_60_80">Perfeziona le immagini con una leggera compressione (qualità 60-80%) per migliorare i dettagli e le texture sottili.</string>
-    <string name="model_jpeg_80_100">Migliora leggermente le immagini quasi senza perdita di dati (qualità 80-100%) preservando l\'aspetto e i dettagli naturali.</string>
+    <string name="model_jpeg_0_20" formatted="false">Ottimizza le immagini con artefatti di compressione molto elevati (qualità 0-20%) per una maggiore chiarezza.</string>
+    <string name="model_jpeg_20_40" formatted="false">Migliora le immagini con artefatti ad alta compressione (qualità 20-40%), ripristinando i dettagli e riducendo il rumore.</string>
+    <string name="model_jpeg_40_60" formatted="false">Migliora le immagini con una compressione moderata (qualità 40-60%), bilanciando nitidezza e morbidezza.</string>
+    <string name="model_jpeg_60_80" formatted="false">Perfeziona le immagini con una leggera compressione (qualità 60-80%) per migliorare i dettagli e le texture sottili.</string>
+    <string name="model_jpeg_80_100" formatted="false">Migliora leggermente le immagini quasi senza perdita di dati (qualità 80-100%) preservando l\'aspetto e i dettagli naturali.</string>
     <string name="model_spongecolor_lite">Colorazione semplice e veloce, cartoni animati, non ideale</string>
     <string name="model_deblr">Riduce leggermente la sfocatura dell\'immagine, migliorando la nitidezza senza introdurre artefatti.</string>
     <string name="processing_channel">Operazioni di lunga durata</string>
     <string name="processing_image">Elaborazione dell\'immagine</string>
     <string name="processing">Elaborazione</string>
-    <string name="model_artifacts_jpg_0_20">Rimuove i pesanti artefatti di compressione JPEG in immagini di qualità molto bassa (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Riduce i forti artefatti JPEG nelle immagini altamente compresse (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Ripulisce gli artefatti JPEG moderati preservando i dettagli dell\'immagine (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Perfeziona gli artefatti JPEG leggeri in immagini di qualità piuttosto elevata (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Riduce leggermente gli artefatti JPEG minori in immagini quasi senza perdita di dati (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Rimuove i pesanti artefatti di compressione JPEG in immagini di qualità molto bassa (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Riduce i forti artefatti JPEG nelle immagini altamente compresse (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Ripulisce gli artefatti JPEG moderati preservando i dettagli dell\'immagine (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Perfeziona gli artefatti JPEG leggeri in immagini di qualità piuttosto elevata (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Riduce leggermente gli artefatti JPEG minori in immagini quasi senza perdita di dati (80-100%).</string>
     <string name="model_redetail_v2">Esalta i dettagli e le texture più fini, migliorando la nitidezza percepita senza artefatti pesanti.</string>
     <string name="processing_finished">Elaborazione terminata</string>
     <string name="processing_failed">Elaborazione non riuscita</string>

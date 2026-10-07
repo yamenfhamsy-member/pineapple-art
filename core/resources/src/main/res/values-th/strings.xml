@@ -358,7 +358,7 @@
     <string name="backup_sub">สำรองการตั้งค่าแอปของคุณเป็นไฟล์</string>
     <string name="presets_sub" formatted="false">หากคุณเลือกค่าที่ตั้งไว้ล่วงหน้า 125 รูปภาพจะถูกบันทึกเป็นขนาด 125% ของรูปภาพต้นฉบับพร้อมคุณภาพ 100% หากคุณเลือกค่าที่ตั้งล่วงหน้า 50 รูปภาพจะถูกบันทึกด้วยขนาด 50% และคุณภาพ 50%</string>
     <string name="randomize_filename_sub">หากเปิดใช้งานชื่อไฟล์เอาต์พุตจะเป็นการสุ่มอย่างสมบูรณ์</string>
-    <string name="presets_sub_bytes">การตั้งค่าล่วงหน้าที่นี่จะกำหนด % ของไฟล์เอาต์พุต เช่น หากคุณเลือกการตั้งค่าล่วงหน้า 50 บนรูปภาพขนาด 5mb คุณจะได้รูปภาพขนาด 2.5mb หลังจากบันทึก</string>
+    <string name="presets_sub_bytes" formatted="false">การตั้งค่าล่วงหน้าที่นี่จะกำหนด % ของไฟล์เอาต์พุต เช่น หากคุณเลือกการตั้งค่าล่วงหน้า 50 บนรูปภาพขนาด 5mb คุณจะได้รูปภาพขนาด 2.5mb หลังจากบันทึก</string>
     <string name="backup">สำรองข้อมูล</string>
     <string name="restore_sub">คืนค่าการตั้งค่าแอปจากไฟล์ที่สร้างไว้ก่อนหน้านี้</string>
     <string name="corrupted_file_or_not_a_backup">ไฟล์เสียหายหรือไม่ใช่ข้อมูลสำรอง</string>
@@ -1494,7 +1494,7 @@
     <string name="area">พื้นที่</string>
     <string name="area_sub">การสุ่มตัวอย่างใหม่โดยใช้ความสัมพันธ์ของพื้นที่พิกเซล อาจเป็นวิธีที่นิยมใช้สำหรับการทำลายภาพ เนื่องจากให้ผลลัพธ์ที่ปราศจากรอยมัว แต่เมื่อซูมภาพ จะคล้ายกับวิธี \"ใกล้ที่สุด\"</string>
     <string name="enable_tonemapping">เปิดใช้งาน Tonemapping</string>
-    <string name="enter_percent">เข้า %</string>
+    <string name="enter_percent" formatted="false">เข้า %</string>
     <string name="unknown_host">ไม่สามารถเข้าถึงไซต์ได้ ลองใช้ VPN หรือตรวจสอบว่า URL ถูกต้องหรือไม่</string>
     <string name="markup_layers">เลเยอร์มาร์กอัป</string>
     <string name="markup_layers_sub">โหมดเลเยอร์ที่มีความสามารถในการวางรูปภาพ ข้อความ และอื่นๆ ได้อย่างอิสระ</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">การปรับสีเสียงรบกวนที่สม่ำเสมออย่างอ่อนโยนเพื่อเนื้อสัมผัสที่ละเอียดอ่อนและรูปลักษณ์ที่เรียบเนียน</string>
     <string name="model_repainter">ซ่อมแซมพื้นที่ที่เสียหายหรือไม่สม่ำเสมอด้วยการทาสีสิ่งประดิษฐ์ใหม่และปรับปรุงความสม่ำเสมอของภาพ</string>
     <string name="model_debandurh_fs_ultra_lite">รุ่นลอกแถบน้ำหนักเบาที่ช่วยขจัดแถบสีโดยมีค่าใช้จ่ายด้านประสิทธิภาพน้อยที่สุด</string>
-    <string name="model_jpeg_0_20">ปรับภาพให้เหมาะสมด้วยการบีบอัดที่สูงมาก (คุณภาพ 0-20%) เพื่อความชัดเจนที่ดีขึ้น</string>
-    <string name="model_jpeg_20_40">ปรับปรุงภาพด้วยการบีบอัดข้อมูลสูง (คุณภาพ 20-40%) คืนรายละเอียดและลดสัญญาณรบกวน</string>
-    <string name="model_jpeg_40_60">ปรับปรุงภาพด้วยการบีบอัดปานกลาง (คุณภาพ 40-60%) ปรับสมดุลความคมชัดและความเรียบเนียน</string>
-    <string name="model_jpeg_60_80">ปรับแต่งภาพด้วยการบีบอัดแสง (คุณภาพ 60-80%) เพื่อเพิ่มรายละเอียดและพื้นผิวที่ละเอียดอ่อน</string>
-    <string name="model_jpeg_80_100">ปรับปรุงภาพที่เกือบไม่มีการสูญเสียเล็กน้อย (คุณภาพ 80-100%) ในขณะที่ยังคงรูปลักษณ์และรายละเอียดที่เป็นธรรมชาติ</string>
+    <string name="model_jpeg_0_20" formatted="false">ปรับภาพให้เหมาะสมด้วยการบีบอัดที่สูงมาก (คุณภาพ 0-20%) เพื่อความชัดเจนที่ดีขึ้น</string>
+    <string name="model_jpeg_20_40" formatted="false">ปรับปรุงภาพด้วยการบีบอัดข้อมูลสูง (คุณภาพ 20-40%) คืนรายละเอียดและลดสัญญาณรบกวน</string>
+    <string name="model_jpeg_40_60" formatted="false">ปรับปรุงภาพด้วยการบีบอัดปานกลาง (คุณภาพ 40-60%) ปรับสมดุลความคมชัดและความเรียบเนียน</string>
+    <string name="model_jpeg_60_80" formatted="false">ปรับแต่งภาพด้วยการบีบอัดแสง (คุณภาพ 60-80%) เพื่อเพิ่มรายละเอียดและพื้นผิวที่ละเอียดอ่อน</string>
+    <string name="model_jpeg_80_100" formatted="false">ปรับปรุงภาพที่เกือบไม่มีการสูญเสียเล็กน้อย (คุณภาพ 80-100%) ในขณะที่ยังคงรูปลักษณ์และรายละเอียดที่เป็นธรรมชาติ</string>
     <string name="model_spongecolor_lite">การระบายสีการ์ตูนที่ง่ายและรวดเร็วไม่เหมาะ</string>
     <string name="model_deblr">ลดความเบลอของภาพลงเล็กน้อย ปรับปรุงความคมชัดโดยไม่ทำให้เกิดสิ่งแปลกปลอม</string>
     <string name="processing_channel">การดำเนินงานที่ยาวนาน</string>
     <string name="processing_image">กำลังประมวลผลภาพ</string>
     <string name="processing">กำลังประมวลผล</string>
-    <string name="model_artifacts_jpg_0_20">ลบสิ่งแปลกปลอมในการบีบอัด JPEG จำนวนมากในภาพคุณภาพต่ำมาก (0-20%)</string>
-    <string name="model_artifacts_jpg_20_40">ลดข้อผิดพลาด JPEG ที่แข็งแกร่งในภาพที่มีการบีบอัดสูง (20-40%)</string>
-    <string name="model_artifacts_jpg_40_60">ทำความสะอาดสิ่งประดิษฐ์ JPEG ระดับปานกลางในขณะที่รักษารายละเอียดของภาพ (40-60%)</string>
-    <string name="model_artifacts_jpg_60_80">ปรับแต่งสิ่งประดิษฐ์ JPEG แบบแสงในภาพคุณภาพสูงพอสมควร (60-80%)</string>
-    <string name="model_artifacts_jpg_80_100">ลดขนาดภาพ JPEG เล็กน้อยในภาพที่ไม่มีการสูญเสียข้อมูล (80-100%) อย่างละเอียด</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">ลบสิ่งแปลกปลอมในการบีบอัด JPEG จำนวนมากในภาพคุณภาพต่ำมาก (0-20%)</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">ลดข้อผิดพลาด JPEG ที่แข็งแกร่งในภาพที่มีการบีบอัดสูง (20-40%)</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">ทำความสะอาดสิ่งประดิษฐ์ JPEG ระดับปานกลางในขณะที่รักษารายละเอียดของภาพ (40-60%)</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">ปรับแต่งสิ่งประดิษฐ์ JPEG แบบแสงในภาพคุณภาพสูงพอสมควร (60-80%)</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">ลดขนาดภาพ JPEG เล็กน้อยในภาพที่ไม่มีการสูญเสียข้อมูล (80-100%) อย่างละเอียด</string>
     <string name="model_redetail_v2">ปรับปรุงรายละเอียดและพื้นผิวที่ละเอียดอ่อน ปรับปรุงความคมชัดในการรับรู้โดยไม่มีสิ่งแปลกปลอมที่หนักหน่วง</string>
     <string name="processing_finished">การประมวลผลเสร็จสิ้น</string>
     <string name="processing_failed">การประมวลผลล้มเหลว</string>

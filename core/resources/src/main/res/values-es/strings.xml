@@ -375,7 +375,7 @@
     <string name="donation">Donación</string>
     <string name="keep_exif_sub">Se conservarán los metadatos de la imagen original</string>
     <string name="restore_sub">Restaura las configuraciones de la app desde un archivo previamente generado</string>
-    <string name="presets_sub_bytes">El ajuste predeterminado aquí define el % de tamaño del archivo resultante. Es decir, seleccionando \"50\" para una imagen de 5 MB se guardará una imagen de 2.5 MB.</string>
+    <string name="presets_sub_bytes" formatted="false">El ajuste predeterminado aquí define el % de tamaño del archivo resultante. Es decir, seleccionando \"50\" para una imagen de 5 MB se guardará una imagen de 2.5 MB.</string>
     <string name="erase_mode">Modo de borrado</string>
     <string name="allow_betas_sub">La búsqueda de actualizaciones incluirá versiones beta de la app si está habilitado</string>
     <string name="travels_and_places">Viajes y Lugares</string>
@@ -1393,7 +1393,7 @@
     <string name="area">Área</string>
     <string name="area_sub">Remuestreo utilizando la relación del área de píxeles. Puede ser un método preferido para la reducción de imágenes, ya que ofrece resultados sin moiré. Sin embargo, cuando se amplía la imagen, es similar al método \"Más cercano\"</string>
     <string name="enable_tonemapping">Habilitar Mapeo de Tonos</string>
-    <string name="enter_percent">Introduzca %</string>
+    <string name="enter_percent" formatted="false">Introduzca %</string>
     <string name="unknown_host">No se puede acceder al sitio, intenta usar una VPN o comprueba si la url es correcta</string>
     <string name="markup_layers">Capas de Marcado</string>
     <string name="markup_layers_sub">Modo de capas con la habilidad de colocar libremente imágenes, texto y más</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Tono de ruido suave y uniforme para una textura sutil y una apariencia suave.</string>
     <string name="model_repainter">Repara áreas dañadas o irregulares repintando artefactos y mejorando la consistencia de la imagen.</string>
     <string name="model_debandurh_fs_ultra_lite">Modelo de eliminación de bandas liviano que elimina las bandas de color con un costo de rendimiento mínimo.</string>
-    <string name="model_jpeg_0_20">Optimiza imágenes con artefactos de compresión muy alta (calidad del 0 al 20 %) para mejorar la claridad.</string>
-    <string name="model_jpeg_20_40">Mejora las imágenes con artefactos de alta compresión (20-40% de calidad), restaurando detalles y reduciendo el ruido.</string>
-    <string name="model_jpeg_40_60">Mejora las imágenes con una compresión moderada (40-60% de calidad), equilibrando la nitidez y la suavidad.</string>
-    <string name="model_jpeg_60_80">Refina las imágenes con una ligera compresión (60-80 % de calidad) para mejorar los detalles y texturas sutiles.</string>
-    <string name="model_jpeg_80_100">Mejora ligeramente las imágenes casi sin pérdidas (80-100 % de calidad) y al mismo tiempo conserva el aspecto y los detalles naturales.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimiza imágenes con artefactos de compresión muy alta (calidad del 0 al 20 %) para mejorar la claridad.</string>
+    <string name="model_jpeg_20_40" formatted="false">Mejora las imágenes con artefactos de alta compresión (20-40% de calidad), restaurando detalles y reduciendo el ruido.</string>
+    <string name="model_jpeg_40_60" formatted="false">Mejora las imágenes con una compresión moderada (40-60% de calidad), equilibrando la nitidez y la suavidad.</string>
+    <string name="model_jpeg_60_80" formatted="false">Refina las imágenes con una ligera compresión (60-80 % de calidad) para mejorar los detalles y texturas sutiles.</string>
+    <string name="model_jpeg_80_100" formatted="false">Mejora ligeramente las imágenes casi sin pérdidas (80-100 % de calidad) y al mismo tiempo conserva el aspecto y los detalles naturales.</string>
     <string name="model_spongecolor_lite">Colorización simple y rápida, dibujos animados, no es ideal.</string>
     <string name="model_deblr">Reduce ligeramente el desenfoque de la imagen, mejorando la nitidez sin introducir artefactos.</string>
     <string name="processing_channel">Operaciones de larga duración</string>
     <string name="processing_image">Procesando imagen</string>
     <string name="processing">Tratamiento</string>
-    <string name="model_artifacts_jpg_0_20">Elimina fuertes artefactos de compresión JPEG en imágenes de muy baja calidad (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Reduce fuertes artefactos JPEG en imágenes muy comprimidas (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Limpia artefactos JPEG moderados conservando los detalles de la imagen (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Refina los artefactos JPEG ligeros en imágenes de calidad bastante alta (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Reduce sutilmente pequeños artefactos JPEG en imágenes casi sin pérdidas (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Elimina fuertes artefactos de compresión JPEG en imágenes de muy baja calidad (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Reduce fuertes artefactos JPEG en imágenes muy comprimidas (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Limpia artefactos JPEG moderados conservando los detalles de la imagen (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Refina los artefactos JPEG ligeros en imágenes de calidad bastante alta (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Reduce sutilmente pequeños artefactos JPEG en imágenes casi sin pérdidas (80-100%).</string>
     <string name="model_redetail_v2">Mejora los detalles finos y las texturas, mejorando la nitidez percibida sin artefactos pesados.</string>
     <string name="processing_finished">Procesamiento terminado</string>
     <string name="processing_failed">Error de procesamiento</string>

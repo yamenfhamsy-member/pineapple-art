@@ -702,7 +702,7 @@
     <string name="secondary_customization">Қосымша теңшеу</string>
     <string name="fallback_option">Кері опция</string>
     <string name="presets_sub" formatted="false">Алдын ала орнатылған 125 параметрін таңдасаңыз, сурет 100% сапасымен түпнұсқа кескіннің 125% өлшемі ретінде сақталады. Алдын ала орнатылған 50 параметрін таңдасаңыз, сурет 50% өлшеммен және 50% сапамен сақталады.</string>
-    <string name="presets_sub_bytes">Мұнда алдын ала орнату шығыс файлының % анықтайды, яғни 5 мб суретте алдын ала орнатылған 50 параметрін таңдасаңыз, сақталғаннан кейін 2,5 мб кескінді аласыз.</string>
+    <string name="presets_sub_bytes" formatted="false">Мұнда алдын ала орнату шығыс файлының % анықтайды, яғни 5 мб суретте алдын ала орнатылған 50 параметрін таңдасаңыз, сақталғаннан кейін 2,5 мб кескінді аласыз.</string>
     <string name="tg_chat">Telegram чаты</string>
     <string name="tg_chat_sub">Қолданбаны талқылаңыз және басқа пайдаланушылардан пікір алыңыз. Сондай-ақ, бета жаңартулары мен түсініктерін осы жерден ала аласыз.</string>
     <string name="crop_mask">Кептірілген маска</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Аудан</string>
     <string name="area_sub">Пиксель аймағы қатынасын пайдаланып қайта үлгілеу. Ол муарсыз нәтижелер беретіндіктен кескінді жоюдың таңдаулы әдісі болуы мүмкін. Бірақ кескінді үлкейткенде, ол \"Ең жақын\" әдісіне ұқсайды.</string>
     <string name="enable_tonemapping">Tonemapping қосу</string>
-    <string name="enter_percent">% енгізіңіз</string>
+    <string name="enter_percent" formatted="false">% енгізіңіз</string>
     <string name="unknown_host">Сайтқа кіру мүмкін емес, VPN пайдаланып көріңіз немесе URL мекенжайының дұрыстығын тексеріңіз</string>
     <string name="markup_layers">Белгілеу қабаттары</string>
     <string name="markup_layers_sub">Суреттерді, мәтінді және т.б. еркін орналастыру мүмкіндігі бар қабаттар режимі</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Нәзік текстура мен тегіс көрініс үшін жұмсақ біркелкі шуды сергітеді.</string>
     <string name="model_repainter">Артефактілерді қайта бояу және кескіннің үйлесімділігін жақсарту арқылы зақымдалған немесе тегіс емес жерлерді жөндейді.</string>
     <string name="model_debandurh_fs_ultra_lite">Ең аз өнімділік құнымен түс жолағын жоятын жеңіл жолақты жою үлгісі.</string>
-    <string name="model_jpeg_0_20">Жақсартылған айқындық үшін өте жоғары қысу артефактілері (0-20% сапа) бар кескіндерді оңтайландырады.</string>
-    <string name="model_jpeg_20_40">Суреттерді жоғары қысу артефактілерімен жақсартады (20-40% сапа), мәліметтерді қалпына келтіреді және шуды азайтады.</string>
-    <string name="model_jpeg_40_60">Орташа қысумен (40-60% сапа) кескіндерді жақсартады, айқындық пен тегістікті теңестіреді.</string>
-    <string name="model_jpeg_60_80">Нәзік бөлшектер мен текстураларды жақсарту үшін жеңіл қысумен (60-80% сапа) кескіндерді нақтылайды.</string>
-    <string name="model_jpeg_80_100">Табиғи көрініс пен бөлшектерді сақтай отырып, жоғалмайтын кескіндерді (80-100% сапа) аздап жақсартады.</string>
+    <string name="model_jpeg_0_20" formatted="false">Жақсартылған айқындық үшін өте жоғары қысу артефактілері (0-20% сапа) бар кескіндерді оңтайландырады.</string>
+    <string name="model_jpeg_20_40" formatted="false">Суреттерді жоғары қысу артефактілерімен жақсартады (20-40% сапа), мәліметтерді қалпына келтіреді және шуды азайтады.</string>
+    <string name="model_jpeg_40_60" formatted="false">Орташа қысумен (40-60% сапа) кескіндерді жақсартады, айқындық пен тегістікті теңестіреді.</string>
+    <string name="model_jpeg_60_80" formatted="false">Нәзік бөлшектер мен текстураларды жақсарту үшін жеңіл қысумен (60-80% сапа) кескіндерді нақтылайды.</string>
+    <string name="model_jpeg_80_100" formatted="false">Табиғи көрініс пен бөлшектерді сақтай отырып, жоғалмайтын кескіндерді (80-100% сапа) аздап жақсартады.</string>
     <string name="model_spongecolor_lite">Қарапайым және жылдам бояу, мультфильмдер, идеалды емес</string>
     <string name="model_deblr">Кескіннің бұлыңғырлығын аздап азайтады, артефактілерді енгізбестен айқындықты жақсартады.</string>
     <string name="processing_channel">Ұзақ мерзімді операциялар</string>
     <string name="processing_image">Кескінді өңдеу</string>
     <string name="processing">Өңдеу</string>
-    <string name="model_artifacts_jpg_0_20">Өте төмен сапалы кескіндердегі ауыр JPEG қысу артефактілерін жояды (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Жоғары қысылған кескіндердегі күшті JPEG артефактілерін азайтады (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Кескін мәліметтерін сақтай отырып, қалыпты JPEG артефактілерін тазартады (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Жеткілікті жоғары сапалы кескіндердегі жеңіл JPEG артефактілерін нақтылайды (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Жоғалмайтын кескіндердегі кішігірім JPEG артефактілерін (80-100%) азайтады.</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Өте төмен сапалы кескіндердегі ауыр JPEG қысу артефактілерін жояды (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Жоғары қысылған кескіндердегі күшті JPEG артефактілерін азайтады (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Кескін мәліметтерін сақтай отырып, қалыпты JPEG артефактілерін тазартады (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Жеткілікті жоғары сапалы кескіндердегі жеңіл JPEG артефактілерін нақтылайды (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Жоғалмайтын кескіндердегі кішігірім JPEG артефактілерін (80-100%) азайтады.</string>
     <string name="model_redetail_v2">Ауыр артефактілерсіз қабылданатын айқындықты жақсарта отырып, ұсақ бөлшектер мен текстураларды жақсартады.</string>
     <string name="processing_finished">Өңдеу аяқталды</string>
     <string name="processing_failed">Өңдеу сәтсіз аяқталды</string>

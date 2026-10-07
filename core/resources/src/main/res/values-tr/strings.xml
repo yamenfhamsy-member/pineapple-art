@@ -310,7 +310,7 @@
     <string name="copy">Kopyala</string>
     <string name="warning_bytes">%1$s modunda kaydetme kararsız olabilir, çünkü bu kayıpsız bir formattır</string>
     <string name="presets_sub" formatted="false">125 ön ayarını seçtiyseniz, resim orijinal resmin %125 boyutunda kaydedilecektir. Eğer 50 ön ayarını seçerseniz, resim %50 boyutunda kaydedilir</string>
-    <string name="presets_sub_bytes">Buradaki ön ayar, çıktı dosyasının yüzdesini belirler, yani 5 MB\'lık bir resimde %50 ön ayarını seçerseniz, kaydettikten sonra 2,5 MB\'lık bir resim elde edersiniz</string>
+    <string name="presets_sub_bytes" formatted="false">Buradaki ön ayar, çıktı dosyasının yüzdesini belirler, yani 5 MB\'lık bir resimde %50 ön ayarını seçerseniz, kaydettikten sonra 2,5 MB\'lık bir resim elde edersiniz</string>
     <string name="randomize_filename">Dosya adını rastgele yap</string>
     <string name="randomize_filename_sub">Etkinleştirilirse çıktı dosya adı tamamen rastgele olacaktır</string>
     <string name="saved_to">%1$s klasörüne %2$s adıyla kaydedildi</string>
@@ -1962,20 +1962,20 @@
     <string name="model_noise_toner_uniform_soft">Hafif ve düzgün bir doku ve pürüzsüz bir görünüm için hafif ve düzgün bir gürültü tonlaması.</string>
     <string name="model_repainter">Artefaktları yeniden boyayarak ve görüntü tutarlılığını iyileştirerek hasarlı veya düzensiz alanları onarır.</string>
     <string name="model_debandurh_fs_ultra_lite">Performans maliyetini en aza indirerek renk bantlamasını ortadan kaldıran hafif debanding modeli.</string>
-    <string name="model_jpeg_0_20">Görüntüleri çok yüksek sıkıştırma artefaktları (kalite %0-20) ile optimize ederek netliği artırır.</string>
-    <string name="model_jpeg_20_40">Yüksek sıkıştırma artefaktları olan görüntüleri iyileştirir (kalite %20-40), ayrıntıları geri yükler ve gürültüyü azaltır.</string>
-    <string name="model_jpeg_40_60">Görüntüleri orta düzeyde sıkıştırma (kalite %40-60) ile iyileştirir, keskinlik ve pürüzsüzlük arasında denge sağlar.</string>
-    <string name="model_jpeg_60_80">Hafif sıkıştırma (kalite %60-80) ile görüntüleri iyileştirerek ince ayrıntıları ve dokuları güçlendirir.</string>
-    <string name="model_jpeg_80_100">Doğal görünümü ve ayrıntıları korurken, neredeyse kayıpsız görüntüleri (kalite %80-100) hafifçe iyileştirir.</string>
+    <string name="model_jpeg_0_20" formatted="false">Görüntüleri çok yüksek sıkıştırma artefaktları (kalite %0-20) ile optimize ederek netliği artırır.</string>
+    <string name="model_jpeg_20_40" formatted="false">Yüksek sıkıştırma artefaktları olan görüntüleri iyileştirir (kalite %20-40), ayrıntıları geri yükler ve gürültüyü azaltır.</string>
+    <string name="model_jpeg_40_60" formatted="false">Görüntüleri orta düzeyde sıkıştırma (kalite %40-60) ile iyileştirir, keskinlik ve pürüzsüzlük arasında denge sağlar.</string>
+    <string name="model_jpeg_60_80" formatted="false">Hafif sıkıştırma (kalite %60-80) ile görüntüleri iyileştirerek ince ayrıntıları ve dokuları güçlendirir.</string>
+    <string name="model_jpeg_80_100" formatted="false">Doğal görünümü ve ayrıntıları korurken, neredeyse kayıpsız görüntüleri (kalite %80-100) hafifçe iyileştirir.</string>
     <string name="model_deblr">Görüntü bulanıklığını hafifçe azaltır, artefakt oluşturmadan keskinliği artırır.</string>
     <string name="processing_channel">Uzun süreli işlemler</string>
     <string name="processing_image">Resim işleniyor</string>
     <string name="processing">İşleniyor</string>
-    <string name="model_artifacts_jpg_0_20">Çok düşük kaliteli görüntülerdeki (0-20%) ağır JPEG sıkıştırma artefaktlarını giderir.</string>
-    <string name="model_artifacts_jpg_20_40">Yüksek oranda sıkıştırılmış görüntülerdeki güçlü JPEG artefaktlarını azaltır (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Görüntü ayrıntılarını korurken orta derecede JPEG artefaktlarını temizler (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Oldukça yüksek kaliteli görüntülerde (60-80%) hafif JPEG artefaktlarını iyileştirir.</string>
-    <string name="model_artifacts_jpg_80_100">Neredeyse kayıpsız görüntülerdeki (80-100%) küçük JPEG artefaktlarını ince bir şekilde azaltır.</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Çok düşük kaliteli görüntülerdeki (0-20%) ağır JPEG sıkıştırma artefaktlarını giderir.</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Yüksek oranda sıkıştırılmış görüntülerdeki güçlü JPEG artefaktlarını azaltır (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Görüntü ayrıntılarını korurken orta derecede JPEG artefaktlarını temizler (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Oldukça yüksek kaliteli görüntülerde (60-80%) hafif JPEG artefaktlarını iyileştirir.</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Neredeyse kayıpsız görüntülerdeki (80-100%) küçük JPEG artefaktlarını ince bir şekilde azaltır.</string>
     <string name="model_redetail_v2">İnce ayrıntıları ve dokuları geliştirerek, ağır yapaylık olmadan algılanan keskinliği artırır.</string>
     <string name="processing_finished">İşleme bitti</string>
     <string name="processing_failed">İşleme başarısız</string>

@@ -345,7 +345,7 @@
     <string name="suffix">Atzizkia</string>
     <string name="free">Doan</string>
     <string name="email">Posta elektronikoa</string>
-    <string name="presets_sub_bytes">Hemen aurrez ezarritakoak irteerako fitxategiaren % zehazten du, hau da, 5 MBko irudian 50 aurrez ezarritakoa hautatzen baduzu, 2,5 MBko irudia lortuko duzu gorde ondoren.</string>
+    <string name="presets_sub_bytes" formatted="false">Hemen aurrez ezarritakoak irteerako fitxategiaren % zehazten du, hau da, 5 MBko irudian 50 aurrez ezarritakoa hautatzen baduzu, 2,5 MBko irudia lortuko duzu gorde ondoren.</string>
     <string name="randomize_filename">Ausazko fitxategi-izena</string>
     <string name="randomize_filename_sub">Gaituta badago irteerako fitxategi-izena guztiz ausazkoa izango da</string>
     <string name="saved_to">%1$s karpetan gorde da %2$s izenarekin</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Eremua</string>
     <string name="area_sub">Birlaginketa pixelaren eremuaren erlazioa erabiliz. Irudiak dezimatzeko metodo hobetsia izan daiteke, moirerik gabeko emaitzak ematen baititu. Baina irudia handitzen denean,  \"Gertuena \" metodoaren antzekoa da.</string>
     <string name="enable_tonemapping">Gaitu Tonemapping</string>
-    <string name="enter_percent">Sartu %</string>
+    <string name="enter_percent" formatted="false">Sartu %</string>
     <string name="unknown_host">Ezin da webgunera sartu, saiatu VPN erabiltzen edo egiaztatu url-a zuzena den</string>
     <string name="markup_layers">Markatze geruzak</string>
     <string name="markup_layers_sub">Geruzak modua irudiak, testuak eta beste modu askean jartzeko gaitasunarekin</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Zarata tonu uniforme leuna, ehundura sotila eta itxura leuna lortzeko.</string>
     <string name="model_repainter">Kaltetutako edo irregularrak diren eremuak konpontzen ditu artefaktuak berriro margotuz eta irudiaren koherentzia hobetuz.</string>
     <string name="model_debandurh_fs_ultra_lite">Debanding eredu arina, kolore-bandak kentzen dituena, errendimendu kostu minimoarekin.</string>
-    <string name="model_jpeg_0_20">Konpresio artefaktu oso altuak dituzten irudiak optimizatzen ditu (% 0-20ko kalitatea) argitasuna hobetzeko.</string>
-    <string name="model_jpeg_20_40">Irudiak hobetzen ditu konpresio handiko artefaktuekin (% 20-40ko kalitatea), xehetasunak leheneratzen eta zarata murriztuz.</string>
-    <string name="model_jpeg_40_60">Irudiak hobetzen ditu konpresio moderatua (% 40-60 kalitatea), zorroztasuna eta leuntasuna orekatuz.</string>
-    <string name="model_jpeg_60_80">Irudiak konpresio argiarekin (% 60-80 kalitatea) hobetzen ditu xehetasun eta ehundura sotilak hobetzeko.</string>
-    <string name="model_jpeg_80_100">Ia galerarik gabeko irudiak apur bat hobetzen ditu (% 80-100eko kalitatea), itxura eta xehetasun naturalak mantenduz.</string>
+    <string name="model_jpeg_0_20" formatted="false">Konpresio artefaktu oso altuak dituzten irudiak optimizatzen ditu (% 0-20ko kalitatea) argitasuna hobetzeko.</string>
+    <string name="model_jpeg_20_40" formatted="false">Irudiak hobetzen ditu konpresio handiko artefaktuekin (% 20-40ko kalitatea), xehetasunak leheneratzen eta zarata murriztuz.</string>
+    <string name="model_jpeg_40_60" formatted="false">Irudiak hobetzen ditu konpresio moderatua (% 40-60 kalitatea), zorroztasuna eta leuntasuna orekatuz.</string>
+    <string name="model_jpeg_60_80" formatted="false">Irudiak konpresio argiarekin (% 60-80 kalitatea) hobetzen ditu xehetasun eta ehundura sotilak hobetzeko.</string>
+    <string name="model_jpeg_80_100" formatted="false">Ia galerarik gabeko irudiak apur bat hobetzen ditu (% 80-100eko kalitatea), itxura eta xehetasun naturalak mantenduz.</string>
     <string name="model_spongecolor_lite">Kolorizazio sinple eta azkarra, marrazki bizidunak, ez da ideala</string>
     <string name="model_deblr">Irudiaren lausotasuna apur bat murrizten du, zorroztasuna hobetuz artefaktuak sartu gabe.</string>
     <string name="processing_channel">Ibilbide luzeko eragiketak</string>
     <string name="processing_image">Irudia prozesatzea</string>
     <string name="processing">Tramitazioa</string>
-    <string name="model_artifacts_jpg_0_20">JPEG konpresio-artefaktu handiak kentzen ditu kalitate baxuko irudietan (% 0-20).</string>
-    <string name="model_artifacts_jpg_20_40">JPEG artefaktu indartsuak murrizten ditu oso konprimitutako irudietan (% 20-40).</string>
-    <string name="model_artifacts_jpg_40_60">JPEG artefaktu moderatuak garbitzen ditu, irudiaren xehetasunak (% 40-60) gordetzen dituen bitartean.</string>
-    <string name="model_artifacts_jpg_60_80">JPEG artefaktu argiak hobetzen ditu kalitate handiko irudietan (% 60-80).</string>
-    <string name="model_artifacts_jpg_80_100">Ia galerarik gabeko irudietan JPEG artefaktu txikiak murrizten ditu (% 80-100).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">JPEG konpresio-artefaktu handiak kentzen ditu kalitate baxuko irudietan (% 0-20).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">JPEG artefaktu indartsuak murrizten ditu oso konprimitutako irudietan (% 20-40).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">JPEG artefaktu moderatuak garbitzen ditu, irudiaren xehetasunak (% 40-60) gordetzen dituen bitartean.</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">JPEG artefaktu argiak hobetzen ditu kalitate handiko irudietan (% 60-80).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Ia galerarik gabeko irudietan JPEG artefaktu txikiak murrizten ditu (% 80-100).</string>
     <string name="model_redetail_v2">Xehetasun eta ehundura finak hobetzen ditu, artefaktu astunik gabe hautemandako zorroztasuna hobetuz.</string>
     <string name="processing_finished">Prozesatzea amaitu da</string>
     <string name="processing_failed">Ezin izan da prozesatu</string>

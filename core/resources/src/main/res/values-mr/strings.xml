@@ -318,8 +318,8 @@
     <string name="skip">वगळा</string>
     <string name="copy">कॉपी करा</string>
     <string name="warning_bytes">%1$s मोडमध्ये जतन करणे अस्थिर असू शकते, कारण ते नुकसानरहित स्वरूप आहे</string>
-    <string name="presets_sub">तुम्ही प्रीसेट 125 निवडले असल्यास, इमेज मूळ प्रतिमेच्या 125% आकारात सेव्ह केली जाईल. आपण प्रीसेट 50 निवडल्यास, प्रतिमा 50% आकारासह जतन केली जाईल</string>
-    <string name="presets_sub_bytes">येथे प्रीसेट आउटपुट फाइलचे % ठरवते, म्हणजे तुम्ही 5 MB प्रतिमेवर प्रीसेट 50 निवडल्यास, सेव्ह केल्यानंतर तुम्हाला 2,5 MB प्रतिमा मिळेल.</string>
+    <string name="presets_sub" formatted="false">तुम्ही प्रीसेट 125 निवडले असल्यास, इमेज मूळ प्रतिमेच्या 125% आकारात सेव्ह केली जाईल. आपण प्रीसेट 50 निवडल्यास, प्रतिमा 50% आकारासह जतन केली जाईल</string>
+    <string name="presets_sub_bytes" formatted="false">येथे प्रीसेट आउटपुट फाइलचे % ठरवते, म्हणजे तुम्ही 5 MB प्रतिमेवर प्रीसेट 50 निवडल्यास, सेव्ह केल्यानंतर तुम्हाला 2,5 MB प्रतिमा मिळेल.</string>
     <string name="randomize_filename">फाइलनाव यादृच्छिक करा</string>
     <string name="randomize_filename_sub">सक्षम केल्यास आउटपुट फाइलनाव पूर्णपणे यादृच्छिक असेल</string>
     <string name="saved_to">%2$s नावाने %1$s फोल्डरमध्ये जतन केले</string>
@@ -1497,7 +1497,7 @@
     <string name="area">क्षेत्रफळ</string>
     <string name="area_sub">पिक्सेल एरिया रिलेशन वापरून रिसॅम्पलिंग. प्रतिमा नष्ट करण्यासाठी ही एक पसंतीची पद्धत असू शकते, कारण ती मोअर\'-मुक्त परिणाम देते. परंतु जेव्हा प्रतिमा झूम केली जाते, तेव्हा ती \"जवळपास\" पद्धतीसारखी असते.</string>
     <string name="enable_tonemapping">टोनमॅपिंग सक्षम करा</string>
-    <string name="enter_percent">% प्रविष्ट करा</string>
+    <string name="enter_percent" formatted="false">% प्रविष्ट करा</string>
     <string name="unknown_host">साइटवर प्रवेश करू शकत नाही, VPN वापरून पहा किंवा url बरोबर आहे का ते तपासा</string>
     <string name="markup_layers">मार्कअप स्तर</string>
     <string name="markup_layers_sub">मुक्तपणे प्रतिमा, मजकूर आणि बरेच काही ठेवण्याच्या क्षमतेसह स्तर मोड</string>
@@ -1957,21 +1957,21 @@
     <string name="model_noise_toner_uniform_soft">सूक्ष्म पोत आणि गुळगुळीत दिसण्यासाठी सौम्य एकसमान आवाज टोनिंग.</string>
     <string name="model_repainter">कलाकृती पुन्हा रंगवून आणि प्रतिमा सुसंगतता सुधारून खराब झालेले किंवा असमान भाग दुरुस्त करा.</string>
     <string name="model_debandurh_fs_ultra_lite">लाइटवेट डीबँडिंग मॉडेल जे कमीतकमी कार्यप्रदर्शन खर्चासह रंग बँडिंग काढून टाकते.</string>
-    <string name="model_jpeg_0_20">सुधारित स्पष्टतेसाठी अतिशय उच्च कॉम्प्रेशन आर्टिफॅक्ट (0-20% गुणवत्ता) असलेल्या प्रतिमा ऑप्टिमाइझ करते.</string>
-    <string name="model_jpeg_20_40">उच्च कॉम्प्रेशन आर्टिफॅक्ट्स (20-40% गुणवत्ता), तपशील पुनर्संचयित करून आणि आवाज कमी करून प्रतिमा सुधारते.</string>
-    <string name="model_jpeg_40_60">मध्यम कम्प्रेशन (40-60% गुणवत्ता) सह प्रतिमा सुधारते, तीक्ष्णता आणि गुळगुळीतपणा संतुलित करते.</string>
-    <string name="model_jpeg_60_80">सूक्ष्म तपशील आणि पोत वर्धित करण्यासाठी प्रकाश कॉम्प्रेशन (60-80% गुणवत्ता) सह प्रतिमा परिष्कृत करते.</string>
-    <string name="model_jpeg_80_100">नैसर्गिक देखावा आणि तपशील जतन करून जवळच्या-तोटारहित प्रतिमा (80-100% गुणवत्ता) किंचित वाढवते.</string>
+    <string name="model_jpeg_0_20" formatted="false">सुधारित स्पष्टतेसाठी अतिशय उच्च कॉम्प्रेशन आर्टिफॅक्ट (0-20% गुणवत्ता) असलेल्या प्रतिमा ऑप्टिमाइझ करते.</string>
+    <string name="model_jpeg_20_40" formatted="false">उच्च कॉम्प्रेशन आर्टिफॅक्ट्स (20-40% गुणवत्ता), तपशील पुनर्संचयित करून आणि आवाज कमी करून प्रतिमा सुधारते.</string>
+    <string name="model_jpeg_40_60" formatted="false">मध्यम कम्प्रेशन (40-60% गुणवत्ता) सह प्रतिमा सुधारते, तीक्ष्णता आणि गुळगुळीतपणा संतुलित करते.</string>
+    <string name="model_jpeg_60_80" formatted="false">सूक्ष्म तपशील आणि पोत वर्धित करण्यासाठी प्रकाश कॉम्प्रेशन (60-80% गुणवत्ता) सह प्रतिमा परिष्कृत करते.</string>
+    <string name="model_jpeg_80_100" formatted="false">नैसर्गिक देखावा आणि तपशील जतन करून जवळच्या-तोटारहित प्रतिमा (80-100% गुणवत्ता) किंचित वाढवते.</string>
     <string name="model_spongecolor_lite">साधे आणि जलद रंगीकरण, व्यंगचित्रे, आदर्श नाही</string>
     <string name="model_deblr">प्रतिमेची अस्पष्टता किंचित कमी करते, कलाकृतींचा परिचय न करता तीक्ष्णता सुधारते.</string>
     <string name="processing_channel">लांब चालणारी ऑपरेशन्स</string>
     <string name="processing_image">इमेजवर प्रक्रिया करत आहे</string>
     <string name="processing">प्रक्रिया करत आहे</string>
-    <string name="model_artifacts_jpg_0_20">अत्यंत कमी गुणवत्तेच्या (0-20%) प्रतिमांमधील भारी JPEG कॉम्प्रेशन आर्टिफॅक्ट्स काढून टाकते.</string>
-    <string name="model_artifacts_jpg_20_40">अत्यंत संकुचित प्रतिमा (20-40%) मध्ये मजबूत JPEG कलाकृती कमी करते.</string>
-    <string name="model_artifacts_jpg_40_60">प्रतिमा तपशील (40-60%) जतन करताना मध्यम JPEG कलाकृती साफ करते.</string>
-    <string name="model_artifacts_jpg_60_80">हलक्या JPEG कलाकृतींना उच्च दर्जाच्या प्रतिमांमध्ये परिष्कृत करते (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">जवळच्या-तोटारहित प्रतिमांमध्ये (80-100%) किरकोळ JPEG कलाकृती सूक्ष्मपणे कमी करते.</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">अत्यंत कमी गुणवत्तेच्या (0-20%) प्रतिमांमधील भारी JPEG कॉम्प्रेशन आर्टिफॅक्ट्स काढून टाकते.</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">अत्यंत संकुचित प्रतिमा (20-40%) मध्ये मजबूत JPEG कलाकृती कमी करते.</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">प्रतिमा तपशील (40-60%) जतन करताना मध्यम JPEG कलाकृती साफ करते.</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">हलक्या JPEG कलाकृतींना उच्च दर्जाच्या प्रतिमांमध्ये परिष्कृत करते (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">जवळच्या-तोटारहित प्रतिमांमध्ये (80-100%) किरकोळ JPEG कलाकृती सूक्ष्मपणे कमी करते.</string>
     <string name="model_redetail_v2">बारीक तपशील आणि पोत वाढवते, जड कलाकृतींशिवाय समजलेली तीक्ष्णता सुधारते.</string>
     <string name="processing_finished">प्रक्रिया पूर्ण झाली</string>
     <string name="processing_failed">प्रक्रिया अयशस्वी</string>

@@ -1490,7 +1490,7 @@
     <string name="area">区域</string>
     <string name="enable_tonemapping">启用色调映射</string>
     <string name="area_sub">使用像素面积关系进行重采样。这可能是图片抽取的一种首选方法，因为它能产生无摩尔纹的结果。但当对图片进行放大时，它与最近邻法类似 。</string>
-    <string name="enter_percent">输入%</string>
+    <string name="enter_percent" formatted="false">输入%</string>
     <string name="unknown_host">无法连接到此网站，请尝试使用VPN或检查URL是否正确</string>
     <string name="edit_layer">编辑图层</string>
     <string name="layers_on_image_sub">使用一张图片作为背景，并在其上添加不同的图层</string>
@@ -1960,20 +1960,20 @@
     <string name="model_noise_toner_uniform_soft">温和的均匀噪声调色，使纹理更细腻，外观更平滑。</string>
     <string name="model_repainter">通过重新绘制瑕疵并改善图像一致性来修复损坏或不均匀的区域。</string>
     <string name="model_debandurh_fs_ultra_lite">轻量级去色带模型，以最小的性能成本去除色带。</string>
-    <string name="model_jpeg_0_20">优化具有非常高的压缩伪影（0-20%质量）的图像，以提高清晰度。</string>
-    <string name="model_jpeg_20_40">优化具有较高压缩伪影（20-40%质量）的图像，恢复细节并减少噪声。</string>
-    <string name="model_jpeg_40_60">优化中等压缩（40-60%质量）的图像，平衡清晰度和平滑度。</string>
-    <string name="model_jpeg_60_80">优化轻度压缩（60-80%质量）的图像，以增强细微细节和纹理。</string>
-    <string name="model_jpeg_80_100">优化接近无损图像（质量 80-100%），同时保留自然外观和细节。</string>
+    <string name="model_jpeg_0_20" formatted="false">优化具有非常高的压缩伪影（0-20%质量）的图像，以提高清晰度。</string>
+    <string name="model_jpeg_20_40" formatted="false">优化具有较高压缩伪影（20-40%质量）的图像，恢复细节并减少噪声。</string>
+    <string name="model_jpeg_40_60" formatted="false">优化中等压缩（40-60%质量）的图像，平衡清晰度和平滑度。</string>
+    <string name="model_jpeg_60_80" formatted="false">优化轻度压缩（60-80%质量）的图像，以增强细微细节和纹理。</string>
+    <string name="model_jpeg_80_100" formatted="false">优化接近无损图像（质量 80-100%），同时保留自然外观和细节。</string>
     <string name="model_deblr">略微减少图像模糊，提高清晰度而不引入伪影。</string>
     <string name="processing_channel">长时间运行的操作</string>
     <string name="processing_image">处理图像</string>
     <string name="processing">处理中</string>
-    <string name="model_artifacts_jpg_0_20">去除在极低质量图像（0-20%）中存在的严重JPEG压缩伪影。</string>
-    <string name="model_artifacts_jpg_20_40">减少高度压缩图像（20-40%）中的强烈JPEG伪影。</string>
-    <string name="model_artifacts_jpg_40_60">清除中等程度的JPEG伪影，同时保留图像细节（40-60%）。</string>
-    <string name="model_artifacts_jpg_60_80">优化60-80%质量图像中的轻微JPEG伪影。</string>
-    <string name="model_artifacts_jpg_80_100">略微减少近乎无损图像（80-100%）中的轻微JPEG伪影。</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">去除在极低质量图像（0-20%）中存在的严重JPEG压缩伪影。</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">减少高度压缩图像（20-40%）中的强烈JPEG伪影。</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">清除中等程度的JPEG伪影，同时保留图像细节（40-60%）。</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">优化60-80%质量图像中的轻微JPEG伪影。</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">略微减少近乎无损图像（80-100%）中的轻微JPEG伪影。</string>
     <string name="model_redetail_v2">增强精细细节和纹理，提升感知清晰度，同时避免严重的伪影。</string>
     <string name="processing_finished">处理完成</string>
     <string name="processing_failed">处理失败</string>

@@ -340,7 +340,7 @@
     <string name="empty">비어 있는</string>
     <string name="free">무료</string>
     <string name="presets_sub" formatted="false">사전 설정에서 125를 선택한 경우 이미지가 원본 이미지의 125% 크기로 저장됩니다. 사전 설정에서 50을 선택하면 이미지가 50% 크기로 저장됩니다.</string>
-    <string name="presets_sub_bytes">여기 사전 설정은 출력 파일의 %를 결정합니다. 즉, 5MB 이미지에서 사전 설정 50을 선택하면 저장 후 2.5MB 이미지를 얻게 됩니다.</string>
+    <string name="presets_sub_bytes" formatted="false">여기 사전 설정은 출력 파일의 %를 결정합니다. 즉, 5MB 이미지에서 사전 설정 50을 선택하면 저장 후 2.5MB 이미지를 얻게 됩니다.</string>
     <string name="randomize_filename_sub">활성화하면 출력 파일 이름이 완전히 무작위가 됩니다.</string>
     <string name="saved_to_without_filename">%1$s 폴더에 저장됨</string>
     <string name="tg_chat">텔레그램 채팅</string>
@@ -1494,7 +1494,7 @@
     <string name="area">영역</string>
     <string name="area_sub">픽셀 영역 관계를 사용한 리샘플링. 모아레 없는 결과를 제공하므로 이미지 데시메이션에 선호되는 방법일 수 있습니다. 하지만 이미지를 확대하면 \"Nearest\" 방법과 유사합니다.</string>
     <string name="enable_tonemapping">톤 매핑 활성화</string>
-    <string name="enter_percent">입력하다 %</string>
+    <string name="enter_percent" formatted="false">입력하다 %</string>
     <string name="unknown_host">사이트에 액세스할 수 없습니다. VPN을 사용해 보거나 URL이 올바른지 확인하세요.</string>
     <string name="markup_layers">마크업 레이어</string>
     <string name="markup_layers_sub">이미지, 텍스트 등을 자유롭게 배치할 수 있는 레이어 모드</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">미묘한 질감과 부드러운 외관을 위한 부드럽고 균일한 노이즈 토닝.</string>
     <string name="model_repainter">아티팩트를 다시 칠하고 이미지 일관성을 개선하여 손상되거나 고르지 않은 영역을 복구합니다.</string>
     <string name="model_debandurh_fs_ultra_lite">최소한의 성능 비용으로 컬러 밴딩을 제거하는 경량 디밴딩 모델입니다.</string>
-    <string name="model_jpeg_0_20">선명도 향상을 위해 매우 높은 압축 아티팩트(0-20% 품질)로 이미지를 최적화합니다.</string>
-    <string name="model_jpeg_20_40">고압축 아티팩트(20-40% 품질)로 이미지를 향상하여 세부 사항을 복원하고 노이즈를 줄입니다.</string>
-    <string name="model_jpeg_40_60">선명도와 부드러움의 균형을 유지하면서 적당한 압축(40-60% 품질)으로 이미지를 개선합니다.</string>
-    <string name="model_jpeg_60_80">가벼운 압축(60-80% 품질)으로 이미지를 개선하여 미묘한 디테일과 질감을 향상합니다.</string>
-    <string name="model_jpeg_80_100">자연스러운 모양과 디테일을 유지하면서 거의 무손실 이미지(80-100% 품질)를 약간 향상시킵니다.</string>
+    <string name="model_jpeg_0_20" formatted="false">선명도 향상을 위해 매우 높은 압축 아티팩트(0-20% 품질)로 이미지를 최적화합니다.</string>
+    <string name="model_jpeg_20_40" formatted="false">고압축 아티팩트(20-40% 품질)로 이미지를 향상하여 세부 사항을 복원하고 노이즈를 줄입니다.</string>
+    <string name="model_jpeg_40_60" formatted="false">선명도와 부드러움의 균형을 유지하면서 적당한 압축(40-60% 품질)으로 이미지를 개선합니다.</string>
+    <string name="model_jpeg_60_80" formatted="false">가벼운 압축(60-80% 품질)으로 이미지를 개선하여 미묘한 디테일과 질감을 향상합니다.</string>
+    <string name="model_jpeg_80_100" formatted="false">자연스러운 모양과 디테일을 유지하면서 거의 무손실 이미지(80-100% 품질)를 약간 향상시킵니다.</string>
     <string name="model_spongecolor_lite">간단하고 빠른 채색, 만화, 이상적이지 않음</string>
     <string name="model_deblr">이미지 흐림을 약간 줄여 아티팩트 없이 선명도를 향상시킵니다.</string>
     <string name="processing_channel">장기 실행 작업</string>
     <string name="processing_image">이미지 처리 중</string>
     <string name="processing">처리</string>
-    <string name="model_artifacts_jpg_0_20">매우 낮은 품질의 이미지(0-20%)에서 심한 JPEG 압축 아티팩트를 제거합니다.</string>
-    <string name="model_artifacts_jpg_20_40">압축률이 높은 이미지에서 강한 JPEG 아티팩트를 줄입니다(20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">이미지 세부 정보(40-60%)를 유지하면서 적당한 JPEG 아티팩트를 정리합니다.</string>
-    <string name="model_artifacts_jpg_60_80">상당히 높은 품질의 이미지(60-80%)에서 가벼운 JPEG 아티팩트를 개선합니다.</string>
-    <string name="model_artifacts_jpg_80_100">거의 무손실 이미지(80-100%)에서 사소한 JPEG 아티팩트를 미묘하게 줄입니다.</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">매우 낮은 품질의 이미지(0-20%)에서 심한 JPEG 압축 아티팩트를 제거합니다.</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">압축률이 높은 이미지에서 강한 JPEG 아티팩트를 줄입니다(20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">이미지 세부 정보(40-60%)를 유지하면서 적당한 JPEG 아티팩트를 정리합니다.</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">상당히 높은 품질의 이미지(60-80%)에서 가벼운 JPEG 아티팩트를 개선합니다.</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">거의 무손실 이미지(80-100%)에서 사소한 JPEG 아티팩트를 미묘하게 줄입니다.</string>
     <string name="model_redetail_v2">미세한 디테일과 질감을 향상시켜 큰 아티팩트 없이 인지된 선명도를 향상시킵니다.</string>
     <string name="processing_finished">처리 완료</string>
     <string name="processing_failed">처리 실패</string>

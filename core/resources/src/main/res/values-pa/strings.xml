@@ -310,7 +310,7 @@
     <string name="copy">ਕਾਪੀ ਕਰੋ</string>
     <string name="warning_bytes">%1$s ਮੋਡ ਵਿੱਚ ਸੰਭਾਲਣਾ ਅਸਥਿਰ ਹੋ ਸਕਦਾ ਹੈ, ਕਿਉਂਕਿ ਇਹ ਇੱਕ ਨੁਕਸਾਨ ਰਹਿਤ ਫਾਰਮੈਟ ਹੈ</string>
     <string name="presets_sub" formatted="false">ਜੇਕਰ ਤੁਸੀਂ ਪ੍ਰੀਸੈਟ 125 ਦੀ ਚੋਣ ਕੀਤੀ ਹੈ, ਤਾਂ ਚਿੱਤਰ ਨੂੰ 100% ਗੁਣਵੱਤਾ ਦੇ ਨਾਲ ਅਸਲ ਚਿੱਤਰ ਦੇ 125% ਆਕਾਰ ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਜਾਵੇਗਾ। ਜੇਕਰ ਤੁਸੀਂ ਪ੍ਰੀਸੈਟ 50 ਦੀ ਚੋਣ ਕਰਦੇ ਹੋ, ਤਾਂ ਚਿੱਤਰ ਨੂੰ 50% ਆਕਾਰ ਅਤੇ 50% ਗੁਣਵੱਤਾ ਨਾਲ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਜਾਵੇਗਾ।</string>
-    <string name="presets_sub_bytes">ਇੱਥੇ ਪ੍ਰੀਸੈਟ ਆਉਟਪੁੱਟ ਫਾਈਲ ਦਾ % ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ, ਭਾਵ ਜੇਕਰ ਤੁਸੀਂ 5mb ਚਿੱਤਰ \'ਤੇ ਪ੍ਰੀਸੈਟ 50 ਦੀ ਚੋਣ ਕਰਦੇ ਹੋ ਤਾਂ ਤੁਹਾਨੂੰ ਸੇਵ ਕਰਨ ਤੋਂ ਬਾਅਦ 2.5mb ਚਿੱਤਰ ਮਿਲੇਗਾ।</string>
+    <string name="presets_sub_bytes" formatted="false">ਇੱਥੇ ਪ੍ਰੀਸੈਟ ਆਉਟਪੁੱਟ ਫਾਈਲ ਦਾ % ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ, ਭਾਵ ਜੇਕਰ ਤੁਸੀਂ 5mb ਚਿੱਤਰ \'ਤੇ ਪ੍ਰੀਸੈਟ 50 ਦੀ ਚੋਣ ਕਰਦੇ ਹੋ ਤਾਂ ਤੁਹਾਨੂੰ ਸੇਵ ਕਰਨ ਤੋਂ ਬਾਅਦ 2.5mb ਚਿੱਤਰ ਮਿਲੇਗਾ।</string>
     <string name="randomize_filename">ਫਾਈਲ ਨਾਮ ਨੂੰ ਰੈਂਡਮਾਈਜ਼ ਕਰੋ</string>
     <string name="randomize_filename_sub">ਜੇਕਰ ਸਮਰਥਿਤ ਆਉਟਪੁੱਟ ਫਾਈਲ ਨਾਮ ਪੂਰੀ ਤਰ੍ਹਾਂ ਬੇਤਰਤੀਬ ਹੋ ਜਾਵੇਗਾ</string>
     <string name="saved_to">%2$s ਨਾਮ ਦੇ ਨਾਲ %1$s ਫੋਲਡਰ ਵਿੱਚ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ</string>
@@ -1494,7 +1494,7 @@
     <string name="area">ਖੇਤਰ</string>
     <string name="area_sub">ਪਿਕਸਲ ਏਰੀਆ ਰਿਲੇਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਰੀਸੈਪਲਿੰਗ। ਇਹ ਚਿੱਤਰ ਨੂੰ ਖਤਮ ਕਰਨ ਲਈ ਇੱਕ ਤਰਜੀਹੀ ਢੰਗ ਹੋ ਸਕਦਾ ਹੈ, ਕਿਉਂਕਿ ਇਹ ਮੋਇਰ\'-ਮੁਕਤ ਨਤੀਜੇ ਦਿੰਦਾ ਹੈ। ਪਰ ਜਦੋਂ ਚਿੱਤਰ ਨੂੰ ਜ਼ੂਮ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਇਹ \"ਨੇੜਲੇ\" ਵਿਧੀ ਦੇ ਸਮਾਨ ਹੁੰਦਾ ਹੈ।</string>
     <string name="enable_tonemapping">ਟੋਨਮੈਪਿੰਗ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ</string>
-    <string name="enter_percent">% ਦਰਜ ਕਰੋ</string>
+    <string name="enter_percent" formatted="false">% ਦਰਜ ਕਰੋ</string>
     <string name="unknown_host">ਸਾਈਟ ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ, VPN ਦੀ ਵਰਤੋਂ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ ਜਾਂਚ ਕਰੋ ਕਿ ਕੀ url ਸਹੀ ਹੈ</string>
     <string name="markup_layers">ਮਾਰਕਅੱਪ ਲੇਅਰਸ</string>
     <string name="markup_layers_sub">ਤਸਵੀਰਾਂ, ਟੈਕਸਟ ਅਤੇ ਹੋਰ ਚੀਜ਼ਾਂ ਨੂੰ ਸੁਤੰਤਰ ਤੌਰ \'ਤੇ ਰੱਖਣ ਦੀ ਸਮਰੱਥਾ ਵਾਲਾ ਲੇਅਰ ਮੋਡ</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">ਸੂਖਮ ਟੈਕਸਟ ਅਤੇ ਨਿਰਵਿਘਨ ਦਿੱਖ ਲਈ ਕੋਮਲ ਇਕਸਾਰ ਸ਼ੋਰ ਟੋਨਿੰਗ।</string>
     <string name="model_repainter">ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਦੁਬਾਰਾ ਪੇਂਟ ਕਰਕੇ ਅਤੇ ਚਿੱਤਰ ਦੀ ਇਕਸਾਰਤਾ ਵਿੱਚ ਸੁਧਾਰ ਕਰਕੇ ਖਰਾਬ ਜਾਂ ਅਸਮਾਨ ਖੇਤਰਾਂ ਦੀ ਮੁਰੰਮਤ ਕਰੋ।</string>
     <string name="model_debandurh_fs_ultra_lite">ਲਾਈਟਵੇਟ ਡੀਬੈਂਡਿੰਗ ਮਾਡਲ ਜੋ ਘੱਟੋ-ਘੱਟ ਪ੍ਰਦਰਸ਼ਨ ਲਾਗਤ ਨਾਲ ਰੰਗ ਬੈਂਡਿੰਗ ਨੂੰ ਹਟਾਉਂਦਾ ਹੈ।</string>
-    <string name="model_jpeg_0_20">ਬਿਹਤਰ ਸਪੱਸ਼ਟਤਾ ਲਈ ਬਹੁਤ ਉੱਚ ਸੰਕੁਚਨ ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ (0-20% ਗੁਣਵੱਤਾ) ਦੇ ਨਾਲ ਚਿੱਤਰਾਂ ਨੂੰ ਅਨੁਕੂਲਿਤ ਕਰਦਾ ਹੈ।</string>
-    <string name="model_jpeg_20_40">ਉੱਚ ਸੰਕੁਚਨ ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ (20-40% ਗੁਣਵੱਤਾ), ਵੇਰਵਿਆਂ ਨੂੰ ਬਹਾਲ ਕਰਨ ਅਤੇ ਰੌਲੇ ਨੂੰ ਘਟਾਉਣ ਵਾਲੀਆਂ ਤਸਵੀਰਾਂ ਨੂੰ ਵਧਾਉਂਦਾ ਹੈ।</string>
-    <string name="model_jpeg_40_60">ਮੱਧਮ ਕੰਪਰੈਸ਼ਨ (40-60% ਗੁਣਵੱਤਾ), ਤਿੱਖਾਪਨ ਅਤੇ ਨਿਰਵਿਘਨਤਾ ਨੂੰ ਸੰਤੁਲਿਤ ਕਰਨ ਵਾਲੇ ਚਿੱਤਰਾਂ ਨੂੰ ਸੁਧਾਰਦਾ ਹੈ।</string>
-    <string name="model_jpeg_60_80">ਸੂਖਮ ਵੇਰਵਿਆਂ ਅਤੇ ਟੈਕਸਟ ਨੂੰ ਵਧਾਉਣ ਲਈ ਲਾਈਟ ਕੰਪਰੈਸ਼ਨ (60-80% ਗੁਣਵੱਤਾ) ਨਾਲ ਚਿੱਤਰਾਂ ਨੂੰ ਸੁਧਾਰਦਾ ਹੈ।</string>
-    <string name="model_jpeg_80_100">ਕੁਦਰਤੀ ਦਿੱਖ ਅਤੇ ਵੇਰਵਿਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਦੇ ਹੋਏ ਨੇੜੇ-ਨੁਕਸਾਨ ਰਹਿਤ ਚਿੱਤਰਾਂ (80-100% ਗੁਣਵੱਤਾ) ਨੂੰ ਥੋੜ੍ਹਾ ਵਧਾਉਂਦਾ ਹੈ।</string>
+    <string name="model_jpeg_0_20" formatted="false">ਬਿਹਤਰ ਸਪੱਸ਼ਟਤਾ ਲਈ ਬਹੁਤ ਉੱਚ ਸੰਕੁਚਨ ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ (0-20% ਗੁਣਵੱਤਾ) ਦੇ ਨਾਲ ਚਿੱਤਰਾਂ ਨੂੰ ਅਨੁਕੂਲਿਤ ਕਰਦਾ ਹੈ।</string>
+    <string name="model_jpeg_20_40" formatted="false">ਉੱਚ ਸੰਕੁਚਨ ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ (20-40% ਗੁਣਵੱਤਾ), ਵੇਰਵਿਆਂ ਨੂੰ ਬਹਾਲ ਕਰਨ ਅਤੇ ਰੌਲੇ ਨੂੰ ਘਟਾਉਣ ਵਾਲੀਆਂ ਤਸਵੀਰਾਂ ਨੂੰ ਵਧਾਉਂਦਾ ਹੈ।</string>
+    <string name="model_jpeg_40_60" formatted="false">ਮੱਧਮ ਕੰਪਰੈਸ਼ਨ (40-60% ਗੁਣਵੱਤਾ), ਤਿੱਖਾਪਨ ਅਤੇ ਨਿਰਵਿਘਨਤਾ ਨੂੰ ਸੰਤੁਲਿਤ ਕਰਨ ਵਾਲੇ ਚਿੱਤਰਾਂ ਨੂੰ ਸੁਧਾਰਦਾ ਹੈ।</string>
+    <string name="model_jpeg_60_80" formatted="false">ਸੂਖਮ ਵੇਰਵਿਆਂ ਅਤੇ ਟੈਕਸਟ ਨੂੰ ਵਧਾਉਣ ਲਈ ਲਾਈਟ ਕੰਪਰੈਸ਼ਨ (60-80% ਗੁਣਵੱਤਾ) ਨਾਲ ਚਿੱਤਰਾਂ ਨੂੰ ਸੁਧਾਰਦਾ ਹੈ।</string>
+    <string name="model_jpeg_80_100" formatted="false">ਕੁਦਰਤੀ ਦਿੱਖ ਅਤੇ ਵੇਰਵਿਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਦੇ ਹੋਏ ਨੇੜੇ-ਨੁਕਸਾਨ ਰਹਿਤ ਚਿੱਤਰਾਂ (80-100% ਗੁਣਵੱਤਾ) ਨੂੰ ਥੋੜ੍ਹਾ ਵਧਾਉਂਦਾ ਹੈ।</string>
     <string name="model_spongecolor_lite">ਸਧਾਰਨ ਅਤੇ ਤੇਜ਼ ਰੰਗੀਕਰਨ, ਕਾਰਟੂਨ, ਆਦਰਸ਼ ਨਹੀਂ</string>
     <string name="model_deblr">ਚਿੱਤਰ ਦੇ ਧੁੰਦਲੇਪਣ ਨੂੰ ਥੋੜ੍ਹਾ ਘਟਾਉਂਦਾ ਹੈ, ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਪੇਸ਼ ਕੀਤੇ ਬਿਨਾਂ ਤਿੱਖਾਪਨ ਨੂੰ ਸੁਧਾਰਦਾ ਹੈ।</string>
     <string name="processing_channel">ਲੰਬੇ ਚੱਲ ਰਹੇ ਓਪਰੇਸ਼ਨ</string>
     <string name="processing_image">ਚਿੱਤਰ ਦੀ ਪ੍ਰਕਿਰਿਆ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ</string>
     <string name="processing">ਪ੍ਰੋਸੈਸਿੰਗ</string>
-    <string name="model_artifacts_jpg_0_20">ਬਹੁਤ ਘੱਟ ਗੁਣਵੱਤਾ ਵਾਲੀਆਂ ਤਸਵੀਰਾਂ (0-20%) ਵਿੱਚ ਭਾਰੀ JPEG ਕੰਪਰੈਸ਼ਨ ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਹਟਾਉਂਦਾ ਹੈ।</string>
-    <string name="model_artifacts_jpg_20_40">ਬਹੁਤ ਜ਼ਿਆਦਾ ਸੰਕੁਚਿਤ ਚਿੱਤਰਾਂ (20-40%) ਵਿੱਚ ਮਜ਼ਬੂਤ ​​JPEG ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਘਟਾਉਂਦਾ ਹੈ।</string>
-    <string name="model_artifacts_jpg_40_60">ਚਿੱਤਰ ਵੇਰਵਿਆਂ (40-60%) ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਦੇ ਹੋਏ ਦਰਮਿਆਨੀ JPEG ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਸਾਫ਼ ਕਰਦਾ ਹੈ।</string>
-    <string name="model_artifacts_jpg_60_80">ਕਾਫ਼ੀ ਉੱਚ ਗੁਣਵੱਤਾ ਵਾਲੀਆਂ ਤਸਵੀਰਾਂ (60-80%) ਵਿੱਚ ਹਲਕੇ JPEG ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਸੋਧਦਾ ਹੈ।</string>
-    <string name="model_artifacts_jpg_80_100">ਨੇੜੇ-ਨੁਕਸਾਨ ਰਹਿਤ ਚਿੱਤਰਾਂ (80-100%) ਵਿੱਚ ਮਾਮੂਲੀ JPEG ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਘਟਾਉਂਦਾ ਹੈ।</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">ਬਹੁਤ ਘੱਟ ਗੁਣਵੱਤਾ ਵਾਲੀਆਂ ਤਸਵੀਰਾਂ (0-20%) ਵਿੱਚ ਭਾਰੀ JPEG ਕੰਪਰੈਸ਼ਨ ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਹਟਾਉਂਦਾ ਹੈ।</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">ਬਹੁਤ ਜ਼ਿਆਦਾ ਸੰਕੁਚਿਤ ਚਿੱਤਰਾਂ (20-40%) ਵਿੱਚ ਮਜ਼ਬੂਤ ​​JPEG ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਘਟਾਉਂਦਾ ਹੈ।</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">ਚਿੱਤਰ ਵੇਰਵਿਆਂ (40-60%) ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਦੇ ਹੋਏ ਦਰਮਿਆਨੀ JPEG ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਸਾਫ਼ ਕਰਦਾ ਹੈ।</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">ਕਾਫ਼ੀ ਉੱਚ ਗੁਣਵੱਤਾ ਵਾਲੀਆਂ ਤਸਵੀਰਾਂ (60-80%) ਵਿੱਚ ਹਲਕੇ JPEG ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਸੋਧਦਾ ਹੈ।</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">ਨੇੜੇ-ਨੁਕਸਾਨ ਰਹਿਤ ਚਿੱਤਰਾਂ (80-100%) ਵਿੱਚ ਮਾਮੂਲੀ JPEG ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਨੂੰ ਘਟਾਉਂਦਾ ਹੈ।</string>
     <string name="model_redetail_v2">ਵਧੀਆ ਵੇਰਵਿਆਂ ਅਤੇ ਟੈਕਸਟ ਨੂੰ ਵਧਾਉਂਦਾ ਹੈ, ਭਾਰੀ ਕਲਾਤਮਕ ਚੀਜ਼ਾਂ ਦੇ ਬਿਨਾਂ ਸਮਝੀ ਗਈ ਤਿੱਖਾਪਨ ਨੂੰ ਸੁਧਾਰਦਾ ਹੈ।</string>
     <string name="processing_finished">ਪ੍ਰਕਿਰਿਆ ਪੂਰੀ ਹੋਈ</string>
     <string name="processing_failed">ਪ੍ਰਕਿਰਿਆ ਅਸਫਲ ਰਹੀ</string>

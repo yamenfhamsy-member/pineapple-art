@@ -308,7 +308,7 @@
     <string name="features_sub">Enkripsi file berbasis kata sandi. File yang diproses dapat disimpan di direktori yang dipilih atau dibagikan. File yang didekripsi juga bisa langsung dibuka.</string>
     <string name="cache">Cache</string>
     <string name="create">Membuat</string>
-    <string name="presets_sub_bytes">Preset di sini menentukan % dari file output, misalnya jika Anda memilih preset 50 pada gambar 5mb maka Anda akan mendapatkan gambar 2,5mb setelah disimpan</string>
+    <string name="presets_sub_bytes" formatted="false">Preset di sini menentukan % dari file output, misalnya jika Anda memilih preset 50 pada gambar 5mb maka Anda akan mendapatkan gambar 2,5mb setelah disimpan</string>
     <string name="presets_sub" formatted="false">Jika Anda memilih preset 125, gambar akan disimpan dengan ukuran 125% dari gambar asli. Jika Anda memilih preset 50, gambar akan disimpan dengan ukuran 50%</string>
     <string name="randomize_filename_sub">Jika diaktifkan, nama file keluaran akan sepenuhnya acak</string>
     <string name="randomize_filename">Acak nama file</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Daerah</string>
     <string name="area_sub">Pengambilan sampel ulang menggunakan relasi area piksel. Ini mungkin merupakan metode yang lebih disukai untuk penipisan gambar, karena memberikan hasil bebas moire. Namun saat gambar diperbesar, serupa dengan metode \"Terdekat\".</string>
     <string name="enable_tonemapping">Aktifkan Pemetaan Nada</string>
-    <string name="enter_percent">Memasuki %</string>
+    <string name="enter_percent" formatted="false">Memasuki %</string>
     <string name="unknown_host">Tidak dapat mengakses situs, coba gunakan VPN atau periksa apakah urlnya benar</string>
     <string name="markup_layers">Lapisan Markup</string>
     <string name="markup_layers_sub">Mode lapisan dengan kemampuan untuk secara bebas menempatkan gambar, teks, dan lainnya</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Nada kebisingan seragam yang lembut untuk tekstur halus dan penampilan halus.</string>
     <string name="model_repainter">Memperbaiki area yang rusak atau tidak rata dengan mengecat ulang artefak dan meningkatkan konsistensi gambar.</string>
     <string name="model_debandurh_fs_ultra_lite">Model pelepasan pita ringan yang menghilangkan pita warna dengan biaya kinerja minimal.</string>
-    <string name="model_jpeg_0_20">Mengoptimalkan gambar dengan artefak kompresi sangat tinggi (kualitas 0-20%) untuk meningkatkan kejernihan.</string>
-    <string name="model_jpeg_20_40">Meningkatkan gambar dengan artefak kompresi tinggi (kualitas 20-40%), memulihkan detail dan mengurangi noise.</string>
-    <string name="model_jpeg_40_60">Meningkatkan gambar dengan kompresi sedang (kualitas 40-60%), menyeimbangkan ketajaman dan kehalusan.</string>
-    <string name="model_jpeg_60_80">Memperbaiki gambar dengan kompresi ringan (kualitas 60-80%) untuk menyempurnakan detail dan tekstur halus.</string>
-    <string name="model_jpeg_80_100">Sedikit menyempurnakan gambar yang nyaris lossless (kualitas 80-100%) dengan tetap menjaga tampilan dan detail alami.</string>
+    <string name="model_jpeg_0_20" formatted="false">Mengoptimalkan gambar dengan artefak kompresi sangat tinggi (kualitas 0-20%) untuk meningkatkan kejernihan.</string>
+    <string name="model_jpeg_20_40" formatted="false">Meningkatkan gambar dengan artefak kompresi tinggi (kualitas 20-40%), memulihkan detail dan mengurangi noise.</string>
+    <string name="model_jpeg_40_60" formatted="false">Meningkatkan gambar dengan kompresi sedang (kualitas 40-60%), menyeimbangkan ketajaman dan kehalusan.</string>
+    <string name="model_jpeg_60_80" formatted="false">Memperbaiki gambar dengan kompresi ringan (kualitas 60-80%) untuk menyempurnakan detail dan tekstur halus.</string>
+    <string name="model_jpeg_80_100" formatted="false">Sedikit menyempurnakan gambar yang nyaris lossless (kualitas 80-100%) dengan tetap menjaga tampilan dan detail alami.</string>
     <string name="model_spongecolor_lite">Pewarnaan sederhana dan cepat, kartun, tidak ideal</string>
     <string name="model_deblr">Sedikit mengurangi keburaman gambar, meningkatkan ketajaman tanpa menimbulkan artefak.</string>
     <string name="processing_channel">Operasi yang berjalan lama</string>
     <string name="processing_image">Memproses gambar</string>
     <string name="processing">Pengolahan</string>
-    <string name="model_artifacts_jpg_0_20">Menghapus artefak kompresi JPEG yang berat pada gambar berkualitas sangat rendah (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Mengurangi artefak JPEG yang kuat pada gambar yang sangat terkompresi (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Membersihkan artefak JPEG moderat sambil mempertahankan detail gambar (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Memperbaiki artefak JPEG ringan dalam gambar berkualitas cukup tinggi (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Secara halus mengurangi artefak JPEG kecil pada gambar yang hampir tidak ada kerugian (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Menghapus artefak kompresi JPEG yang berat pada gambar berkualitas sangat rendah (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Mengurangi artefak JPEG yang kuat pada gambar yang sangat terkompresi (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Membersihkan artefak JPEG moderat sambil mempertahankan detail gambar (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Memperbaiki artefak JPEG ringan dalam gambar berkualitas cukup tinggi (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Secara halus mengurangi artefak JPEG kecil pada gambar yang hampir tidak ada kerugian (80-100%).</string>
     <string name="model_redetail_v2">Meningkatkan detail dan tekstur halus, meningkatkan ketajaman yang dirasakan tanpa artefak berat.</string>
     <string name="processing_finished">Pemrosesan selesai</string>
     <string name="processing_failed">Pemrosesan gagal</string>

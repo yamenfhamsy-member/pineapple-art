@@ -1514,7 +1514,7 @@
     <string name="area">منطقه</string>
     <string name="area_sub">نمونه برداری مجدد با استفاده از رابطه مساحت پیکسل. ممکن است روشی ارجح برای از بین بردن تصویر باشد، زیرا نتایج بدون مویر می دهد. اما وقتی تصویر بزرگ‌نمایی می‌شود، شبیه به روش \"نزدیک‌ترین\" است.</string>
     <string name="enable_tonemapping">Tonemapping را فعال کنید</string>
-    <string name="enter_percent">% را وارد کنید</string>
+    <string name="enter_percent" formatted="false">% را وارد کنید</string>
     <string name="unknown_host">نمی توانید به سایت دسترسی پیدا کنید، سعی کنید از VPN استفاده کنید یا بررسی کنید که آیا URL درست است</string>
     <string name="markup_layers">لایه های نشانه گذاری</string>
     <string name="markup_layers_sub">حالت لایه ها با قابلیت قرار دادن آزادانه تصاویر، متن و موارد دیگر</string>

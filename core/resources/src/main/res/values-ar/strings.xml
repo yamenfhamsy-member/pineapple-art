@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">نغمة ضوضاء موحدة لطيفة للحصول على ملمس رقيق ومظهر ناعم.</string>
     <string name="model_repainter">إصلاح المناطق التالفة أو غير المستوية عن طريق إعادة طلاء القطع الأثرية وتحسين تناسق الصورة.</string>
     <string name="model_debandurh_fs_ultra_lite">نموذج debanding خفيف الوزن يزيل نطاقات الألوان بأقل تكلفة للأداء.</string>
-    <string name="model_jpeg_0_20">يعمل على تحسين الصور باستخدام عناصر ضغط عالية جدًا (جودة 0-20%) لتحسين الوضوح.</string>
-    <string name="model_jpeg_20_40">تحسين الصور بتأثيرات ضغط عالية (جودة 20-40%)، واستعادة التفاصيل وتقليل التشويش.</string>
-    <string name="model_jpeg_40_60">يعمل على تحسين الصور بالضغط المعتدل (جودة 40-60%)، وموازنة الحدة والنعومة.</string>
-    <string name="model_jpeg_60_80">ينقي الصور بضغط خفيف (جودة 60-80%) لتحسين التفاصيل والأنسجة الدقيقة.</string>
-    <string name="model_jpeg_80_100">يعمل على تحسين الصور التي لا يمكن فقدانها تقريبًا (جودة 80-100%) مع الحفاظ على المظهر والتفاصيل الطبيعية.</string>
+    <string name="model_jpeg_0_20" formatted="false">يعمل على تحسين الصور باستخدام عناصر ضغط عالية جدًا (جودة 0-20%) لتحسين الوضوح.</string>
+    <string name="model_jpeg_20_40" formatted="false">تحسين الصور بتأثيرات ضغط عالية (جودة 20-40%)، واستعادة التفاصيل وتقليل التشويش.</string>
+    <string name="model_jpeg_40_60" formatted="false">يعمل على تحسين الصور بالضغط المعتدل (جودة 40-60%)، وموازنة الحدة والنعومة.</string>
+    <string name="model_jpeg_60_80" formatted="false">ينقي الصور بضغط خفيف (جودة 60-80%) لتحسين التفاصيل والأنسجة الدقيقة.</string>
+    <string name="model_jpeg_80_100" formatted="false">يعمل على تحسين الصور التي لا يمكن فقدانها تقريبًا (جودة 80-100%) مع الحفاظ على المظهر والتفاصيل الطبيعية.</string>
     <string name="model_spongecolor_lite">تلوين بسيط وسريع، رسوم متحركة، ليست مثالية</string>
     <string name="model_deblr">يقلل من ضبابية الصورة قليلاً، ويحسن الحدة دون إدخال أي تشويش.</string>
     <string name="processing_channel">عمليات تشغيل طويلة</string>
     <string name="processing_image">معالجة الصورة</string>
     <string name="processing">يعالج</string>
-    <string name="model_artifacts_jpg_0_20">يزيل آثار ضغط JPEG الثقيلة في الصور ذات الجودة المنخفضة جدًا (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">يقلل من آثار JPEG القوية في الصور المضغوطة للغاية (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">ينظف عناصر JPEG المعتدلة مع الحفاظ على تفاصيل الصورة (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">ينقي عناصر JPEG الخفيفة في صور ذات جودة عالية إلى حد ما (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">يقلل بمهارة من آثار JPEG البسيطة في الصور التي لا تفقد البيانات تقريبًا (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">يزيل آثار ضغط JPEG الثقيلة في الصور ذات الجودة المنخفضة جدًا (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">يقلل من آثار JPEG القوية في الصور المضغوطة للغاية (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">ينظف عناصر JPEG المعتدلة مع الحفاظ على تفاصيل الصورة (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">ينقي عناصر JPEG الخفيفة في صور ذات جودة عالية إلى حد ما (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">يقلل بمهارة من آثار JPEG البسيطة في الصور التي لا تفقد البيانات تقريبًا (80-100%).</string>
     <string name="model_redetail_v2">يعزز التفاصيل الدقيقة والأنسجة، مما يحسن الحدة الملموسة دون المؤثرات الثقيلة.</string>
     <string name="processing_finished">انتهت المعالجة</string>
     <string name="processing_failed">فشلت المعالجة</string>

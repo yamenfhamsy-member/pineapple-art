@@ -310,7 +310,7 @@
     <string name="copy">Copiar</string>
     <string name="warning_bytes">Salvar no modo %1$s pode ser instável, pois é um formato sem perdas</string>
     <string name="presets_sub" formatted="false">Se você selecionou a predefinição 125, a imagem será salva com tamanho de 125% da imagem original. Se você escolher a predefinição 50, a imagem será salva com 50% tamanho</string>
-    <string name="presets_sub_bytes">A predefinição aqui determina a % do arquivo de saída, ou seja, se você selecionar a predefinição 50 em uma imagem de 5 MB, obterá uma imagem de 2,5 MB após salvar</string>
+    <string name="presets_sub_bytes" formatted="false">A predefinição aqui determina a % do arquivo de saída, ou seja, se você selecionar a predefinição 50 em uma imagem de 5 MB, obterá uma imagem de 2,5 MB após salvar</string>
     <string name="randomize_filename">Nome do arquivo aleatório</string>
     <string name="randomize_filename_sub">Se ativado, o nome do arquivo de saída será totalmente aleatório</string>
     <string name="saved_to">Salvo na pasta %1$s com o nome %2$s</string>
@@ -1531,7 +1531,7 @@
     <string name="center_align_dialog_buttons">Botões de Diálogo Centralizados</string>
     <string name="open_source_licenses">Licenças de Código Aberto</string>
     <string name="open_source_licenses_sub">Veja as licenças das bibliotecas de código aberto usadas neste aplicativo</string>
-    <string name="enter_percent">Digite %</string>
+    <string name="enter_percent" formatted="false">Digite %</string>
     <string name="unknown_host">Não é possível acessar o site, tente usar VPN ou verifique se a URL está correta</string>
     <string name="layers_on_background_sub">O mesmo que a primeira opção, mas com cor em vez de imagem</string>
     <string name="fast_settings_side">Acesso às Configurações na Lateral</string>
@@ -1961,20 +1961,20 @@
     <string name="model_noise_toner_uniform_soft">Tom suave e uniforme para uma textura sutil e aparência suave.</string>
     <string name="model_repainter">Repara áreas danificadas ou irregulares repintando artefatos e melhorando a consistência da imagem.</string>
     <string name="model_debandurh_fs_ultra_lite">Modelo leve de remoção de faixas que elimina as faixas de cor com um custo mínimo de desempenho.</string>
-    <string name="model_jpeg_0_20">Otimiza imagens com artefatos de compressão muito elevados (qualidade de 0 a 20%) para melhorar a nitidez.</string>
-    <string name="model_jpeg_20_40">Melhora imagens com artefatos de alta compressão (20-40% de qualidade), restaurando detalhes e reduzindo o ruído.</string>
-    <string name="model_jpeg_40_60">Melhora as imagens com compressão moderada (40-60% de qualidade), equilibrando nitidez e suavidade.</string>
-    <string name="model_jpeg_60_80">Refina imagens com compressão leve (60-80% de qualidade) para realçar detalhes e texturas sutis.</string>
-    <string name="model_jpeg_80_100">Melhora ligeiramente imagens quase sem perdas (80-100% de qualidade), preservando a aparência natural e os detalhes.</string>
+    <string name="model_jpeg_0_20" formatted="false">Otimiza imagens com artefatos de compressão muito elevados (qualidade de 0 a 20%) para melhorar a nitidez.</string>
+    <string name="model_jpeg_20_40" formatted="false">Melhora imagens com artefatos de alta compressão (20-40% de qualidade), restaurando detalhes e reduzindo o ruído.</string>
+    <string name="model_jpeg_40_60" formatted="false">Melhora as imagens com compressão moderada (40-60% de qualidade), equilibrando nitidez e suavidade.</string>
+    <string name="model_jpeg_60_80" formatted="false">Refina imagens com compressão leve (60-80% de qualidade) para realçar detalhes e texturas sutis.</string>
+    <string name="model_jpeg_80_100" formatted="false">Melhora ligeiramente imagens quase sem perdas (80-100% de qualidade), preservando a aparência natural e os detalhes.</string>
     <string name="model_deblr">Reduz ligeiramente o desfoque da imagem, melhorando a nitidez sem introduzir artefatos.</string>
     <string name="processing_channel">Operações de longa duração</string>
     <string name="processing_image">Processando imagem</string>
     <string name="processing">Processando</string>
-    <string name="model_artifacts_jpg_0_20">Remove artefatos de compressão JPEG pesados em imagens de qualidade muito baixa (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Reduz artefatos JPEG fortes em imagens altamente comprimidas (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Limpa artefatos JPEG moderados enquanto preserva os detalhes da imagem (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Refina artefatos JPEG leves em imagens de qualidade bastante alta (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Reduz sutilmente pequenos artefatos JPEG em imagens quase sem perdas (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Remove artefatos de compressão JPEG pesados em imagens de qualidade muito baixa (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Reduz artefatos JPEG fortes em imagens altamente comprimidas (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Limpa artefatos JPEG moderados enquanto preserva os detalhes da imagem (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Refina artefatos JPEG leves em imagens de qualidade bastante alta (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Reduz sutilmente pequenos artefatos JPEG em imagens quase sem perdas (80-100%).</string>
     <string name="model_redetail_v2">Aprimora detalhes e texturas finas, melhorando a nitidez percebida sem artefatos pesados.</string>
     <string name="processing_finished">Processamento concluído</string>
     <string name="processing_failed">Falha no processamento</string>

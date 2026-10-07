@@ -1498,7 +1498,7 @@
     <string name="markup_layers">Opmaaklagen</string>
     <string name="layers_on_image">Lagen over afbeelding</string>
     <string name="layers_on_image_sub">Gebruik afbeelding als achtergrond en voeg er verschillende lagen bovenop toe</string>
-    <string name="enter_percent">% invoeren</string>
+    <string name="enter_percent" formatted="false">% invoeren</string>
     <string name="beta">Beta</string>
     <string name="fast_settings_side">Snelle instellingen-strook</string>
     <string name="fast_settings_side_sub">Voeg een zwevende strook toe aan de gekozen kant tijdens het bewerken van afbeeldingen, die snelle instellingen opent als erop wordt geklikt</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Zachte uniforme ruistoning voor subtiele textuur en een glad uiterlijk.</string>
     <string name="model_repainter">Repareert beschadigde of oneffen gebieden door artefacten opnieuw te schilderen en de beeldconsistentie te verbeteren.</string>
     <string name="model_debandurh_fs_ultra_lite">Lichtgewicht ontbandingsmodel dat kleurbanden verwijdert met minimale prestatiekosten.</string>
-    <string name="model_jpeg_0_20">Optimaliseert afbeeldingen met zeer hoge compressieartefacten (0-20% kwaliteit) voor verbeterde helderheid.</string>
-    <string name="model_jpeg_20_40">Verbetert afbeeldingen met hoge compressieartefacten (20-40% kwaliteit), waardoor details worden hersteld en ruis wordt verminderd.</string>
-    <string name="model_jpeg_40_60">Verbetert afbeeldingen met gematigde compressie (40-60% kwaliteit), waarbij scherpte en vloeiendheid in evenwicht worden gebracht.</string>
-    <string name="model_jpeg_60_80">Verfijnt afbeeldingen met lichte compressie (60-80% kwaliteit) om subtiele details en texturen te verbeteren.</string>
-    <string name="model_jpeg_80_100">Verbetert vrijwel verliesvrije beelden enigszins (80-100% kwaliteit) terwijl de natuurlijke uitstraling en details behouden blijven.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimaliseert afbeeldingen met zeer hoge compressieartefacten (0-20% kwaliteit) voor verbeterde helderheid.</string>
+    <string name="model_jpeg_20_40" formatted="false">Verbetert afbeeldingen met hoge compressieartefacten (20-40% kwaliteit), waardoor details worden hersteld en ruis wordt verminderd.</string>
+    <string name="model_jpeg_40_60" formatted="false">Verbetert afbeeldingen met gematigde compressie (40-60% kwaliteit), waarbij scherpte en vloeiendheid in evenwicht worden gebracht.</string>
+    <string name="model_jpeg_60_80" formatted="false">Verfijnt afbeeldingen met lichte compressie (60-80% kwaliteit) om subtiele details en texturen te verbeteren.</string>
+    <string name="model_jpeg_80_100" formatted="false">Verbetert vrijwel verliesvrije beelden enigszins (80-100% kwaliteit) terwijl de natuurlijke uitstraling en details behouden blijven.</string>
     <string name="model_spongecolor_lite">Eenvoudige en snelle inkleuring, tekenfilms, niet ideaal</string>
     <string name="model_deblr">Vermindert beeldonscherpte enigszins, waardoor de scherpte wordt verbeterd zonder artefacten te introduceren.</string>
     <string name="processing_channel">Langlopende operaties</string>
     <string name="processing_image">Beeld verwerken</string>
     <string name="processing">Verwerking</string>
-    <string name="model_artifacts_jpg_0_20">Verwijdert zware JPEG-compressieartefacten in afbeeldingen van zeer lage kwaliteit (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Vermindert sterke JPEG-artefacten in sterk gecomprimeerde afbeeldingen (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Ruimt gemiddelde JPEG-artefacten op terwijl de beelddetails behouden blijven (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Verfijnt lichte JPEG-artefacten in afbeeldingen van redelijk hoge kwaliteit (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Vermindert op subtiele wijze kleine JPEG-artefacten in vrijwel verliesvrije beelden (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Verwijdert zware JPEG-compressieartefacten in afbeeldingen van zeer lage kwaliteit (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Vermindert sterke JPEG-artefacten in sterk gecomprimeerde afbeeldingen (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Ruimt gemiddelde JPEG-artefacten op terwijl de beelddetails behouden blijven (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Verfijnt lichte JPEG-artefacten in afbeeldingen van redelijk hoge kwaliteit (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Vermindert op subtiele wijze kleine JPEG-artefacten in vrijwel verliesvrije beelden (80-100%).</string>
     <string name="model_redetail_v2">Verbetert fijne details en texturen, waardoor de waargenomen scherpte wordt verbeterd zonder zware artefacten.</string>
     <string name="processing_finished">Verwerking voltooid</string>
     <string name="processing_failed">Verwerking mislukt</string>

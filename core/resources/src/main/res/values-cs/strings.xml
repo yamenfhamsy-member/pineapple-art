@@ -698,7 +698,7 @@
     <string name="effort">Snaha</string>
     <string name="effort_sub">Hodnota %1$s znamená rychlou kompresi, která má za následek relativně velkou velikost souboru. %2$s znamená pomalejší kompresi, výsledkem je menší soubor.</string>
     <string name="saving_almost_complete">Ukládání téměř dokončeno. Zrušení nyní bude vyžadovat opětovné uložení.</string>
-    <string name="presets_sub_bytes">Předvolba zde určuje % výstupního souboru, tj. pokud zvolíte předvolbu 50 na 5mb obrázku, získáte po uložení obrázek 2,5mb</string>
+    <string name="presets_sub_bytes" formatted="false">Předvolba zde určuje % výstupního souboru, tj. pokud zvolíte předvolbu 50 na 5mb obrázku, získáte po uložení obrázek 2,5mb</string>
     <string name="presets_sub" formatted="false">Pokud jste vybrali předvolbu 125, obrázek se uloží jako velikost 125 % původního obrázku se 100% kvalitou. Pokud zvolíte předvolbu 50, obrázek se uloží s 50% velikostí a 50% kvalitou.</string>
     <string name="aspect_ratio">Poměr stran</string>
     <string name="backup">Záloha</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Plocha</string>
     <string name="area_sub">Převzorkování pomocí vztahu plochy pixelů. Může to být preferovaná metoda pro decimaci obrazu, protože poskytuje výsledky bez moaré. Ale když je obrázek přiblížený, je to podobné jako u metody  \"Nejbližší \".</string>
     <string name="enable_tonemapping">Povolit mapování tónů</string>
-    <string name="enter_percent">Zadejte %</string>
+    <string name="enter_percent" formatted="false">Zadejte %</string>
     <string name="unknown_host">Nelze získat přístup k webu, zkuste použít VPN nebo zkontrolujte, zda je adresa URL správná</string>
     <string name="markup_layers">Značkovací vrstvy</string>
     <string name="markup_layers_sub">Režim vrstev s možností libovolně umísťovat obrázky, text a další</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Jemné jednotné tónování šumu pro jemnou texturu a hladký vzhled.</string>
     <string name="model_repainter">Opravuje poškozené nebo nerovné oblasti překreslením artefaktů a zlepšením konzistence obrazu.</string>
     <string name="model_debandurh_fs_ultra_lite">Lehký model pro odstraňování pásů, který odstraňuje barevné pruhy s minimálními náklady na výkon.</string>
-    <string name="model_jpeg_0_20">Optimalizuje obrazy s velmi vysokou kompresí artefaktů (0-20% kvalita) pro lepší jasnost.</string>
-    <string name="model_jpeg_20_40">Vylepšuje obrázky pomocí artefaktů s vysokou kompresí (20-40% kvalita), obnovuje detaily a snižuje šum.</string>
-    <string name="model_jpeg_40_60">Zlepšuje snímky s mírnou kompresí (40-60% kvalita), vyvážením ostrosti a plynulosti.</string>
-    <string name="model_jpeg_60_80">Upřesňuje obrázky pomocí lehké komprese (60-80% kvalita) pro vylepšení jemných detailů a textur.</string>
-    <string name="model_jpeg_80_100">Mírně vylepšuje téměř bezeztrátový obraz (80-100% kvalita) při zachování přirozeného vzhledu a detailů.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimalizuje obrazy s velmi vysokou kompresí artefaktů (0-20% kvalita) pro lepší jasnost.</string>
+    <string name="model_jpeg_20_40" formatted="false">Vylepšuje obrázky pomocí artefaktů s vysokou kompresí (20-40% kvalita), obnovuje detaily a snižuje šum.</string>
+    <string name="model_jpeg_40_60" formatted="false">Zlepšuje snímky s mírnou kompresí (40-60% kvalita), vyvážením ostrosti a plynulosti.</string>
+    <string name="model_jpeg_60_80" formatted="false">Upřesňuje obrázky pomocí lehké komprese (60-80% kvalita) pro vylepšení jemných detailů a textur.</string>
+    <string name="model_jpeg_80_100" formatted="false">Mírně vylepšuje téměř bezeztrátový obraz (80-100% kvalita) při zachování přirozeného vzhledu a detailů.</string>
     <string name="model_spongecolor_lite">Jednoduché a rychlé kolorování, kreslené, není ideální</string>
     <string name="model_deblr">Mírně snižuje rozmazání obrazu a zlepšuje ostrost bez vnášení artefaktů.</string>
     <string name="processing_channel">Dlouho běžící operace</string>
     <string name="processing_image">Zpracování obrázku</string>
     <string name="processing">Zpracování</string>
-    <string name="model_artifacts_jpg_0_20">Odstraňuje těžké artefakty komprese JPEG v obrazech velmi nízké kvality (0-20 %).</string>
-    <string name="model_artifacts_jpg_20_40">Snižuje silné JPEG artefakty ve vysoce komprimovaných obrázcích (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Vyčistí mírné JPEG artefakty při zachování detailů obrazu (40-60 %).</string>
-    <string name="model_artifacts_jpg_60_80">Zjemňuje světlé JPEG artefakty v poměrně vysoké kvalitě obrázků (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Jemně redukuje drobné JPEG artefakty v téměř bezeztrátových obrázcích (80-100 %).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Odstraňuje těžké artefakty komprese JPEG v obrazech velmi nízké kvality (0-20 %).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Snižuje silné JPEG artefakty ve vysoce komprimovaných obrázcích (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Vyčistí mírné JPEG artefakty při zachování detailů obrazu (40-60 %).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Zjemňuje světlé JPEG artefakty v poměrně vysoké kvalitě obrázků (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Jemně redukuje drobné JPEG artefakty v téměř bezeztrátových obrázcích (80-100 %).</string>
     <string name="model_redetail_v2">Vylepšuje jemné detaily a textury a zlepšuje vnímanou ostrost bez těžkých artefaktů.</string>
     <string name="processing_finished">Zpracování dokončeno</string>
     <string name="processing_failed">Zpracování se nezdařilo</string>

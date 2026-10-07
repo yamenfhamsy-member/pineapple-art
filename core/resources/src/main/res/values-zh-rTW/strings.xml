@@ -1209,7 +1209,7 @@
     <string name="pick_files">選取檔案</string>
     <string name="pick_directory">選取目錄</string>
     <string name="copy_base_64">複製 Base64</string>
-    <string name="enter_percent">輸入 %</string>
+    <string name="enter_percent" formatted="false">輸入 %</string>
     <string name="layers_on_background_sub">與第一個選項相同，但以顏色代替圖片</string>
     <string name="custom_filename_sub">選擇用於儲存目前圖片的位置與檔案名稱</string>
     <string name="edit_exif_tag">輕觸以編輯可用的標籤</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">柔和均勻的噪音色調，帶來微妙的紋理和光滑的外觀。</string>
     <string name="model_repainter">通過重新繪製偽影並提高圖像一致性來修復損壞或不均勻的區域。</string>
     <string name="model_debandurh_fs_ultra_lite">輕量級去帶模型，以最小的性能成本消除色帶。</string>
-    <string name="model_jpeg_0_20">最佳化具有非常高壓縮偽影（0-20% 品質）的圖像，以提高清晰度。</string>
-    <string name="model_jpeg_20_40">增強具有高壓縮偽影（20-40% 品質）的圖像，恢復細節並減少噪點。</string>
-    <string name="model_jpeg_40_60">通過適度壓縮（40-60% 品質）改進圖像，平衡清晰度和平滑度。</string>
-    <string name="model_jpeg_60_80">通過輕度壓縮（60-80% 品質）細化圖像，以增強微妙的細節和紋理。</string>
-    <string name="model_jpeg_80_100">稍微增強近乎無損的圖像（80-100% 品質），同時保留自然的外觀和細節。</string>
+    <string name="model_jpeg_0_20" formatted="false">最佳化具有非常高壓縮偽影（0-20% 品質）的圖像，以提高清晰度。</string>
+    <string name="model_jpeg_20_40" formatted="false">增強具有高壓縮偽影（20-40% 品質）的圖像，恢復細節並減少噪點。</string>
+    <string name="model_jpeg_40_60" formatted="false">通過適度壓縮（40-60% 品質）改進圖像，平衡清晰度和平滑度。</string>
+    <string name="model_jpeg_60_80" formatted="false">通過輕度壓縮（60-80% 品質）細化圖像，以增強微妙的細節和紋理。</string>
+    <string name="model_jpeg_80_100" formatted="false">稍微增強近乎無損的圖像（80-100% 品質），同時保留自然的外觀和細節。</string>
     <string name="model_spongecolor_lite">著色簡單快速，卡通，不理想</string>
     <string name="model_deblr">稍微減少圖像模糊，提高清晰度，而不會引入偽影。</string>
     <string name="processing_channel">長時間運行的操作</string>
     <string name="processing_image">處理圖像</string>
     <string name="processing">加工</string>
-    <string name="model_artifacts_jpg_0_20">消除品質極低的圖像 (0-20%) 中嚴重的 JPEG 壓縮偽影。</string>
-    <string name="model_artifacts_jpg_20_40">減少高度壓縮圖像中強烈的 JPEG 偽影 (20-40%)。</string>
-    <string name="model_artifacts_jpg_40_60">清除中等程度的 JPEG 偽影，同時保留圖像細節 (40-60%)。</string>
-    <string name="model_artifacts_jpg_60_80">改善相當高品質圖像 (60-80%) 中的輕微 JPEG 偽影。</string>
-    <string name="model_artifacts_jpg_80_100">巧妙地減少近乎無損圖像中的輕微 JPEG 偽影 (80-100%)。</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">消除品質極低的圖像 (0-20%) 中嚴重的 JPEG 壓縮偽影。</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">減少高度壓縮圖像中強烈的 JPEG 偽影 (20-40%)。</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">清除中等程度的 JPEG 偽影，同時保留圖像細節 (40-60%)。</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">改善相當高品質圖像 (60-80%) 中的輕微 JPEG 偽影。</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">巧妙地減少近乎無損圖像中的輕微 JPEG 偽影 (80-100%)。</string>
     <string name="model_redetail_v2">增強精細細節和紋理，提高感知清晰度，而不會出現嚴重偽影。</string>
     <string name="processing_finished">加工完成</string>
     <string name="processing_failed">處理失敗</string>

@@ -340,7 +340,7 @@
     <string name="suffix">Suffiks</string>
     <string name="free">Gratis</string>
     <string name="presets_sub" formatted="false">Hvis du har valgt forudindstilling 125, vil billedet blive gemt som 125 % størrelse af det originale billede. Hvis du vælger forudindstilling 50, vil billedet blive gemt med 50 % størrelse</string>
-    <string name="presets_sub_bytes">Forudindstilling her bestemmer % af filstørrelsen. Hvis du vælger 50% på 5mb billede, vil du få 2,5mb billede efter lagring</string>
+    <string name="presets_sub_bytes" formatted="false">Forudindstilling her bestemmer % af filstørrelsen. Hvis du vælger 50% på 5mb billede, vil du få 2,5mb billede efter lagring</string>
     <string name="randomize_filename_sub">Hvis det er aktiveret, vil outputfilnavnet være helt tilfældigt</string>
     <string name="tg_chat_sub">Diskuter appen og få feedback fra andre brugere. Du kan også få betaopdateringer og indsigt her.</string>
     <string name="restore">Gendan</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Areal</string>
     <string name="area_sub">Resampling ved hjælp af pixelarealrelation. Det kan være en foretrukken metode til billeddecimering, da det giver moire\'-fri resultater. Men når billedet er zoomet ind, ligner det \"Nærmeste\"-metoden.</string>
     <string name="enable_tonemapping">Aktiver tonemapping</string>
-    <string name="enter_percent">Indtast %</string>
+    <string name="enter_percent" formatted="false">Indtast %</string>
     <string name="unknown_host">Kan ikke få adgang til webstedet, prøv at bruge VPN eller tjek om url\'en er korrekt</string>
     <string name="markup_layers">Markup-lag</string>
     <string name="markup_layers_sub">Lagtilstand med mulighed for frit at placere billeder, tekst og mere</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Blid ensartet støjtoning for subtil tekstur og glat udseende.</string>
     <string name="model_repainter">Reparerer beskadigede eller ujævne områder ved at male artefakter igen og forbedre billedkonsistensen.</string>
     <string name="model_debandurh_fs_ultra_lite">Letvægts debanding-model, der fjerner farvestriber med minimal ydeevne.</string>
-    <string name="model_jpeg_0_20">Optimerer billeder med meget høje kompressionsartefakter (0-20 % kvalitet) for forbedret klarhed.</string>
-    <string name="model_jpeg_20_40">Forbedrer billeder med høje kompressionsartefakter (20-40 % kvalitet), genskaber detaljer og reducerer støj.</string>
-    <string name="model_jpeg_40_60">Forbedrer billeder med moderat komprimering (40-60% kvalitet), balancerer skarphed og glathed.</string>
-    <string name="model_jpeg_60_80">Forfiner billeder med let komprimering (60-80 % kvalitet) for at forbedre subtile detaljer og teksturer.</string>
-    <string name="model_jpeg_80_100">Forbedrer næsten tabsfrie billeder en smule (80-100 % kvalitet), samtidig med at det naturlige udseende og detaljer bevares.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimerer billeder med meget høje kompressionsartefakter (0-20 % kvalitet) for forbedret klarhed.</string>
+    <string name="model_jpeg_20_40" formatted="false">Forbedrer billeder med høje kompressionsartefakter (20-40 % kvalitet), genskaber detaljer og reducerer støj.</string>
+    <string name="model_jpeg_40_60" formatted="false">Forbedrer billeder med moderat komprimering (40-60% kvalitet), balancerer skarphed og glathed.</string>
+    <string name="model_jpeg_60_80" formatted="false">Forfiner billeder med let komprimering (60-80 % kvalitet) for at forbedre subtile detaljer og teksturer.</string>
+    <string name="model_jpeg_80_100" formatted="false">Forbedrer næsten tabsfrie billeder en smule (80-100 % kvalitet), samtidig med at det naturlige udseende og detaljer bevares.</string>
     <string name="model_spongecolor_lite">Enkel og hurtig farvelægning, tegnefilm, ikke ideelt</string>
     <string name="model_deblr">Reducerer billedsløring en smule og forbedrer skarpheden uden at introducere artefakter.</string>
     <string name="processing_channel">Langvarige operationer</string>
     <string name="processing_image">Behandler billede</string>
     <string name="processing">Forarbejdning</string>
-    <string name="model_artifacts_jpg_0_20">Fjerner tunge JPEG-komprimeringsartefakter i billeder af meget lav kvalitet (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Reducerer stærke JPEG-artefakter i stærkt komprimerede billeder (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Rydder op i moderate JPEG-artefakter, mens billeddetaljerne bevares (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Forfiner lette JPEG-artefakter i billeder af ret høj kvalitet (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Reducerer subtilt mindre JPEG-artefakter i næsten tabsfri billeder (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Fjerner tunge JPEG-komprimeringsartefakter i billeder af meget lav kvalitet (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Reducerer stærke JPEG-artefakter i stærkt komprimerede billeder (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Rydder op i moderate JPEG-artefakter, mens billeddetaljerne bevares (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Forfiner lette JPEG-artefakter i billeder af ret høj kvalitet (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Reducerer subtilt mindre JPEG-artefakter i næsten tabsfri billeder (80-100%).</string>
     <string name="model_redetail_v2">Forbedrer fine detaljer og teksturer, forbedrer den opfattede skarphed uden tunge artefakter.</string>
     <string name="processing_finished">Behandling afsluttet</string>
     <string name="processing_failed">Behandlingen mislykkedes</string>

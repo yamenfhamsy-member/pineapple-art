@@ -310,8 +310,8 @@
     <string name="skip">මඟ හරින්න</string>
     <string name="copy">පිටපත් කරන්න</string>
     <string name="warning_bytes">%1$s මාදිලියේ සුරැකීම අස්ථායී විය හැක, මන්ද එය පාඩු රහිත ආකෘතියකි</string>
-    <string name="presets_sub">ඔබ පෙරසිටූ 125 තෝරාගෙන තිබේ නම්, රූපය මුල් රූපයේ 125% ප්‍රමාණය ලෙස සුරකිනු ඇත. ඔබ පෙරසිටූ 50 තෝරා ගන්නේ නම්, එවිට රූපය 50% ප්‍රමාණයෙන් සුරකිනු ඇත</string>
-    <string name="presets_sub_bytes">මෙහි පෙරසිටීම මඟින් ප්‍රතිදාන ගොනුවේ % තීරණය කරයි, එනම් ඔබ 5 MB රූපයේ පෙරසිටූ 50 තෝරා ගන්නේ නම්, සුරැකීමෙන් පසු ඔබට 2,5 MB රූපයක් ලැබෙනු ඇත.</string>
+    <string name="presets_sub" formatted="false">ඔබ පෙරසිටූ 125 තෝරාගෙන තිබේ නම්, රූපය මුල් රූපයේ 125% ප්‍රමාණය ලෙස සුරකිනු ඇත. ඔබ පෙරසිටූ 50 තෝරා ගන්නේ නම්, එවිට රූපය 50% ප්‍රමාණයෙන් සුරකිනු ඇත</string>
+    <string name="presets_sub_bytes" formatted="false">මෙහි පෙරසිටීම මඟින් ප්‍රතිදාන ගොනුවේ % තීරණය කරයි, එනම් ඔබ 5 MB රූපයේ පෙරසිටූ 50 තෝරා ගන්නේ නම්, සුරැකීමෙන් පසු ඔබට 2,5 MB රූපයක් ලැබෙනු ඇත.</string>
     <string name="randomize_filename">ගොනු නාමය සසම්භාවී කරන්න</string>
     <string name="randomize_filename_sub">සබල කර ඇත්නම් ප්‍රතිදාන ගොනු නාමය සම්පූර්ණයෙන්ම අහඹු වේ</string>
     <string name="saved_to">%2$s නම සහිත %1$s ෆෝල්ඩරය වෙත සුරකින ලදී</string>
@@ -1495,7 +1495,7 @@
     <string name="area">ප්රදේශය</string>
     <string name="area_sub">පික්සල් ප්‍රදේශ සම්බන්ධය භාවිතයෙන් නැවත නියැදීම. එය moire\'-නිදහස් ප්‍රතිඵල ලබා දෙන බැවින්, රූප විනාශය සඳහා වඩාත් කැමති ක්‍රමයක් විය හැක. නමුත් රූපය විශාලනය කළ විට එය \"ළඟම \" ක්‍රමයට සමාන වේ.</string>
     <string name="enable_tonemapping">Tonemapping සබල කරන්න</string>
-    <string name="enter_percent">% ඇතුලත් කරන්න</string>
+    <string name="enter_percent" formatted="false">% ඇතුලත් කරන්න</string>
     <string name="unknown_host">වෙබ් අඩවියට පිවිසිය නොහැක, VPN භාවිතා කිරීමට උත්සාහ කරන්න හෝ url එක නිවැරදිදැයි පරීක්ෂා කරන්න</string>
     <string name="markup_layers">සලකුණු ස්ථර</string>
     <string name="markup_layers_sub">පින්තූර, පෙළ සහ තවත් දේ නිදහසේ තැබීමේ හැකියාව සහිත ස්ථර මාදිලිය</string>
@@ -1957,21 +1957,21 @@
     <string name="model_noise_toner_uniform_soft">සියුම් වයනය සහ සුමට පෙනුම සඳහා මෘදු ඒකාකාර ශබ්ද ටෝනිං.</string>
     <string name="model_repainter">කෞතුක භාණ්ඩ නැවත පින්තාරු කිරීමෙන් සහ රූපයේ අනුකූලතාව වැඩි දියුණු කිරීමෙන් හානියට පත් හෝ අසමාන ප්‍රදේශ අලුත්වැඩියා කරයි.</string>
     <string name="model_debandurh_fs_ultra_lite">අවම කාර්ය සාධන පිරිවැයක් සහිත වර්ණ පටිය ඉවත් කරන සැහැල්ලු ඩිබෑන්ඩ් මාදිලිය.</string>
-    <string name="model_jpeg_0_20">වැඩි දියුණු කළ පැහැදිලිකම සඳහා ඉතා ඉහළ සම්පීඩන කෞතුක වස්තු (0-20% ගුණාත්මක) සහිත රූප ප්‍රශස්ත කරයි.</string>
-    <string name="model_jpeg_20_40">ඉහළ සම්පීඩන කෞතුක වස්තු (20-40% ගුණාත්මක) සමඟ රූප වැඩි දියුණු කරයි, විස්තර ප්‍රතිස්ථාපනය කිරීම සහ ශබ්දය අඩු කිරීම.</string>
-    <string name="model_jpeg_40_60">මධ්‍යස්ථ සම්පීඩනය (40-60% ගුණාත්මක), තියුණු බව සහ සුමට බව සමතුලිත කිරීම සමඟ රූප වැඩි දියුණු කරයි.</string>
-    <string name="model_jpeg_60_80">සියුම් විස්තර සහ වයනය වැඩි දියුණු කිරීම සඳහා සැහැල්ලු සම්පීඩනය (60-80% ගුණාත්මක) සමඟ රූප පිරිපහදු කරයි.</string>
-    <string name="model_jpeg_80_100">ස්වාභාවික පෙනුම සහ විස්තර ආරක්ෂා කරන අතරම, ආසන්න පාඩු රහිත රූප (80-100% ගුණත්වය) තරමක් වැඩි දියුණු කරයි.</string>
+    <string name="model_jpeg_0_20" formatted="false">වැඩි දියුණු කළ පැහැදිලිකම සඳහා ඉතා ඉහළ සම්පීඩන කෞතුක වස්තු (0-20% ගුණාත්මක) සහිත රූප ප්‍රශස්ත කරයි.</string>
+    <string name="model_jpeg_20_40" formatted="false">ඉහළ සම්පීඩන කෞතුක වස්තු (20-40% ගුණාත්මක) සමඟ රූප වැඩි දියුණු කරයි, විස්තර ප්‍රතිස්ථාපනය කිරීම සහ ශබ්දය අඩු කිරීම.</string>
+    <string name="model_jpeg_40_60" formatted="false">මධ්‍යස්ථ සම්පීඩනය (40-60% ගුණාත්මක), තියුණු බව සහ සුමට බව සමතුලිත කිරීම සමඟ රූප වැඩි දියුණු කරයි.</string>
+    <string name="model_jpeg_60_80" formatted="false">සියුම් විස්තර සහ වයනය වැඩි දියුණු කිරීම සඳහා සැහැල්ලු සම්පීඩනය (60-80% ගුණාත්මක) සමඟ රූප පිරිපහදු කරයි.</string>
+    <string name="model_jpeg_80_100" formatted="false">ස්වාභාවික පෙනුම සහ විස්තර ආරක්ෂා කරන අතරම, ආසන්න පාඩු රහිත රූප (80-100% ගුණත්වය) තරමක් වැඩි දියුණු කරයි.</string>
     <string name="model_spongecolor_lite">සරල හා වේගවත් වර්ණ ගැන්වීම, කාටූන්, සුදුසු නොවේ</string>
     <string name="model_deblr">කෞතුක වස්තු හඳුන්වාදීමකින් තොරව තියුණු බව වැඩිදියුණු කිරීම, රූපය නොපැහැදිලි කිරීම තරමක් අඩු කරයි.</string>
     <string name="processing_channel">දිගුකාලීන මෙහෙයුම්</string>
     <string name="processing_image">රූපය සැකසීම</string>
     <string name="processing">සැකසීම</string>
-    <string name="model_artifacts_jpg_0_20">ඉතා අඩු ගුණාත්මක රූපවල (0-20%) බර JPEG සම්පීඩන කෞතුක වස්තු ඉවත් කරයි.</string>
-    <string name="model_artifacts_jpg_20_40">අතිශයින් සම්පීඩිත රූපවල (20-40%) ශක්තිමත් JPEG කෞතුක වස්තු අඩු කරයි.</string>
-    <string name="model_artifacts_jpg_40_60">පින්තූර විස්තර (40-60%) සංරක්ෂණය කරමින් මධ්‍යස්ථ JPEG කෞතුක වස්තු පිරිසිදු කරයි.</string>
-    <string name="model_artifacts_jpg_60_80">තරමක් උසස් තත්ත්වයේ රූප (60-80%) තුළ සැහැල්ලු JPEG කෞතුක භාණ්ඩ පිරිපහදු කරයි.</string>
-    <string name="model_artifacts_jpg_80_100">අලාභ රහිත රූපවල (80-100%) කුඩා JPEG කෞතුක වස්තු සියුම් ලෙස අඩු කරයි.</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">ඉතා අඩු ගුණාත්මක රූපවල (0-20%) බර JPEG සම්පීඩන කෞතුක වස්තු ඉවත් කරයි.</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">අතිශයින් සම්පීඩිත රූපවල (20-40%) ශක්තිමත් JPEG කෞතුක වස්තු අඩු කරයි.</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">පින්තූර විස්තර (40-60%) සංරක්ෂණය කරමින් මධ්‍යස්ථ JPEG කෞතුක වස්තු පිරිසිදු කරයි.</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">තරමක් උසස් තත්ත්වයේ රූප (60-80%) තුළ සැහැල්ලු JPEG කෞතුක භාණ්ඩ පිරිපහදු කරයි.</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">අලාභ රහිත රූපවල (80-100%) කුඩා JPEG කෞතුක වස්තු සියුම් ලෙස අඩු කරයි.</string>
     <string name="model_redetail_v2">සියුම් විස්තර සහ වයනය වැඩි දියුණු කරයි, බර කෞතුක වස්තු නොමැතිව දැනෙන තියුණු බව වැඩි දියුණු කරයි.</string>
     <string name="processing_finished">සැකසීම අවසන්</string>
     <string name="processing_failed">සැකසීම අසාර්ථක විය</string>

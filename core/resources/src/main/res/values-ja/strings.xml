@@ -326,7 +326,7 @@
     <string name="text">テキスト</string>
     <string name="defaultt">デフォルト</string>
     <string name="font">フォント</string>
-    <string name="presets_sub_bytes">ここでの設定値は出力ファイルの容量の%を決定します。つまり5MBの画像で50を選択すると、2.5MBの画像として保存されます。</string>
+    <string name="presets_sub_bytes" formatted="false">ここでの設定値は出力ファイルの容量の%を決定します。つまり5MBの画像で50を選択すると、2.5MBの画像として保存されます。</string>
     <string name="erase_mode">消去モード</string>
     <string name="updates">更新</string>
     <string name="segmentation_mode_auto_osd">自動方向とスクリプト検出</string>
@@ -1364,7 +1364,7 @@
     <string name="open_source_licenses_sub">このアプリで使用されているオープンソースライブラリのライセンスを表示</string>
     <string name="area_sub">ピクセル面積関係を使用したリサンプリング。モアレのない結果が得られるため、画像縮小に適した方法かもしれません。ただし、画像が拡大されると、最近傍法に似ています</string>
     <string name="enable_tonemapping">トーンマッピングを有効化</string>
-    <string name="enter_percent">%を入力</string>
+    <string name="enter_percent" formatted="false">%を入力</string>
     <string name="unknown_host">サイトにアクセスできません。VPNを使用するか、URLが正しいか確認してください</string>
     <string name="markup_layers_sub">画像、テキストなどを自由に配置できるレイヤーモード</string>
     <string name="edit_layer">レイヤーを編集</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">穏やかで均一なノイズ調色により、繊細な質感と滑らかな外観を実現します。</string>
     <string name="model_repainter">アーティファクトを再描画し、画像の一貫性を向上させることで、損傷した領域や不均一な領域を修復します。</string>
     <string name="model_debandurh_fs_ultra_lite">最小限のパフォーマンスコストでカラーバンディングを除去する軽量デバンディングモデル。</string>
-    <string name="model_jpeg_0_20">非常に高圧縮アーティファクト (品質 0 ～ 20%) を含む画像を最適化し、鮮明さを向上させます。</string>
-    <string name="model_jpeg_20_40">高圧縮アーティファクト (品質 20 ～ 40%) で画像を強化し、詳細を復元し、ノイズを低減します。</string>
-    <string name="model_jpeg_40_60">適度な圧縮 (品質 40 ～ 60%) で画像を改善し、鮮明さと滑らかさのバランスをとります。</string>
-    <string name="model_jpeg_60_80">軽い圧縮 (60 ～ 80% の品質) で画像を洗練し、微妙なディテールやテクスチャを強調します。</string>
-    <string name="model_jpeg_80_100">自然な外観と詳細を維持しながら、ほぼ損失のない画像 (80 ～ 100% の品質) をわずかに向上させます。</string>
+    <string name="model_jpeg_0_20" formatted="false">非常に高圧縮アーティファクト (品質 0 ～ 20%) を含む画像を最適化し、鮮明さを向上させます。</string>
+    <string name="model_jpeg_20_40" formatted="false">高圧縮アーティファクト (品質 20 ～ 40%) で画像を強化し、詳細を復元し、ノイズを低減します。</string>
+    <string name="model_jpeg_40_60" formatted="false">適度な圧縮 (品質 40 ～ 60%) で画像を改善し、鮮明さと滑らかさのバランスをとります。</string>
+    <string name="model_jpeg_60_80" formatted="false">軽い圧縮 (60 ～ 80% の品質) で画像を洗練し、微妙なディテールやテクスチャを強調します。</string>
+    <string name="model_jpeg_80_100" formatted="false">自然な外観と詳細を維持しながら、ほぼ損失のない画像 (80 ～ 100% の品質) をわずかに向上させます。</string>
     <string name="model_spongecolor_lite">シンプルで素早いカラー化、漫画、理想的ではない</string>
     <string name="model_deblr">画像のぼやけをわずかに軽減し、アーティファクトを発生させることなくシャープネスを向上させます。</string>
     <string name="processing_channel">長時間実行される操作</string>
     <string name="processing_image">画像処理中</string>
     <string name="processing">処理</string>
-    <string name="model_artifacts_jpg_0_20">非常に低品質の画像 (0 ～ 20%) に含まれる重い JPEG 圧縮アーティファクトを除去します。</string>
-    <string name="model_artifacts_jpg_20_40">高圧縮画像内の強力な JPEG アーティファクトを軽減します (20 ～ 40%)。</string>
-    <string name="model_artifacts_jpg_40_60">画像の詳細 (40 ～ 60%) を維持しながら、中程度の JPEG アーティファクトをクリーンアップします。</string>
-    <string name="model_artifacts_jpg_60_80">軽い JPEG アーティファクトをかなり高品質の画像 (60 ～ 80%) に調整します。</string>
-    <string name="model_artifacts_jpg_80_100">ほぼロスレス画像の小さな JPEG アーティファクトを微妙に軽減します (80 ～ 100%)。</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">非常に低品質の画像 (0 ～ 20%) に含まれる重い JPEG 圧縮アーティファクトを除去します。</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">高圧縮画像内の強力な JPEG アーティファクトを軽減します (20 ～ 40%)。</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">画像の詳細 (40 ～ 60%) を維持しながら、中程度の JPEG アーティファクトをクリーンアップします。</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">軽い JPEG アーティファクトをかなり高品質の画像 (60 ～ 80%) に調整します。</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">ほぼロスレス画像の小さな JPEG アーティファクトを微妙に軽減します (80 ～ 100%)。</string>
     <string name="model_redetail_v2">細かいディテールとテクスチャを強化し、大きなアーティファクトを発生させることなく知覚されるシャープネスを向上させます。</string>
     <string name="processing_finished">処理が完了しました</string>
     <string name="processing_failed">処理に失敗しました</string>

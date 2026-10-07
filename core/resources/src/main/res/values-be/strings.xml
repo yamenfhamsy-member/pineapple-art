@@ -612,7 +612,7 @@
     <string name="copy">Копія</string>
     <string name="warning_bytes">Захаванне ў рэжыме %1$s можа быць нестабільным, таму што гэта фармат без страт</string>
     <string name="presets_sub" formatted="false">Калі вы абралі папярэднюю ўстаноўку 125, выява будзе захавана ў памеры 125% ад арыгінальнай выявы. Калі вы выбіраеце значэнне 50, то выява будзе захавана з памерам 50%</string>
-    <string name="presets_sub_bytes">Прадусталяванне тут вызначае % выхаднога файла, г. зн., калі вы выбіраеце заданне 50 для выявы памерам 5 МБ, пасля захавання вы атрымаеце выяву памерам 2,5 МБ</string>
+    <string name="presets_sub_bytes" formatted="false">Прадусталяванне тут вызначае % выхаднога файла, г. зн., калі вы выбіраеце заданне 50 для выявы памерам 5 МБ, пасля захавання вы атрымаеце выяву памерам 2,5 МБ</string>
     <string name="tg_chat">Тэлеграм чат</string>
     <string name="crop_mask">Кроп-маска</string>
     <string name="aspect_ratio">Суадносіны бакоў</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Плошча</string>
     <string name="area_sub">Паўторная выбарка з выкарыстаннем адносіны плошчы пікселяў. Гэта можа быць пераважным метадам для дэцымацыі выявы, паколькі ён дае вынікі без муара. Але калі выява павялічана, гэта падобна на метад \"Бліжэйшы\".</string>
     <string name="enable_tonemapping">Уключыць Tonemapping</string>
-    <string name="enter_percent">Увядзіце %</string>
+    <string name="enter_percent" formatted="false">Увядзіце %</string>
     <string name="unknown_host">Немагчыма атрымаць доступ да сайта, паспрабуйце выкарыстоўваць VPN або праверце, ці правільны URL</string>
     <string name="markup_layers">Пласты разметкі</string>
     <string name="markup_layers_sub">Рэжым слаёў з магчымасцю свабоднага размяшчэння малюнкаў, тэксту і іншага</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Мяккае аднастайнае шумавое таніраванне для тонкай тэкстуры і гладкага выгляду.</string>
     <string name="model_repainter">Аднаўляе пашкоджаныя або няроўныя ўчасткі, перафарбоўваючы артэфакты і паляпшаючы кансістэнцыю выявы.</string>
     <string name="model_debandurh_fs_ultra_lite">Лёгкая мадэль дэбандынгу, якая выдаляе каляровыя палосы з мінімальнымі выдаткамі.</string>
-    <string name="model_jpeg_0_20">Аптымізуе выявы з вельмі высокімі артэфактамі сціску (якасць 0-20%) для павышэння выразнасці.</string>
-    <string name="model_jpeg_20_40">Паляпшае выявы з высокімі артэфактамі сціску (якасць 20-40%), аднаўляючы дэталі і памяншаючы шум.</string>
-    <string name="model_jpeg_40_60">Паляпшае выявы з умераным сцісканнем (якасць 40-60%), балансуючы рэзкасць і гладкасць.</string>
-    <string name="model_jpeg_60_80">Удасканальвае выявы з лёгкім сцісканнем (якасць 60-80%) для паляпшэння тонкіх дэталяў і тэкстур.</string>
-    <string name="model_jpeg_80_100">Нязначна паляпшае выявы амаль без страт (якасць 80-100%), захоўваючы натуральны выгляд і дэталі.</string>
+    <string name="model_jpeg_0_20" formatted="false">Аптымізуе выявы з вельмі высокімі артэфактамі сціску (якасць 0-20%) для павышэння выразнасці.</string>
+    <string name="model_jpeg_20_40" formatted="false">Паляпшае выявы з высокімі артэфактамі сціску (якасць 20-40%), аднаўляючы дэталі і памяншаючы шум.</string>
+    <string name="model_jpeg_40_60" formatted="false">Паляпшае выявы з умераным сцісканнем (якасць 40-60%), балансуючы рэзкасць і гладкасць.</string>
+    <string name="model_jpeg_60_80" formatted="false">Удасканальвае выявы з лёгкім сцісканнем (якасць 60-80%) для паляпшэння тонкіх дэталяў і тэкстур.</string>
+    <string name="model_jpeg_80_100" formatted="false">Нязначна паляпшае выявы амаль без страт (якасць 80-100%), захоўваючы натуральны выгляд і дэталі.</string>
     <string name="model_spongecolor_lite">Простая і хуткая размалёўка, мультфільмы, не ідэальна</string>
     <string name="model_deblr">Злёгку памяншае размытасць выявы, паляпшаючы рэзкасць без увядзення артэфактаў.</string>
     <string name="processing_channel">Працяглыя аперацыі</string>
     <string name="processing_image">Апрацоўка выявы</string>
     <string name="processing">Апрацоўка</string>
-    <string name="model_artifacts_jpg_0_20">Выдаляе моцныя артэфакты сціску JPEG у малюнках вельмі нізкай якасці (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Памяншае моцныя артэфакты JPEG у моцна сціснутых выявах (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Ачышчае ўмераныя артэфакты JPEG, захоўваючы дэталі выявы (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Удасканальвае лёгкія артэфакты JPEG у малюнках даволі высокай якасці (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Тонка памяншае нязначныя артэфакты JPEG у выявах амаль без страт (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Выдаляе моцныя артэфакты сціску JPEG у малюнках вельмі нізкай якасці (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Памяншае моцныя артэфакты JPEG у моцна сціснутых выявах (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Ачышчае ўмераныя артэфакты JPEG, захоўваючы дэталі выявы (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Удасканальвае лёгкія артэфакты JPEG у малюнках даволі высокай якасці (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Тонка памяншае нязначныя артэфакты JPEG у выявах амаль без страт (80-100%).</string>
     <string name="model_redetail_v2">Паляпшае дробныя дэталі і тэкстуры, паляпшаючы адчувальную рэзкасць без моцных артэфактаў.</string>
     <string name="processing_finished">Апрацоўка скончана</string>
     <string name="processing_failed">Збой апрацоўкі</string>

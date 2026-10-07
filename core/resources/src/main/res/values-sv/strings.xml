@@ -365,8 +365,8 @@
     <string name="skip">Hoppa</string>
     <string name="copy">Kopiera</string>
     <string name="warning_bytes">Att spara i läget %1$s kan vara instabilt eftersom det är ett förlustfritt format</string>
-    <string name="presets_sub">Om du har valt förinställning 125, kommer bilden att sparas som 125 % av originalbilden. Om du väljer förinställning 50, kommer bilden att sparas med 50 % storlek</string>
-    <string name="presets_sub_bytes">Förinställning här bestämmer % av utdatafilen, d.v.s. om du väljer förinställning 50 på 5 MB bild så får du en 2,5 MB bild efter att du har sparat</string>
+    <string name="presets_sub" formatted="false">Om du har valt förinställning 125, kommer bilden att sparas som 125 % av originalbilden. Om du väljer förinställning 50, kommer bilden att sparas med 50 % storlek</string>
+    <string name="presets_sub_bytes" formatted="false">Förinställning här bestämmer % av utdatafilen, d.v.s. om du väljer förinställning 50 på 5 MB bild så får du en 2,5 MB bild efter att du har sparat</string>
     <string name="randomize_filename">Randomisera filnamn</string>
     <string name="randomize_filename_sub">Om det är aktiverat kommer filnamnet att vara helt slumpmässigt</string>
     <string name="saved_to">Sparad i mappen %1$s med namnet %2$s</string>
@@ -1496,7 +1496,7 @@
     <string name="area">Område</string>
     <string name="area_sub">Omsampling med hjälp av pixelarearelation. Det kan vara en föredragen metod för bilddecimering, eftersom det ger moaréfria resultat. Men när bilden är zoomad liknar den metoden \"Närmast\".</string>
     <string name="enable_tonemapping">Aktivera tonmappning</string>
-    <string name="enter_percent">Ange %</string>
+    <string name="enter_percent" formatted="false">Ange %</string>
     <string name="unknown_host">Kan inte komma åt sidan, försök använda VPN eller kontrollera om webbadressen är korrekt</string>
     <string name="markup_layers">Markeringslager</string>
     <string name="markup_layers_sub">Lagerläge med möjlighet att fritt placera bilder, text och mer</string>
@@ -1957,21 +1957,21 @@
     <string name="model_noise_toner_uniform_soft">Mild enhetlig brustoning för subtil textur och mjukt utseende.</string>
     <string name="model_repainter">Reparerar skadade eller ojämna områden genom att måla om artefakter och förbättra bildens konsistens.</string>
     <string name="model_debandurh_fs_ultra_lite">Lättviktsmodell som tar bort färgband med minimal prestandakostnad.</string>
-    <string name="model_jpeg_0_20">Optimerar bilder med mycket höga komprimeringsartefakter (0-20 % kvalitet) för förbättrad skärpa.</string>
-    <string name="model_jpeg_20_40">Förbättrar bilder med artefakter med hög komprimering (20-40 % kvalitet), återställer detaljer och minskar brus.</string>
-    <string name="model_jpeg_40_60">Förbättrar bilder med måttlig komprimering (40-60 % kvalitet), balanserar skärpa och jämnhet.</string>
-    <string name="model_jpeg_60_80">Förfinar bilder med lätt komprimering (60-80 % kvalitet) för att förbättra subtila detaljer och texturer.</string>
-    <string name="model_jpeg_80_100">Förbättrar nästan förlustfria bilder något (80-100 % kvalitet) samtidigt som det naturliga utseendet och detaljerna bevaras.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimerar bilder med mycket höga komprimeringsartefakter (0-20 % kvalitet) för förbättrad skärpa.</string>
+    <string name="model_jpeg_20_40" formatted="false">Förbättrar bilder med artefakter med hög komprimering (20-40 % kvalitet), återställer detaljer och minskar brus.</string>
+    <string name="model_jpeg_40_60" formatted="false">Förbättrar bilder med måttlig komprimering (40-60 % kvalitet), balanserar skärpa och jämnhet.</string>
+    <string name="model_jpeg_60_80" formatted="false">Förfinar bilder med lätt komprimering (60-80 % kvalitet) för att förbättra subtila detaljer och texturer.</string>
+    <string name="model_jpeg_80_100" formatted="false">Förbättrar nästan förlustfria bilder något (80-100 % kvalitet) samtidigt som det naturliga utseendet och detaljerna bevaras.</string>
     <string name="model_spongecolor_lite">Enkel och snabb färgsättning, tecknade serier, inte idealiskt</string>
     <string name="model_deblr">Reducerar bildens oskärpa något, förbättrar skärpan utan att introducera artefakter.</string>
     <string name="processing_channel">Långa operationer</string>
     <string name="processing_image">Bearbetar bild</string>
     <string name="processing">Bearbetning</string>
-    <string name="model_artifacts_jpg_0_20">Tar bort tunga JPEG-komprimeringsartefakter i bilder med mycket låg kvalitet (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Reducerar starka JPEG-artefakter i mycket komprimerade bilder (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Rensar upp måttliga JPEG-artefakter samtidigt som bilddetaljerna bevaras (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Förfinar lätta JPEG-artefakter i bilder av ganska hög kvalitet (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Reducerar subtilt mindre JPEG-artefakter i nästan förlustfria bilder (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Tar bort tunga JPEG-komprimeringsartefakter i bilder med mycket låg kvalitet (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Reducerar starka JPEG-artefakter i mycket komprimerade bilder (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Rensar upp måttliga JPEG-artefakter samtidigt som bilddetaljerna bevaras (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Förfinar lätta JPEG-artefakter i bilder av ganska hög kvalitet (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Reducerar subtilt mindre JPEG-artefakter i nästan förlustfria bilder (80-100%).</string>
     <string name="model_redetail_v2">Förbättrar fina detaljer och texturer, förbättrar upplevd skärpa utan tunga artefakter.</string>
     <string name="processing_finished">Bearbetningen avslutad</string>
     <string name="processing_failed">Bearbetningen misslyckades</string>

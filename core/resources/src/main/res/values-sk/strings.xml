@@ -702,7 +702,7 @@
     <string name="random_emojis_error">Keď sú emodži vypnuté, nemôžete používať náhodné emodži</string>
     <string name="emoji_selection_error">Ak je zapnutá funkcia náhodného výberu emodži, nemôžete si vybrať konkrétne emodži</string>
     <string name="check_for_updates">Skontrolujte aktualizácie</string>
-    <string name="presets_sub_bytes">Predvoľba tu určuje % výstupného súboru, t.j. ak vyberiete predvoľbu 50 pri 5 MB obrázku, po uložení dostanete obrázok s veľkosťou 2,5 MB</string>
+    <string name="presets_sub_bytes" formatted="false">Predvoľba tu určuje % výstupného súboru, t.j. ak vyberiete predvoľbu 50 pri 5 MB obrázku, po uložení dostanete obrázok s veľkosťou 2,5 MB</string>
     <string name="randomize_filename">Náhodné pomenovanie súboru</string>
     <string name="tg_chat">Telegramový chat</string>
     <string name="allow_betas_sub">Kontrola aktualizácií bude zahŕňať beta verzie aplikácií, ak je táto funkcia povolená</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Oblasť</string>
     <string name="area_sub">Prevzorkovanie pomocou vzťahu plochy pixelov. Môže to byť preferovaná metóda na decimáciu obrazu, pretože poskytuje výsledky bez moaré. Ale keď sa obrázok priblíži, je to podobné ako pri metóde \"Najbližšie\".</string>
     <string name="enable_tonemapping">Povoliť mapovanie tónov</string>
-    <string name="enter_percent">Zadajte %</string>
+    <string name="enter_percent" formatted="false">Zadajte %</string>
     <string name="unknown_host">Nemáte prístup na stránku, skúste použiť VPN alebo skontrolujte správnosť adresy URL</string>
     <string name="markup_layers">Vrstvy značiek</string>
     <string name="markup_layers_sub">Režim vrstiev s možnosťou voľne umiestňovať obrázky, text a ďalšie</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Jemné rovnomerné tónovanie hluku pre jemnú textúru a hladký vzhľad.</string>
     <string name="model_repainter">Opravuje poškodené alebo nerovné oblasti premaľovaním artefaktov a zlepšením konzistencie obrazu.</string>
     <string name="model_debandurh_fs_ultra_lite">Ľahký model na odstraňovanie pásov, ktorý odstraňuje farebné pruhy s minimálnymi nákladmi na výkon.</string>
-    <string name="model_jpeg_0_20">Optimalizuje obrázky s veľmi vysokou kompresiou artefaktov (0-20% kvalita) pre lepšiu čistotu.</string>
-    <string name="model_jpeg_20_40">Vylepšuje obrázky s vysoko kompresnými artefaktmi (20-40% kvalita), obnovuje detaily a znižuje šum.</string>
-    <string name="model_jpeg_40_60">Zlepšuje obrázky s miernou kompresiou (40-60% kvalita), vyvážením ostrosti a plynulosti.</string>
-    <string name="model_jpeg_60_80">Spresňuje obrázky pomocou ľahkej kompresie (60 – 80 % kvalita) na vylepšenie jemných detailov a textúr.</string>
-    <string name="model_jpeg_80_100">Mierne vylepšuje takmer bezstratový obraz (80 – 100 % kvalita), pričom zachováva prirodzený vzhľad a detaily.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimalizuje obrázky s veľmi vysokou kompresiou artefaktov (0-20% kvalita) pre lepšiu čistotu.</string>
+    <string name="model_jpeg_20_40" formatted="false">Vylepšuje obrázky s vysoko kompresnými artefaktmi (20-40% kvalita), obnovuje detaily a znižuje šum.</string>
+    <string name="model_jpeg_40_60" formatted="false">Zlepšuje obrázky s miernou kompresiou (40-60% kvalita), vyvážením ostrosti a plynulosti.</string>
+    <string name="model_jpeg_60_80" formatted="false">Spresňuje obrázky pomocou ľahkej kompresie (60 – 80 % kvalita) na vylepšenie jemných detailov a textúr.</string>
+    <string name="model_jpeg_80_100" formatted="false">Mierne vylepšuje takmer bezstratový obraz (80 – 100 % kvalita), pričom zachováva prirodzený vzhľad a detaily.</string>
     <string name="model_spongecolor_lite">Jednoduché a rýchle kolorovanie, kreslené, nie ideálne</string>
     <string name="model_deblr">Mierne znižuje rozmazanie obrazu a zlepšuje ostrosť bez vnášania artefaktov.</string>
     <string name="processing_channel">Dlhobežné operácie</string>
     <string name="processing_image">Spracovanie obrázka</string>
     <string name="processing">Spracovanie</string>
-    <string name="model_artifacts_jpg_0_20">Odstraňuje ťažké artefakty kompresie JPEG na obrázkoch s veľmi nízkou kvalitou (0 – 20 %).</string>
-    <string name="model_artifacts_jpg_20_40">Znižuje silné JPEG artefakty vo vysoko komprimovaných obrázkoch (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Vyčistí mierne JPEG artefakty pri zachovaní detailov obrazu (40 – 60 %).</string>
-    <string name="model_artifacts_jpg_60_80">Zjemňuje svetlé JPEG artefakty v pomerne vysokej kvalite obrázkov (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Jemne redukuje drobné JPEG artefakty v takmer bezstratových obrázkoch (80 – 100 %).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Odstraňuje ťažké artefakty kompresie JPEG na obrázkoch s veľmi nízkou kvalitou (0 – 20 %).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Znižuje silné JPEG artefakty vo vysoko komprimovaných obrázkoch (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Vyčistí mierne JPEG artefakty pri zachovaní detailov obrazu (40 – 60 %).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Zjemňuje svetlé JPEG artefakty v pomerne vysokej kvalite obrázkov (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Jemne redukuje drobné JPEG artefakty v takmer bezstratových obrázkoch (80 – 100 %).</string>
     <string name="model_redetail_v2">Zlepšuje jemné detaily a textúry a zlepšuje vnímanú ostrosť bez ťažkých artefaktov.</string>
     <string name="processing_finished">Spracovanie ukončené</string>
     <string name="processing_failed">Spracovanie zlyhalo</string>

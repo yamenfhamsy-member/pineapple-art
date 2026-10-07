@@ -1490,7 +1490,7 @@
     <string name="area">Площа</string>
     <string name="area_sub">Передискретизація з використанням відношення площі пікселя. Це може бути кращим методом для проріджування зображення, оскільки він дає результати без муару. Але коли зображення масштабується, він схожий на метод \"Найближчий\".</string>
     <string name="enable_tonemapping">Увімкнути тонову схему</string>
-    <string name="enter_percent">Введіть %</string>
+    <string name="enter_percent" formatted="false">Введіть %</string>
     <string name="unknown_host">Не вдається отримати доступ до сайту, спробуйте скористатися VPN або перевірте правильність URL-адреси</string>
     <string name="markup_layers">Шари розмітки</string>
     <string name="markup_layers_sub">Режим шарів з можливістю вільного розміщення зображень, тексту тощо</string>
@@ -1963,20 +1963,20 @@
     <string name="model_noise_toner_uniform_soft">Ніжне рівномірне тонування шуму для витонченої текстури та гладкого вигляду.</string>
     <string name="model_repainter">Відновлює пошкоджені або нерівні ділянки, перефарбовуючи артефакти та покращуючи узгодженість зображення.</string>
     <string name="model_debandurh_fs_ultra_lite">Легка модель для видалення кольорових смуг з мінімальними витратами на продуктивність.</string>
-    <string name="model_jpeg_0_20">Оптимізує зображення з дуже високими артефактами стиснення (якість 0-20%) для покращення чіткості.</string>
-    <string name="model_jpeg_20_40">Покращує зображення з артефактами високого стиснення (якість 20-40%), відновлюючи деталі та зменшуючи шум.</string>
-    <string name="model_jpeg_40_60">Покращує зображення з помірним стисненням (якість 40-60%), балансуючи різкість та плавність.</string>
-    <string name="model_jpeg_60_80">Удосконалює зображення за допомогою легкого стиснення (якість 60-80%) для покращення тонких деталей та текстур.</string>
-    <string name="model_jpeg_80_100">Трохи покращує зображення майже без втрат якості (якість 80-100%), зберігаючи при цьому природний вигляд і деталі.</string>
+    <string name="model_jpeg_0_20" formatted="false">Оптимізує зображення з дуже високими артефактами стиснення (якість 0-20%) для покращення чіткості.</string>
+    <string name="model_jpeg_20_40" formatted="false">Покращує зображення з артефактами високого стиснення (якість 20-40%), відновлюючи деталі та зменшуючи шум.</string>
+    <string name="model_jpeg_40_60" formatted="false">Покращує зображення з помірним стисненням (якість 40-60%), балансуючи різкість та плавність.</string>
+    <string name="model_jpeg_60_80" formatted="false">Удосконалює зображення за допомогою легкого стиснення (якість 60-80%) для покращення тонких деталей та текстур.</string>
+    <string name="model_jpeg_80_100" formatted="false">Трохи покращує зображення майже без втрат якості (якість 80-100%), зберігаючи при цьому природний вигляд і деталі.</string>
     <string name="model_deblr">Трохи зменшує розмиття зображення, покращуючи різкість без появи артефактів.</string>
     <string name="processing_channel">Тривалі операції</string>
     <string name="processing_image">Обробка зображення</string>
     <string name="processing">Обробка</string>
-    <string name="model_artifacts_jpg_0_20">Видаляє значні артефакти стиснення JPEG у зображеннях дуже низької якості (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Зменшує сильні артефакти JPEG у сильно стиснутих зображеннях (на 20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Видаляє помірні артефакти JPEG, зберігаючи деталі зображення (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Удосконалює світлі артефакти JPEG у зображеннях досить високої якості (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Незначно зменшує незначні артефакти JPEG у зображеннях майже без втрат якості (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Видаляє значні артефакти стиснення JPEG у зображеннях дуже низької якості (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Зменшує сильні артефакти JPEG у сильно стиснутих зображеннях (на 20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Видаляє помірні артефакти JPEG, зберігаючи деталі зображення (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Удосконалює світлі артефакти JPEG у зображеннях досить високої якості (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Незначно зменшує незначні артефакти JPEG у зображеннях майже без втрат якості (80-100%).</string>
     <string name="model_redetail_v2">Покращує дрібні деталі та текстури, покращуючи сприйняття різкості без значних артефактів.</string>
     <string name="processing_finished">Обробку завершено</string>
     <string name="processing_failed">Обробка не вдалася</string>

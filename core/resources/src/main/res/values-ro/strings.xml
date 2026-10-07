@@ -359,7 +359,7 @@
     <string name="create_issue">Creați o problemă</string>
     <string name="something_went_wrong_emphasis">Oops… Ceva nu a mers bine. Îmi puteți scrie folosind opțiunile de mai jos și voi încerca să găsesc o soluție</string>
     <string name="resize_and_convert_sub">Modificați dimensiunea imaginilor date sau convertiți-le în alte formate, de asemenea, acolo puteți edita metadatele EXIF dacă alegeți o singură imagine</string>
-    <string name="presets_sub_bytes">Pre-setarea aici determină % din fișierul de ieșire, de exemplu, dacă selectați pre-setarea 50 pe o imagine de 5 mb, atunci veți obține o imagine de 2,5 mb după salvare</string>
+    <string name="presets_sub_bytes" formatted="false">Pre-setarea aici determină % din fișierul de ieșire, de exemplu, dacă selectați pre-setarea 50 pe o imagine de 5 mb, atunci veți obține o imagine de 2,5 mb după salvare</string>
     <string name="crashlytics_sub">Acest lucru permite aplicației să colecteze rapoarte de crash-uri manual</string>
     <string name="analytics_sub">Permite colectarea de statistici anonime privind utilizarea aplicației</string>
     <string name="image_exif_warning">În prezent, formatul %1$s permite doar citirea metadatelor EXIF pe Android. Imaginea de ieșire nu va avea metadate deloc, atunci când este salvată.</string>
@@ -1530,7 +1530,7 @@
     <string name="area">Zonă</string>
     <string name="area_sub">Reeșantionarea utilizând relația de suprafață a pixelilor. Poate fi o metodă preferată pentru decimarea imaginii, deoarece oferă rezultate fără moire. Dar când imaginea este mărită, este similară cu metoda „Cel mai apropiat”.</string>
     <string name="enable_tonemapping">Activați Tonemapping</string>
-    <string name="enter_percent">Introduceți %</string>
+    <string name="enter_percent" formatted="false">Introduceți %</string>
     <string name="unknown_host">Nu pot accesa site-ul, încercați să utilizați VPN sau verificați dacă adresa URL este corectă</string>
     <string name="edit_layer">Editați stratul</string>
     <string name="beta">Beta</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Tonifiere uniformă de zgomot blând pentru o textură subtilă și un aspect neted.</string>
     <string name="model_repainter">Repara zonele deteriorate sau neuniforme prin revopsirea artefactelor și îmbunătățirea consistenței imaginii.</string>
     <string name="model_debandurh_fs_ultra_lite">Model ușor de debandare care elimină benzile de culoare cu costuri minime de performanță.</string>
-    <string name="model_jpeg_0_20">Optimizează imaginile cu artefacte de compresie foarte ridicate (calitate 0-20%) pentru o claritate îmbunătățită.</string>
-    <string name="model_jpeg_20_40">Îmbunătățește imaginile cu artefacte de compresie ridicată (20-40% calitate), restabilind detaliile și reducând zgomotul.</string>
-    <string name="model_jpeg_40_60">Îmbunătățește imaginile cu compresie moderată (40-60% calitate), echilibrând claritatea și netezimea.</string>
-    <string name="model_jpeg_60_80">Rafinează imaginile cu compresie ușoară (60-80% calitate) pentru a îmbunătăți detaliile și texturile subtile.</string>
-    <string name="model_jpeg_80_100">Îmbunătățește ușor imaginile aproape fără pierderi (calitate 80-100%), păstrând în același timp aspectul și detaliile naturale.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimizează imaginile cu artefacte de compresie foarte ridicate (calitate 0-20%) pentru o claritate îmbunătățită.</string>
+    <string name="model_jpeg_20_40" formatted="false">Îmbunătățește imaginile cu artefacte de compresie ridicată (20-40% calitate), restabilind detaliile și reducând zgomotul.</string>
+    <string name="model_jpeg_40_60" formatted="false">Îmbunătățește imaginile cu compresie moderată (40-60% calitate), echilibrând claritatea și netezimea.</string>
+    <string name="model_jpeg_60_80" formatted="false">Rafinează imaginile cu compresie ușoară (60-80% calitate) pentru a îmbunătăți detaliile și texturile subtile.</string>
+    <string name="model_jpeg_80_100" formatted="false">Îmbunătățește ușor imaginile aproape fără pierderi (calitate 80-100%), păstrând în același timp aspectul și detaliile naturale.</string>
     <string name="model_spongecolor_lite">Colorare simpla si rapida, desene animate, nu ideala</string>
     <string name="model_deblr">Reduce ușor neclaritatea imaginii, îmbunătățind claritatea fără a introduce artefacte.</string>
     <string name="processing_channel">Operațiuni de lungă durată</string>
     <string name="processing_image">Procesarea imaginii</string>
     <string name="processing">Prelucrare</string>
-    <string name="model_artifacts_jpg_0_20">Îndepărtează artefactele mari de compresie JPEG în imagini de calitate foarte scăzută (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Reduce artefactele JPEG puternice în imaginile foarte comprimate (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Curăță artefactele JPEG moderate, păstrând în același timp detaliile imaginii (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Rafinează artefactele JPEG ușoare în imagini de calitate destul de înaltă (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Reduce subtil artefactele JPEG minore în imagini aproape fără pierderi (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Îndepărtează artefactele mari de compresie JPEG în imagini de calitate foarte scăzută (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Reduce artefactele JPEG puternice în imaginile foarte comprimate (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Curăță artefactele JPEG moderate, păstrând în același timp detaliile imaginii (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Rafinează artefactele JPEG ușoare în imagini de calitate destul de înaltă (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Reduce subtil artefactele JPEG minore în imagini aproape fără pierderi (80-100%).</string>
     <string name="model_redetail_v2">Îmbunătățește detaliile și texturile fine, îmbunătățind claritatea percepută fără artefacte grele.</string>
     <string name="processing_finished">Procesare terminată</string>
     <string name="processing_failed">Procesarea nu a reușit</string>

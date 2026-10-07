@@ -310,7 +310,7 @@
     <string name="copy">Kopioi</string>
     <string name="warning_bytes">Tallennetaan %1$s sisällä. Tila voi olla epävakaa, koska se on häviötön formaatti</string>
     <string name="presets_sub" formatted="false">Jos olet valinnut esiasetuksen 125, kuva tallennetaan 125% koossa alkuperäisestä kuvasta. Jos valitset esiasetuksen 50, sitten kuva tallentuu 50% kossa</string>
-    <string name="presets_sub_bytes">Esiasetus täällä päättää tulostiedoston %, esim. jos valitset 50 5 megabitin kuvaan sitten siihen tulee 2,5 megabittiä lisää tallennuksen jälkeen</string>
+    <string name="presets_sub_bytes" formatted="false">Esiasetus täällä päättää tulostiedoston %, esim. jos valitset 50 5 megabitin kuvaan sitten siihen tulee 2,5 megabittiä lisää tallennuksen jälkeen</string>
     <string name="randomize_filename">Satunnaista tiedostonimi</string>
     <string name="randomize_filename_sub">Jos käytössä tulostiedoston tiedostonimi tulee olemaan täysin satunnainen</string>
     <string name="saved_to">Tallennettu %1$s kansioon nimellä %2$s</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Alue</string>
     <string name="area_sub">Uudelleennäytteenotto pikselialuerelaation avulla. Se voi olla suositeltava menetelmä kuvan desimointiin, koska se antaa moire-vapaat tulokset. Mutta kun kuvaa zoomataan, se on samanlainen kuin \"Lähin\"-menetelmä.</string>
     <string name="enable_tonemapping">Ota Tonemapping käyttöön</string>
-    <string name="enter_percent">Anna %</string>
+    <string name="enter_percent" formatted="false">Anna %</string>
     <string name="unknown_host">Sivustolle ei pääse, yritä käyttää VPN:ää tai tarkista, onko URL-osoite oikein</string>
     <string name="markup_layers">Merkintätasot</string>
     <string name="markup_layers_sub">Tasot-tila, jossa on mahdollisuus sijoittaa vapaasti kuvia, tekstiä ja muuta</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Hellävarainen tasainen kohinan sävytys hienovaraisen koostumuksen ja sileän ulkonäön saavuttamiseksi.</string>
     <string name="model_repainter">Korjaa vaurioituneet tai epätasaiset alueet maalaamalla esineitä uudelleen ja parantamalla kuvan yhtenäisyyttä.</string>
     <string name="model_debandurh_fs_ultra_lite">Kevyt kaistanpoistomalli, joka poistaa värijuovat minimaalisilla suorituskustannuksilla.</string>
-    <string name="model_jpeg_0_20">Optimoi kuvat, joissa on erittäin korkea pakkausvirhe (0-20 % laatu) selkeyden parantamiseksi.</string>
-    <string name="model_jpeg_20_40">Parantaa kuvia korkean pakkauksen artefakteilla (20-40 % laatu), palauttaa yksityiskohtia ja vähentää kohinaa.</string>
-    <string name="model_jpeg_40_60">Parantaa kuvia kohtuullisella pakkauksella (laatu 40-60 %) ja tasapainottaa terävyyttä ja tasaisuutta.</string>
-    <string name="model_jpeg_60_80">Tarkoittaa kuvia kevyellä pakkauksella (60-80 % laatu) parantaakseen hienovaraisia ​​yksityiskohtia ja tekstuureja.</string>
-    <string name="model_jpeg_80_100">Parantaa hieman lähes häviöttömiä kuvia (80-100 % laatu) säilyttäen samalla luonnollisen ilmeen ja yksityiskohdat.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimoi kuvat, joissa on erittäin korkea pakkausvirhe (0-20 % laatu) selkeyden parantamiseksi.</string>
+    <string name="model_jpeg_20_40" formatted="false">Parantaa kuvia korkean pakkauksen artefakteilla (20-40 % laatu), palauttaa yksityiskohtia ja vähentää kohinaa.</string>
+    <string name="model_jpeg_40_60" formatted="false">Parantaa kuvia kohtuullisella pakkauksella (laatu 40-60 %) ja tasapainottaa terävyyttä ja tasaisuutta.</string>
+    <string name="model_jpeg_60_80" formatted="false">Tarkoittaa kuvia kevyellä pakkauksella (60-80 % laatu) parantaakseen hienovaraisia ​​yksityiskohtia ja tekstuureja.</string>
+    <string name="model_jpeg_80_100" formatted="false">Parantaa hieman lähes häviöttömiä kuvia (80-100 % laatu) säilyttäen samalla luonnollisen ilmeen ja yksityiskohdat.</string>
     <string name="model_spongecolor_lite">Yksinkertainen ja nopea väritys, sarjakuvia, ei ihanteellinen</string>
     <string name="model_deblr">Vähentää hieman kuvan epäterävyyttä ja parantaa terävyyttä ilman artefakteja.</string>
     <string name="processing_channel">Pitkät toiminnot</string>
     <string name="processing_image">Käsitellään kuvaa</string>
     <string name="processing">Käsittely</string>
-    <string name="model_artifacts_jpg_0_20">Poistaa raskaat JPEG-pakkausartefaktit erittäin huonolaatuisista kuvista (0-20 %).</string>
-    <string name="model_artifacts_jpg_20_40">Vähentää vahvoja JPEG-artefakteja erittäin pakatuissa kuvissa (20-40 %).</string>
-    <string name="model_artifacts_jpg_40_60">Puhdistaa kohtalaiset JPEG-artefaktit säilyttäen samalla kuvan yksityiskohdat (40-60 %).</string>
-    <string name="model_artifacts_jpg_60_80">Tarkoittaa kevyitä JPEG-artefakteja melko korkealaatuisissa kuvissa (60-80 %).</string>
-    <string name="model_artifacts_jpg_80_100">Vähentää hienovaraisesti pieniä JPEG-virheitä lähes häviöttömissä kuvissa (80-100 %).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Poistaa raskaat JPEG-pakkausartefaktit erittäin huonolaatuisista kuvista (0-20 %).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Vähentää vahvoja JPEG-artefakteja erittäin pakatuissa kuvissa (20-40 %).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Puhdistaa kohtalaiset JPEG-artefaktit säilyttäen samalla kuvan yksityiskohdat (40-60 %).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Tarkoittaa kevyitä JPEG-artefakteja melko korkealaatuisissa kuvissa (60-80 %).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Vähentää hienovaraisesti pieniä JPEG-virheitä lähes häviöttömissä kuvissa (80-100 %).</string>
     <string name="model_redetail_v2">Korostaa hienoja yksityiskohtia ja tekstuureja parantaen havaittua terävyyttä ilman raskaita esineitä.</string>
     <string name="processing_finished">Käsittely valmis</string>
     <string name="processing_failed">Käsittely epäonnistui</string>

@@ -363,7 +363,7 @@
     <string name="images_overwritten">Mga larawang na-overwrite sa orihinal na destinasyon</string>
     <string name="emoji_as_color_scheme_sub">Gumagamit ng pangunahing kulay ng emoji bilang scheme ng kulay ng app sa halip na manu-manong tinukoy</string>
     <string name="presets_sub" formatted="false">Kung pinili mo ang preset na 125, ang imahe ay ise-save bilang 125% na laki ng orihinal na imahe na may 100% na kalidad. Kung pipiliin mo ang preset na 50, mase-save ang larawan na may 50% na laki at 50% na kalidad.</string>
-    <string name="presets_sub_bytes">Tinutukoy ng preset dito ang % ng output file, ibig sabihin, kung pipiliin mo ang preset na 50 sa 5mb na imahe pagkatapos ay makakakuha ka ng 2.5mb na imahe pagkatapos i-save</string>
+    <string name="presets_sub_bytes" formatted="false">Tinutukoy ng preset dito ang % ng output file, ibig sabihin, kung pipiliin mo ang preset na 50 sa 5mb na imahe pagkatapos ay makakakuha ka ng 2.5mb na imahe pagkatapos i-save</string>
     <string name="image_crop_mask_sub">Gamitin ang uri ng mask na ito upang lumikha ng mask mula sa ibinigay na larawan, pansinin na DAPAT itong magkaroon ng alpha channel</string>
     <string name="backup">Backup</string>
     <string name="backup_sub">I-backup ang iyong mga setting ng app sa isang file</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Lugar</string>
     <string name="area_sub">Resampling gamit ang pixel area relation. Ito ay maaaring isang ginustong paraan para sa pag-decimation ng imahe, dahil nagbibigay ito ng moire\'-free na mga resulta. Ngunit kapag ang imahe ay naka-zoom, ito ay katulad ng \"Nearest\" na paraan.</string>
     <string name="enable_tonemapping">Paganahin ang Tonemapping</string>
-    <string name="enter_percent">Ipasok ang %</string>
+    <string name="enter_percent" formatted="false">Ipasok ang %</string>
     <string name="unknown_host">Hindi ma-access ang site, subukang gumamit ng VPN o tingnan kung tama ang url</string>
     <string name="markup_layers">Mga Markup Layer</string>
     <string name="markup_layers_sub">Layers mode na may kakayahang malayang maglagay ng mga larawan, teksto at higit pa</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Magiliw na pare-parehong ingay toning para sa banayad na texture at makinis na hitsura.</string>
     <string name="model_repainter">Nag-aayos ng mga nasira o hindi pantay na lugar sa pamamagitan ng muling pagpipinta ng mga artifact at pagpapabuti ng pagkakapare-pareho ng imahe.</string>
     <string name="model_debandurh_fs_ultra_lite">Lightweight debanding model na nag-aalis ng color banding na may kaunting gastos sa performance.</string>
-    <string name="model_jpeg_0_20">Ino-optimize ang mga larawang may napakataas na compression artifact (0-20% na kalidad) para sa pinahusay na kalinawan.</string>
-    <string name="model_jpeg_20_40">Pinapahusay ang mga larawang may mataas na compression artifact (20-40% na kalidad), pagpapanumbalik ng mga detalye at pagbabawas ng ingay.</string>
-    <string name="model_jpeg_40_60">Pinapabuti ang mga larawang may katamtamang compression (40-60% na kalidad), binabalanse ang sharpness at smoothness.</string>
-    <string name="model_jpeg_60_80">Pinipino ang mga larawan na may magaan na compression (60-80% na kalidad) para mapahusay ang mga banayad na detalye at texture.</string>
-    <string name="model_jpeg_80_100">Bahagyang pinapaganda ang halos walang pagkawalang mga larawan (80-100% kalidad) habang pinapanatili ang natural na hitsura at mga detalye.</string>
+    <string name="model_jpeg_0_20" formatted="false">Ino-optimize ang mga larawang may napakataas na compression artifact (0-20% na kalidad) para sa pinahusay na kalinawan.</string>
+    <string name="model_jpeg_20_40" formatted="false">Pinapahusay ang mga larawang may mataas na compression artifact (20-40% na kalidad), pagpapanumbalik ng mga detalye at pagbabawas ng ingay.</string>
+    <string name="model_jpeg_40_60" formatted="false">Pinapabuti ang mga larawang may katamtamang compression (40-60% na kalidad), binabalanse ang sharpness at smoothness.</string>
+    <string name="model_jpeg_60_80" formatted="false">Pinipino ang mga larawan na may magaan na compression (60-80% na kalidad) para mapahusay ang mga banayad na detalye at texture.</string>
+    <string name="model_jpeg_80_100" formatted="false">Bahagyang pinapaganda ang halos walang pagkawalang mga larawan (80-100% kalidad) habang pinapanatili ang natural na hitsura at mga detalye.</string>
     <string name="model_spongecolor_lite">Simple at mabilis na colorization, cartoons, hindi perpekto</string>
     <string name="model_deblr">Bahagyang binabawasan ang blur ng imahe, pinapabuti ang sharpness nang hindi nagpapakilala ng mga artifact.</string>
     <string name="processing_channel">Mahabang tumatakbong operasyon</string>
     <string name="processing_image">Pinoproseso ang imahe</string>
     <string name="processing">Pinoproseso</string>
-    <string name="model_artifacts_jpg_0_20">Nag-aalis ng mabibigat na JPEG compression artifact sa napakababang kalidad ng mga larawan (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Binabawasan ang malalakas na JPEG artifact sa mataas na naka-compress na mga larawan (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Nililinis ang mga katamtamang JPEG artifact habang pinapanatili ang mga detalye ng larawan (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Pinipino ang mga magaan na JPEG artifact sa medyo mataas na kalidad na mga larawan (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Bahagyang binabawasan ang mga menor de edad na JPEG artifact sa halos walang pagkawala na mga larawan (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Nag-aalis ng mabibigat na JPEG compression artifact sa napakababang kalidad ng mga larawan (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Binabawasan ang malalakas na JPEG artifact sa mataas na naka-compress na mga larawan (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Nililinis ang mga katamtamang JPEG artifact habang pinapanatili ang mga detalye ng larawan (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Pinipino ang mga magaan na JPEG artifact sa medyo mataas na kalidad na mga larawan (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Bahagyang binabawasan ang mga menor de edad na JPEG artifact sa halos walang pagkawala na mga larawan (80-100%).</string>
     <string name="model_redetail_v2">Pinapahusay ang mga pinong detalye at texture, pinapabuti ang nakikitang sharpness nang walang mabibigat na artifact.</string>
     <string name="processing_finished">Tapos na ang pagproseso</string>
     <string name="processing_failed">Nabigo ang pagproseso</string>

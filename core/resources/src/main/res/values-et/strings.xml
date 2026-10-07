@@ -309,8 +309,8 @@
     <string name="skip">Jäta vahele</string>
     <string name="copy">Kopeeri</string>
     <string name="warning_bytes">Režiimis %1$s salvestamine võib olla ebastabiilne, kuna tegemist on kadudeta vorminguga</string>
-    <string name="presets_sub">Kui olete valinud eelseadistuse 125, salvestatakse pilt 125% suurusena originaalpildist. Kui valite eelseadistuse 50, salvestatakse pilt 50% suuruses</string>
-    <string name="presets_sub_bytes">Siinne eelseadistus määrab väljundfaili %, st kui valite 5 MB pildil eelseadistuse 50, saate pärast salvestamist 2,5 MB pildi</string>
+    <string name="presets_sub" formatted="false">Kui olete valinud eelseadistuse 125, salvestatakse pilt 125% suurusena originaalpildist. Kui valite eelseadistuse 50, salvestatakse pilt 50% suuruses</string>
+    <string name="presets_sub_bytes" formatted="false">Siinne eelseadistus määrab väljundfaili %, st kui valite 5 MB pildil eelseadistuse 50, saate pärast salvestamist 2,5 MB pildi</string>
     <string name="randomize_filename">Muutke failinimi juhuslikult</string>
     <string name="randomize_filename_sub">Kui see on lubatud, on väljundfaili nimi täiesti juhuslik</string>
     <string name="saved_to">Salvestatud %1$s kausta nimega %2$s</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Piirkond</string>
     <string name="area_sub">Resampling kasutades piksli pindala seost. See võib olla eelistatud meetod kujutiste detsimeerimiseks, kuna see annab muare-vabad tulemused. Kui aga pilti suumida, sarnaneb see \"Lähima\" meetodiga.</string>
     <string name="enable_tonemapping">Luba Tonemapping</string>
-    <string name="enter_percent">Sisesta %</string>
+    <string name="enter_percent" formatted="false">Sisesta %</string>
     <string name="unknown_host">Saidile ei pääse juurde, proovige kasutada VPN-i või kontrollige, kas URL on õige</string>
     <string name="markup_layers">Märgistuskihid</string>
     <string name="markup_layers_sub">Kihtide režiim, mis võimaldab vabalt paigutada pilte, teksti ja muud</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Õrn ühtlane müra toniseerimine peene tekstuuri ja sileda välimuse jaoks.</string>
     <string name="model_repainter">Parandab kahjustatud või ebatasased alad, värvides uuesti esemeid ja parandades kujutise ühtlust.</string>
     <string name="model_debandurh_fs_ultra_lite">Kerge eraldusmudel, mis eemaldab värviribad minimaalse jõudluskuluga.</string>
-    <string name="model_jpeg_0_20">Optimeerib väga suure tihendusartefaktidega pilte (0–20% kvaliteet), et parandada selgust.</string>
-    <string name="model_jpeg_20_40">Täiustab pilte suure tihendusartefaktidega (20–40% kvaliteet), taastades detailid ja vähendades müra.</string>
-    <string name="model_jpeg_40_60">Parandab mõõduka tihendusega pilte (40-60% kvaliteet), tasakaalustades teravust ja sujuvust.</string>
-    <string name="model_jpeg_60_80">Täiustab pilte kerge tihendusega (60–80% kvaliteet), et täiustada peeneid detaile ja tekstuure.</string>
-    <string name="model_jpeg_80_100">Parandab veidi peaaegu kadudeta pilte (80-100% kvaliteet), säilitades samal ajal loomuliku välimuse ja detailid.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimeerib väga suure tihendusartefaktidega pilte (0–20% kvaliteet), et parandada selgust.</string>
+    <string name="model_jpeg_20_40" formatted="false">Täiustab pilte suure tihendusartefaktidega (20–40% kvaliteet), taastades detailid ja vähendades müra.</string>
+    <string name="model_jpeg_40_60" formatted="false">Parandab mõõduka tihendusega pilte (40-60% kvaliteet), tasakaalustades teravust ja sujuvust.</string>
+    <string name="model_jpeg_60_80" formatted="false">Täiustab pilte kerge tihendusega (60–80% kvaliteet), et täiustada peeneid detaile ja tekstuure.</string>
+    <string name="model_jpeg_80_100" formatted="false">Parandab veidi peaaegu kadudeta pilte (80-100% kvaliteet), säilitades samal ajal loomuliku välimuse ja detailid.</string>
     <string name="model_spongecolor_lite">Lihtne ja kiire värvimine, multikad, pole ideaalne</string>
     <string name="model_deblr">Vähendab veidi pildi hägusust, parandades teravust ilma artefakte lisamata.</string>
     <string name="processing_channel">Pikaajalised operatsioonid</string>
     <string name="processing_image">Pildi töötlemine</string>
     <string name="processing">Töötlemine</string>
-    <string name="model_artifacts_jpg_0_20">Eemaldab rasked JPEG-tihendusartefaktid väga madala kvaliteediga piltidelt (0–20%).</string>
-    <string name="model_artifacts_jpg_20_40">Vähendab tugevaid JPEG-artefakte tugevalt tihendatud piltidel (20–40%).</string>
-    <string name="model_artifacts_jpg_40_60">Puhastab mõõdukad JPEG-artefaktid, säilitades samal ajal pildi üksikasjad (40–60%).</string>
-    <string name="model_artifacts_jpg_60_80">Viimistleb heledaid JPEG-artefakte üsna kõrge kvaliteediga piltides (60–80%).</string>
-    <string name="model_artifacts_jpg_80_100">Vähendab peenelt väiksemaid JPEG-artefakte peaaegu kadudeta piltidel (80–100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Eemaldab rasked JPEG-tihendusartefaktid väga madala kvaliteediga piltidelt (0–20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Vähendab tugevaid JPEG-artefakte tugevalt tihendatud piltidel (20–40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Puhastab mõõdukad JPEG-artefaktid, säilitades samal ajal pildi üksikasjad (40–60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Viimistleb heledaid JPEG-artefakte üsna kõrge kvaliteediga piltides (60–80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Vähendab peenelt väiksemaid JPEG-artefakte peaaegu kadudeta piltidel (80–100%).</string>
     <string name="model_redetail_v2">Täiustab peeneid detaile ja tekstuure, parandades tajutavat teravust ilma raskete artefaktideta.</string>
     <string name="processing_finished">Töötlemine lõpetatud</string>
     <string name="processing_failed">Töötlemine ebaõnnestus</string>

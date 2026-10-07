@@ -530,7 +530,7 @@
     <string name="group_options_by_type">Csoportosítsa a lehetőségeket típus szerint</string>
     <string name="edit_screenshot">Képernyőkép szerkesztése</string>
     <string name="presets_sub" formatted="false">Ha a 125-ös beállítást választotta, a kép az eredeti kép 125%-os méretében lesz mentve. Ha az 50-es beállítást választja, akkor a kép 50%-os méretben lesz mentve.</string>
-    <string name="presets_sub_bytes">A beállítás itt határozza meg a kimeneti fájl %-át, azaz ha az 50-es beállítást választja az 5 MB-os képen, akkor a mentés után 2,5 MB-os képet kap.</string>
+    <string name="presets_sub_bytes" formatted="false">A beállítás itt határozza meg a kimeneti fájl %-át, azaz ha az 50-es beállítást választja az 5 MB-os képen, akkor a mentés után 2,5 MB-os képet kap.</string>
     <string name="saved_to">Mentve %1$s mappába a következő névvel: %2$s</string>
     <string name="saved_to_without_filename">Mentve a(z) %1$s mappába</string>
     <string name="tg_chat">Telegram chat</string>
@@ -1494,7 +1494,7 @@
     <string name="area">Terület</string>
     <string name="area_sub">Újramintavételezés pixel terület reláció segítségével. Előnyben részesített módszer lehet a képtizedelésre, mivel moire-mentes eredményeket ad. De a kép nagyítása hasonló a \"Legközelebbi\" módszerhez.</string>
     <string name="enable_tonemapping">Tonemapping engedélyezése</string>
-    <string name="enter_percent">Írja be a %</string>
+    <string name="enter_percent" formatted="false">Írja be a %</string>
     <string name="unknown_host">Nem tud hozzáférni a webhelyhez, próbáljon meg VPN-t használni, vagy ellenőrizze, hogy az URL helyes-e</string>
     <string name="markup_layers">Jelölőrétegek</string>
     <string name="markup_layers_sub">Rétegek mód képek, szövegek és egyebek szabad elhelyezésének lehetőségével</string>
@@ -1956,21 +1956,21 @@
     <string name="model_noise_toner_uniform_soft">Gyengéd, egyenletes zajtónus a finom textúra és sima megjelenés érdekében.</string>
     <string name="model_repainter">Javítja a sérült vagy egyenetlen területeket a műtermékek újrafestésével és a kép konzisztenciájának javításával.</string>
     <string name="model_debandurh_fs_ultra_lite">Könnyű sávbontású modell, amely minimális teljesítményköltséggel távolítja el a színsávokat.</string>
-    <string name="model_jpeg_0_20">Optimalizálja a képeket nagyon nagy tömörítésű műtermékekkel (0-20%-os minőség) a jobb tisztaság érdekében.</string>
-    <string name="model_jpeg_20_40">Javítja a képeket nagy tömörítésű műtermékekkel (20-40%-os minőség), visszaállítja a részleteket és csökkenti a zajt.</string>
-    <string name="model_jpeg_40_60">Javítja a képeket mérsékelt tömörítéssel (40-60%-os minőség), egyensúlyban tartva az élességet és a simaságot.</string>
-    <string name="model_jpeg_60_80">Finomítja a képeket enyhe tömörítéssel (60-80%-os minőség), hogy javítsa a finom részleteket és textúrákat.</string>
-    <string name="model_jpeg_80_100">Kissé javítja a szinte veszteségmentes képeket (80-100%-os minőség), miközben megőrzi a természetes megjelenést és a részleteket.</string>
+    <string name="model_jpeg_0_20" formatted="false">Optimalizálja a képeket nagyon nagy tömörítésű műtermékekkel (0-20%-os minőség) a jobb tisztaság érdekében.</string>
+    <string name="model_jpeg_20_40" formatted="false">Javítja a képeket nagy tömörítésű műtermékekkel (20-40%-os minőség), visszaállítja a részleteket és csökkenti a zajt.</string>
+    <string name="model_jpeg_40_60" formatted="false">Javítja a képeket mérsékelt tömörítéssel (40-60%-os minőség), egyensúlyban tartva az élességet és a simaságot.</string>
+    <string name="model_jpeg_60_80" formatted="false">Finomítja a képeket enyhe tömörítéssel (60-80%-os minőség), hogy javítsa a finom részleteket és textúrákat.</string>
+    <string name="model_jpeg_80_100" formatted="false">Kissé javítja a szinte veszteségmentes képeket (80-100%-os minőség), miközben megőrzi a természetes megjelenést és a részleteket.</string>
     <string name="model_spongecolor_lite">Egyszerű és gyors színezés, rajzfilmek, nem ideális</string>
     <string name="model_deblr">Kissé csökkenti a kép elmosódását, javítja az élességet anélkül, hogy műtermékeket okozna.</string>
     <string name="processing_channel">Hosszú távú műveletek</string>
     <string name="processing_image">Kép feldolgozása</string>
     <string name="processing">Feldolgozás</string>
-    <string name="model_artifacts_jpg_0_20">Eltávolítja a nehéz JPEG tömörítési műtermékeket a nagyon gyenge minőségű képekről (0-20%).</string>
-    <string name="model_artifacts_jpg_20_40">Csökkenti az erős JPEG műtermékeket az erősen tömörített képeken (20-40%).</string>
-    <string name="model_artifacts_jpg_40_60">Megtisztítja a közepes JPEG műtermékeket, miközben megőrzi a kép részleteit (40-60%).</string>
-    <string name="model_artifacts_jpg_60_80">Finomítja a könnyű JPEG műtermékeket meglehetősen jó minőségű képeken (60-80%).</string>
-    <string name="model_artifacts_jpg_80_100">Finoman csökkenti a kisebb JPEG műtermékeket a szinte veszteségmentes képeken (80-100%).</string>
+    <string name="model_artifacts_jpg_0_20" formatted="false">Eltávolítja a nehéz JPEG tömörítési műtermékeket a nagyon gyenge minőségű képekről (0-20%).</string>
+    <string name="model_artifacts_jpg_20_40" formatted="false">Csökkenti az erős JPEG műtermékeket az erősen tömörített képeken (20-40%).</string>
+    <string name="model_artifacts_jpg_40_60" formatted="false">Megtisztítja a közepes JPEG műtermékeket, miközben megőrzi a kép részleteit (40-60%).</string>
+    <string name="model_artifacts_jpg_60_80" formatted="false">Finomítja a könnyű JPEG műtermékeket meglehetősen jó minőségű képeken (60-80%).</string>
+    <string name="model_artifacts_jpg_80_100" formatted="false">Finoman csökkenti a kisebb JPEG műtermékeket a szinte veszteségmentes képeken (80-100%).</string>
     <string name="model_redetail_v2">Javítja a finom részleteket és textúrákat, javítja az észlelt élességet súlyos műtermékek nélkül.</string>
     <string name="processing_finished">A feldolgozás befejeződött</string>
     <string name="processing_failed">A feldolgozás sikertelen</string>
