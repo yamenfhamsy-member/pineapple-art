@@ -30,7 +30,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Unit tests (existing suites only)
-        run: bash ./gradlew :lib:palette:testDebugUnitTest --stacktrace
+        run: bash ./gradlew :lib:palette:testFossDebugUnitTest --stacktrace
 
       - name: Android lint (fossDebug)
         run: bash ./gradlew lintFossDebug --stacktrace
