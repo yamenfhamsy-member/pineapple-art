@@ -1,0 +1,27 @@
+<!--
+  ~ Pineapple Art notification icon (white silhouette for status bar).
+  ~ Upstream Image Toolbox icon artwork by T8RIN (Malik Mukhametzyanov), Apache-2.0.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="@color/onPrimary"
+        android:pathData="M54,14 L60,36 L54,32 L48,36 Z"
+        tools:ignore="VectorPath" />
+    <path
+        android:fillColor="@color/onPrimary"
+        android:pathData="M38,42 L70,42 Q74,42 74,46 L74,70 Q74,84 54,84 Q34,84 34,70 L34,46 Q34,42 38,42 Z"
+        tools:ignore="VectorPath" />
+    <path
+        android:fillColor="@color/onPrimary"
+        android:pathData="M60,62 L82,62 Q85,62 85,65 L85,82 Q85,85 82,85 L60,85 Q57,85 57,82 L57,65 Q57,62 60,62 Z"
+        tools:ignore="VectorPath" />
+</vector>

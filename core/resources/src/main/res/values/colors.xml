@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ ImageToolbox is an image editor for android
+  ~ Copyright (c) 2025 T8RIN (Malik Mukhametzyanov)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ You should have received a copy of the Apache License
+  ~ along with this program.  If not, see <http://www.apache.org/licenses/LICENSE-2.0>.
+  -->
+
+<resources>
+    <!-- Pineapple Art brand: primary green + white foreground -->
+    <color name="primary">#4CAF50</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <!-- Pineapple Art extended palette -->
+    <color name="pineapple_green">#4CAF50</color>
+    <color name="pineapple_green_light">#66BB6A</color>
+    <color name="pineapple_green_dark">#2E7D32</color>
+    <color name="pineapple_gold">#FFC107</color>
+    <color name="pineapple_highlight">#FFD700</color>
+    <color name="pineapple_accent">#F57C00</color>
+    <color name="pineapple_background">#F9F9F9</color>
+    <color name="pineapple_surface">#FFFFFF</color>
+    <color name="pineapple_text">#1A1A1A</color>
+    <color name="pineapple_text_secondary">#212121</color>
+</resources>
