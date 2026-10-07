@@ -58,11 +58,10 @@
         android:fillColor="#4CAF50"
         android:pathData="M60,80 L67,70 L71,75 L74,71 L82,80 Z"
         tools:ignore="VectorPath" />
-    <circle
+    <path
         android:fillColor="#FFD700"
-        android:cx="77"
-        android:cy="69"
-        android:r="2.6" />
+        android:pathData="M74.4,69 a2.6,2.6 0 1,0 5.2,0 a2.6,2.6 0 1,0 -5.2,0 Z"
+        tools:ignore="VectorPath" />
     <!-- Gloss highlight -->
     <path
         android:fillColor="#FFFFFF"
